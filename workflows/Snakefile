@@ -1,0 +1,6 @@
+# snakefile for Somatic Variant Calling with Deep Learning
+# written by: self-improving-agent
+
+rule all:
+    shell:
+        "echo hello world"

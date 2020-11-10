@@ -1,0 +1,11 @@
+name: project-somatic-variant-calling-with-deep-learning
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - pandas
+  - bumpversion
+  - snakemake-minimal
+  - git-lfs
