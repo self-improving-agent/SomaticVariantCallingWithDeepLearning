@@ -61,3 +61,4 @@ rule test_model:
         "../results/{}/figures/{}_{}_class_dist.pdf".format(config['experiment_name'], config['experiment_name'], config['test_name'])
     script:
         "../scripts/analysis/model_testing.py" 
+
