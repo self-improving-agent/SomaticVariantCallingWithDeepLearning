@@ -1,0 +1,238 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Scripts &mdash; Deep Learning for Variant Calling 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Methods" href="methods.html" />
+    <link rel="prev" title="Snakemake Rules" href="snakemake_rules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Deep Learning for Variant Calling
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="snakemake_rules.html">Snakemake Rules</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Scripts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-processing">Pre-processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dataset-building">Dataset Building</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model-training">Model Training</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#model-testing">Model Testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="methods.html">Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manuals.html">Manuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articles.html">Articles</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Deep Learning for Variant Calling</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Scripts</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/scripts.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="scripts">
+<h1>Scripts<a class="headerlink" href="#scripts" title="Permalink to this headline">¶</a></h1>
+<p>This page describes the various Python scripts used throughout the project. For more details see the commented scripts themselves.</p>
+<div class="section" id="pre-processing">
+<h2>Pre-processing<a class="headerlink" href="#pre-processing" title="Permalink to this headline">¶</a></h2>
+<p>The data pre-processing script takes two VCF and two BAM files corresponding to the normal and tumor samples, as well as a bed file detailing the exome locations within the 22nd human chromosome, as input and produces two txt files containing the extracted data from the 22nd chromosome’s genomic region of the normal sample with the second file containing some mixed in data from the tumor sample at the mutation locations unique to the tumor sample. These are declared as somatic variants and  a purity configuration parameter determines the percentage of reads to be mixed in. These files are saved in the interim data folder. The libraries used to achieve this are pysam and pyvcf.</p>
+<p>The 3 types of labels assigned to locations are: “Normal”, “Germline Variant”, “Somatic Variant”.</p>
+</div>
+<div class="section" id="dataset-building">
+<h2>Dataset Building<a class="headerlink" href="#dataset-building" title="Permalink to this headline">¶</a></h2>
+<p>The dataset building script is loading in the txt file produced by pre-processing and builds a labelled dataset, outputting the dataset and the labels separately into the processed data folder. This is done via numpy and the outputs are of the npy format. The context_window cofiguration parameter defines the shape of the data.</p>
+<p>One-hot encoding is used for the 3 classes. Datapoints corresponsing to the “Normal” class are randomly sampled, alltogether as many as the sum of the number of datapoints in the other 2 classes.</p>
+</div>
+<div class="section" id="model-training">
+<h2>Model Training<a class="headerlink" href="#model-training" title="Permalink to this headline">¶</a></h2>
+<p>Neural network training happens using the pytorch library. The npy files are loaded in and the outputs are the metrics and graphs produced during and after the training process, along with the trained model itself, all saved in a new folder in results. The graphs saved are: training metrics, validation metrics, losses and validation ROC.  For metric calculation sklearn.metrics is used, for plotting matplotlib.pyplot. All hyperparameters of the model to be trained, in addition to the experiment name and model type are given as configuration parameters.</p>
+</div>
+<div class="section" id="model-testing">
+<h2>Model Testing<a class="headerlink" href="#model-testing" title="Permalink to this headline">¶</a></h2>
+<p>Testing requires as input a trained model and a test dataset with labels. The libraries used are the same as for training. The produced outputs are testing metrics and graphs of output probabilities, class ROCs. The hyperparameters of the model to be tested have to be passed as configuration parametersto initialize the model.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="methods.html" class="btn btn-neutral float-right" title="Methods" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="snakemake_rules.html" class="btn btn-neutral float-left" title="Snakemake Rules" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Daniel Biro
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

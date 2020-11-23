@@ -1,2 +1,3 @@
 *.pyc
 data/external/*
+*TEST.py

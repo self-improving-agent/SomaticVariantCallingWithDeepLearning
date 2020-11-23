@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Snakemake Rules &mdash; Deep Learning for Variant Calling 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Scripts" href="scripts.html" />
+    <link rel="prev" title="Dependencies" href="dependencies.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Deep Learning for Variant Calling
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Snakemake Rules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-processing">Pre-processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dataset-building">Dataset Building</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#neural-network-training">Neural Network Training</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#neural-network-testing">Neural Network Testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scripts.html">Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methods.html">Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manuals.html">Manuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articles.html">Articles</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Deep Learning for Variant Calling</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Snakemake Rules</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/snakemake_rules.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="snakemake-rules">
+<h1>Snakemake Rules<a class="headerlink" href="#snakemake-rules" title="Permalink to this headline">¶</a></h1>
+<p>This page describes the Snakemake rules used in the project, including all configuration parameters that need to be included in the bash scripts created to call these rules. The similar rules are grouped into categories. For example usages see the bash scripts created during the project, which are saved in the workflows folder.</p>
+<div class="section" id="pre-processing">
+<h2>Pre-processing<a class="headerlink" href="#pre-processing" title="Permalink to this headline">¶</a></h2>
+<p>Pre-processing currenty happens with the rule:</p>
+<ul class="simple">
+<li><p>pre_process</p></li>
+</ul>
+<p>Which processes the 22nd chromosome’s genomic region of the Ashkenazi son as a normal sample and of the standard reference genome at unique mutation locations mixed in as the tumor sample.</p>
+<p>There is one configuration parameter for this rule:</p>
+<ul class="simple">
+<li><p>purity - represents the % of reads taken from the tumor sample at its unique mutation locations</p></li>
+</ul>
+<p>This is the first stage of the pipeline, hence the inputs are the corresponding BAM and VCF files, while the outputs are .txt files of the dataset. The script used is pre_processing.py.</p>
+</div>
+<div class="section" id="dataset-building">
+<h2>Dataset Building<a class="headerlink" href="#dataset-building" title="Permalink to this headline">¶</a></h2>
+<p>The next stage of the pipeline is using the pre-processed data to build the dataset consumed by the neural networks trained afterwards. The rule for this is:</p>
+<ul class="simple">
+<li><p>build_dataset</p></li>
+</ul>
+<p>With the configuration parameter:</p>
+<ul class="simple">
+<li><p>context_size - how many number of positions should be considered around a target site when building the sequential data (e.g. 5 will yield a window of 5 nucleotides upstream and downstream, resulting in a total sequence length of 2*5+1 = 11)</p></li>
+</ul>
+<p>The input to this rule is the data to be processed, the outputs are a .npy format dataset and labels file. The script used is building_dataset.py</p>
+</div>
+<div class="section" id="neural-network-training">
+<h2>Neural Network Training<a class="headerlink" href="#neural-network-training" title="Permalink to this headline">¶</a></h2>
+<p>The rule in this category responsible for training neural network models.</p>
+<ul class="simple">
+<li><p>train_model</p></li>
+</ul>
+<p>This rule has 8 configuration parameters, to allow for greater flexibility in creating the desired network. These are:</p>
+<ul class="simple">
+<li><p>experiment_name - the name of the model to be produced, this will also be the name of the results folder</p></li>
+<li><p>model_type - sets what kind of architecture should the model use. The options are: GRU, LSTM, RNN, Perceptron, with the default being GRU</p></li>
+<li><p>epochs - for how many epochs should the model train for</p></li>
+<li><p>batch_size - how many datapoints should be in one batch</p></li>
+<li><p>learning_rate - the learning rate of the model</p></li>
+<li><p>hidden_units - number of nodes in the hidden layers</p></li>
+<li><p>hidden_layers - number of hidden layers to be used</p></li>
+<li><p>dropout - proportion of nodes to be removed when applying dropout layers. If set to 0.0, no dropout is applied</p></li>
+<li><p>bidirectional - whether the the model should be only bidirectional (not relevant for Perceptron)</p></li>
+</ul>
+<p>The dataset and labels are taken as input, while the output is a folder named after the experiment_name containing containing the metrics recorded during training, the saved model and 4 graphs monitoring the change in training set metrics, validation set metrics, losses and the final validation set ROC. The script used is model_training.py.</p>
+</div>
+<div class="section" id="neural-network-testing">
+<h2>Neural Network Testing<a class="headerlink" href="#neural-network-testing" title="Permalink to this headline">¶</a></h2>
+<p>In this final category there is also one rule:</p>
+<ul class="simple">
+<li><p>test_model</p></li>
+</ul>
+<p>This rule has 6 parameters:</p>
+<ul class="simple">
+<li><p>experiment_name - name of the model to be tested</p></li>
+<li><p>test_name - name of the test that is being executed, results are saved based on it</p></li>
+<li><p>model_type - used to initialize the model to tested, options are same as at training, should be the same value as for the model to be tested (holds for all following parameters)</p></li>
+<li><p>hidden_units - used to initialize the model to be tested</p></li>
+<li><p>hidden_layers - used to initialize the model to be tested</p></li>
+<li><p>dropout - used to initialize the model to be tested</p></li>
+<li><p>bidirectional - used to initialize the model to be tested</p></li>
+</ul>
+<p>For these rules the inputs are the selected test dataset and labels, along with the model that will run the inference on these.  The outputs are the metrics of the test (in results.txt), an ROC graph and another graph showcasing the probability outputs of the model for the given test data. The graphs are not created in the case of the last rule. The script used is model_testing.py.</p>
+<p>TEST DATASET TO BE DETERMINED!</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scripts.html" class="btn btn-neutral float-right" title="Scripts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dependencies.html" class="btn btn-neutral float-left" title="Dependencies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Daniel Biro
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

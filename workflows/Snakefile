@@ -1,6 +1,63 @@
 # snakefile for Somatic Variant Calling with Deep Learning
 # written by: self-improving-agent
 
-rule all:
-    shell:
-        "echo hello world"
+if config.get('context_size') == None:
+    config['context_size'] = 'placeholder'
+
+if config.get('purity') == None:
+    config['purity'] = 'placeholder'
+
+if config.get('experiment_name') == None:
+    config['experiment_name'] = 'placeholder'
+
+if config.get('test_name') == None:
+    config['test_name'] = 'placeholder'
+
+rule pre_process:
+    input:
+        "../data/external/HG002.hs37d5.300x.bam",
+        "../data/external/HG001.hs37d5.300x.bam",
+        "../data/external/HG002_GRCh37_1_22_v4.1_draft_benchmark.vcf",
+        "../data/external/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf",
+        "../data/external/chr22_exons.bed"
+    output:
+        "../data/interim/normal_data.txt",
+        "../data/interim/tumor_data.txt"
+    script:
+        "../scripts/pre_processing/pre_processing.py"
+
+rule build_dataset:
+    input:
+        "../data/interim/normal_data.txt",
+        "../data/interim/tumor_data.txt"
+    output:
+        "../data/processed/dataset.npy",
+        "../data/processed/labels.npy"
+    script:
+        "../scripts/pre_processing/building_dataset.py"
+
+rule train_model:
+    input:
+        "../data/processed/dataset.npy",
+        "../data/processed/labels.npy"
+    output:
+        "../results/{}/tables/metrics.txt".format(config['experiment_name']),
+        "../results/{}/{}.pt".format(config['experiment_name'], config['experiment_name']),
+        "../results/{}/figures/{}_train_metrics.pdf".format(config['experiment_name'], config['experiment_name']),
+        "../results/{}/figures/{}_valid_metrics.pdf".format(config['experiment_name'], config['experiment_name']),
+        "../results/{}/figures/{}_losses.pdf".format(config['experiment_name'], config['experiment_name']),
+        "../results/{}/figures/{}_valid_roc.pdf".format(config['experiment_name'], config['experiment_name']),
+    script:
+        "../scripts/analysis/model_training.py"
+
+rule test_model:
+    input:
+        "../data/processed/test_dataset.npy",
+        "../data/processed/test_labels.npy",
+        "../results/{}/{}.pt".format(config['experiment_name'], config['experiment_name'])
+    output:
+        "../results/{}/tables/{}_{}_results.txt".format(config['experiment_name'], config['experiment_name'], config['test_name']),
+        "../results/{}/figures/{}_{}_roc.pdf".format(config['experiment_name'], config['experiment_name'], config['test_name']),
+        "../results/{}/figures/{}_{}_class_dist.pdf".format(config['experiment_name'], config['experiment_name'], config['test_name'])
+    script:
+        "../scripts/analysis/model_testing.py" 
