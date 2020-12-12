@@ -1,0 +1,5 @@
+Epoch No:	1
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.14		32.61		33.34		32.97		1.0186
+Valid	64.02		29.25		33.50		31.23		1.0298999547958374
+

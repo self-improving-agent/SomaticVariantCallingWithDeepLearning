@@ -17,7 +17,7 @@ One-hot encoding is used for the 3 classes. Datapoints corresponsing to the "Nor
 
 Model Training
 ------------------------
-Neural network training happens using the pytorch library. The npy files are loaded in and the outputs are the metrics and graphs produced during and after the training process, along with the trained model itself, all saved in a new folder in results. The graphs saved are: training metrics, validation metrics, losses and validation ROC.  For metric calculation sklearn.metrics is used, for plotting matplotlib.pyplot. All hyperparameters of the model to be trained, in addition to the experiment name and model type are given as configuration parameters. 
+Neural network training happens using the pytorch library. The npy files are loaded in and the outputs are the metrics and graphs produced during and after the training process, along with the trained model itself, all saved in a new folder in results. The graphs saved are: training metrics, validation metrics, losses and validation ROC, all produced from the averaged results with errors obtained from multiple runs. For metric calculation sklearn.metrics is used, for plotting matplotlib.pyplot. All hyperparameters of the model to be trained, in addition to the experiment name and model type are given as configuration parameters, as well as the number of models to be trained for an experiment.
 
 
 Model Testing

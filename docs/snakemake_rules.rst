@@ -31,14 +31,15 @@ The input to this rule is the data to be processed, the outputs are a .npy forma
 
 Neural Network Training
 -------------------------
-The rule in this category responsible for training neural network models.
+The rule in this category responsible for training neural network models. It trains multiple models (specified by the number_of_runs) and records the average performance and variances to calculate errors.
 
-* train_model
+* run_experiment
 
-This rule has 8 configuration parameters, to allow for greater flexibility in creating the desired network. These are:
+This rule has 9 configuration parameters, to allow for greater flexibility in creating the desired network. These are:
 
-* experiment_name - the name of the model to be produced, this will also be the name of the results folder
-* model_type - sets what kind of architecture should the model use. The options are: GRU, LSTM, RNN, Perceptron, with the default being GRU
+* number_of_runs - the number of models to be trained as part of the experiment
+* experiment_name - the name of the experiment, this will also be the name of the results folder
+* model_type - sets what kind of architecture should the model use. The options are: GRU, LSTM, RNN, Transformer, Perceptron, with the default being GRU
 * epochs - for how many epochs should the model train for
 * batch_size - how many datapoints should be in one batch
 * learning_rate - the learning rate of the model
@@ -47,7 +48,7 @@ This rule has 8 configuration parameters, to allow for greater flexibility in cr
 * dropout - proportion of nodes to be removed when applying dropout layers. If set to 0.0, no dropout is applied
 * bidirectional - whether the the model should be only bidirectional (not relevant for Perceptron)
 
-The dataset and labels are taken as input, while the output is a folder named after the experiment_name containing containing the metrics recorded during training, the saved model and 4 graphs monitoring the change in training set metrics, validation set metrics, losses and the final validation set ROC. The script used is model_training.py.
+The dataset and labels are taken as input, while the output is a folder named after the experiment_name containing containing 3 sub folders: tables, models and figures. Tables contains the metrics recorded during training, for each model as well as the current means and variances (used for the standard errors), and a final metrics file to show the combined averaged results with errors. Inside models there are the saved models for each run along with the checkpoints saved during the training of each. Figures is filled after the specified number of models are trained (number_of_runs), with 4 graphs monitoring the change in training set metrics, validation set metrics, losses and the final validation set ROC. All graphs are produced using the averaged results with errors. The script used is run_experiment.py which calls model_training.py for each model to be trained.
 
 Neural Network Testing
 -----------------------

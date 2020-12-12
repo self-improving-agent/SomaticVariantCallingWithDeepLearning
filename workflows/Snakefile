@@ -36,19 +36,14 @@ rule build_dataset:
     script:
         "../scripts/pre_processing/building_dataset.py"
 
-rule train_model:
+rule run_experiment:
     input:
         "../data/processed/dataset.npy",
         "../data/processed/labels.npy"
     output:
-        "../results/{}/tables/metrics.txt".format(config['experiment_name']),
-        "../results/{}/{}.pt".format(config['experiment_name'], config['experiment_name']),
-        "../results/{}/figures/{}_train_metrics.pdf".format(config['experiment_name'], config['experiment_name']),
-        "../results/{}/figures/{}_valid_metrics.pdf".format(config['experiment_name'], config['experiment_name']),
-        "../results/{}/figures/{}_losses.pdf".format(config['experiment_name'], config['experiment_name']),
-        "../results/{}/figures/{}_valid_roc.pdf".format(config['experiment_name'], config['experiment_name']),
+        "../results/{}".format(config['experiment_name'])
     script:
-        "../scripts/analysis/model_training.py"
+        "../scripts/analysis/run_experiment.py"
 
 rule test_model:
     input:
