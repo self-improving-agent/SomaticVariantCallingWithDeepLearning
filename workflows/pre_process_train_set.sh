@@ -1,6 +1,6 @@
 #!/bin/sh
 # Grid Engine options (lines prefixed with #$)
-#$ -N pre_process
+#$ -N pre_process_train_set
 #$ -cwd
 #$ -pe sharedmem 2
 #$ -l h_rt=8:00:00 
@@ -14,6 +14,6 @@ module load anaconda/5.0.1
 
 source activate somatic-variant-calling
 
-snakemake --cores 2 pre_process --config purity=0.6
+snakemake --cores 2 pre_process_train_set --config CHR=22 purity=0.6
 
 source deactivate
