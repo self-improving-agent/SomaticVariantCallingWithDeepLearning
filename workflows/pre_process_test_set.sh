@@ -3,7 +3,7 @@
 #$ -N pre_process_test_set
 #$ -cwd
 #$ -pe sharedmem 2
-#$ -l h_rt=8:00:00 
+#$ -l h_rt=1:00:00 
 #$ -l h_vmem=1G
 #$ -M s1618820@sms.ed.ac.uk
 #$ -m beas

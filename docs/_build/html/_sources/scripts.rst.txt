@@ -9,19 +9,33 @@ The data pre-processing script takes two VCF and two BAM files corresponding to 
 The 3 types of labels assigned to locations are: "Normal", "Germline Variant", "Somatic Variant". 
 
 Dataset Building
-------------------
+------------------------
 The dataset building script is loading in the txt file produced by pre-processing and builds a labelled dataset, outputting the dataset and the labels separately into the processed data folder. This is done via numpy and the outputs are of the npy format. The context_window cofiguration parameter defines the shape of the data.
 
 One-hot encoding is used for the 3 classes. Datapoints corresponsing to the "Normal" class are randomly sampled, alltogether as many as the sum of the number of datapoints in the other 2 classes.
 
 
+Run Experiment
+------------------------
+This is the main script for analysis that wraps model training, testing, plot making and result aggregating in itself. The .npy dataset files are loaded in along with the hyperparameters passed in the configurations, and the outputs are the metrics files and graphs produced during and after the training and testing process, along with the trained models, all saved in a new folder in results. A specified number of models are trained as part of an experiment calling the model training script, then the results are used to create plots via produce plots script and results combined via the aggregate results script. For the evaluation model testing is called for each model and then aggregate results to create a single set of metrics. Plotting is done via seaborn, the plots saved are a pair of curves showing how the given metric evolved over training on both training and validation sets (Accuracy, Precision, Recall, F1, Loss), and a separate graph for the AUCs of the ROC curves for each of the 3 classes on the validation and test set of each model.
+
+
 Model Training
 ------------------------
-Neural network training happens using the pytorch library. The npy files are loaded in and the outputs are the metrics and graphs produced during and after the training process, along with the trained model itself, all saved in a new folder in results. The graphs saved are: training metrics, validation metrics, losses and validation ROC, all produced from the averaged results with errors obtained from multiple runs. For metric calculation sklearn.metrics is used, for plotting matplotlib.pyplot. All hyperparameters of the model to be trained, in addition to the experiment name and model type are given as configuration parameters, as well as the number of models to be trained for an experiment.
+Neural network training happens using the pytorch library, models are choosen from pre-defined types with the passed hyperparameters from run experiment. The Adam optimizer and Cross Entropy loss is used. For metric calculation the confusion matrix utility of sklearn.metrics is used. If a cuda compatible GPU is available, it is utilized for speedier execution.
 
 
 Model Testing
------------------------
-Testing requires as input a trained model and a test dataset with labels. The libraries used are the same as for training. The produced outputs are testing metrics and graphs of output probabilities, class ROCs. The hyperparameters of the model to be tested have to be passed as configuration parametersto initialize the model.
+------------------------
+Testing takes a trained model and a test dataset with labels and evaluates the model. The libraries used are the same as for training, the hyperparameters are passed similarly.
 
+
+Produce Plots
+------------------------
+Given an experiment, this script makes the graphs displaying metric averages and errors over the course of the training using pandas and seaborn. It uses the produced metrics.txt files and reads all data from them.
+
+
+Aggregate Results
+------------------------
+This script takes an experiment and a mode to specify whether the current invocation want to get training and validation set (Train) or test set (Test) results. The corresponding metrics.txt files are read for the relevant data across all epochs of all runs and a single statistic with mean and error is produced for each metric. The results are saved in a new file.
 

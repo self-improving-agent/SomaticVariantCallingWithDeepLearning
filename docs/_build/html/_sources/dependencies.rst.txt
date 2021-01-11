@@ -10,6 +10,8 @@ The environment that this code is to be run in needs to contain the following pa
 * python (3.x.x)
 * pyvcf
 * scipy
+* pandas
+* seaborn
 * snakemake
 * sphinx
 * sphinx_rtd_theme

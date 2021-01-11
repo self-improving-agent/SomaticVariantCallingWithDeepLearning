@@ -1,4 +1,4 @@
-name: project-somatic-variant-calling-with-deep-learning
+name: somatic-variant-calling
 channels:
   - defaults
   - bioconda
@@ -9,3 +9,6 @@ dependencies:
   - bumpversion
   - snakemake-minimal
   - git-lfs
+  - seaborn
+  - torch
+  - numpy

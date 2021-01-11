@@ -3,34 +3,37 @@ Snakemake Rules
 This page describes the Snakemake rules used in the project, including all configuration parameters that need to be included in the bash scripts created to call these rules. The similar rules are grouped into categories. For example usages see the bash scripts created during the project, which are saved in the workflows folder.
 
 Pre-processing
-------------------------
-Pre-processing currenty happens with the rule:
+----------------------------------
+Pre-processing happens with the rules:
 
-* pre_process
+* pre_process_train_set
+* pre_process_test_set
 
-Which processes the 22nd chromosome's genomic region of the Ashkenazi son as a normal sample and of the standard reference genome at unique mutation locations mixed in as the tumor sample.
+The train set one processes the 22nd chromosome's genomic region of the Ashkenazi son as a normal sample and of the standard reference genome at unique mutation locations mixed in as the tumor sample. The test set one does the same but with the 20th chromosome. Other than outputs and the bed file input the two rules are identical.
 
-There is one configuration parameter for this rule:
+There are 2 configuration parameter for this rule:
 
 * purity - represents the % of reads taken from the tumor sample at its unique mutation locations
+* CHR - the chromosome to be processed
 
 This is the first stage of the pipeline, hence the inputs are the corresponding BAM and VCF files, while the outputs are .txt files of the dataset. The script used is pre_processing.py.
 
 
 Dataset Building
------------------
-The next stage of the pipeline is using the pre-processed data to build the dataset consumed by the neural networks trained afterwards. The rule for this is:
+----------------------------------
+The next stage of the pipeline is using the pre-processed data to build the dataset consumed by the neural networks trained afterwards. The rules for this are:
 
-* build_dataset
+* build_train_dataset
+* build_test_dataset
 
 With the configuration parameter:
 
 * context_size - how many number of positions should be considered around a target site when building the sequential data (e.g. 5 will yield a window of 5 nucleotides upstream and downstream, resulting in a total sequence length of 2*5+1 = 11)
 
-The input to this rule is the data to be processed, the outputs are a .npy format dataset and labels file. The script used is building_dataset.py
+The input to these rules are the data files to be processed, the outputs are a .npy format dataset and labels file for both training and test sets. The script used is building_dataset.py
 
-Neural Network Training
--------------------------
+Neural Network Training & Testing
+----------------------------------
 The rule in this category responsible for training neural network models. It trains multiple models (specified by the number_of_runs) and records the average performance and variances to calculate errors.
 
 * run_experiment
@@ -48,24 +51,7 @@ This rule has 9 configuration parameters, to allow for greater flexibility in cr
 * dropout - proportion of nodes to be removed when applying dropout layers. If set to 0.0, no dropout is applied
 * bidirectional - whether the the model should be only bidirectional (not relevant for Perceptron)
 
-The dataset and labels are taken as input, while the output is a folder named after the experiment_name containing containing 3 sub folders: tables, models and figures. Tables contains the metrics recorded during training, for each model as well as the current means and variances (used for the standard errors), and a final metrics file to show the combined averaged results with errors. Inside models there are the saved models for each run along with the checkpoints saved during the training of each. Figures is filled after the specified number of models are trained (number_of_runs), with 4 graphs monitoring the change in training set metrics, validation set metrics, losses and the final validation set ROC. All graphs are produced using the averaged results with errors. The script used is run_experiment.py which calls model_training.py for each model to be trained.
+The dataset and labels are taken as input, while the output is a folder named after the experiment_name containing containing 3 sub folders: tables, models and figures. Tables contains the metrics recorded during training for each model and a final aggregated metrics file to show the combined averaged results with errors, along with a sub-folder with a file for the test set results of each model and a similar aggregated results file. Inside models there are the saved models for each run along with the checkpoints saved during the training of each. Figures is filled after the specified number of models are trained (number_of_runs), with 6 graphs monitoring the change in all metrics (Accuracy, Precision, Recall, F1) for the training and validation sets, training and validation losses, and the AUC for the ROC curves on the validation set for each of the 3 classes. Additionally there is a sub-folder with ROC curves for each model trained for both the validation and test sets.
 
-Neural Network Testing
------------------------
-In this final category there is also one rule:
+The script used is run_experiment.py which calls train_model from model_training.py for each model to be trained. When finished it calls produce_plots from produce_plots.py in visualization to make all the plots and aggregate_results from aggregate_results.py in utils to create the aggregated metrics file. Then each model is evaluated by calling test_model from model_testing.py and then aggregate_results in test mode for combining the results.
 
-* test_model
-
-This rule has 6 parameters:
-
-* experiment_name - name of the model to be tested
-* test_name - name of the test that is being executed, results are saved based on it
-* model_type - used to initialize the model to tested, options are same as at training, should be the same value as for the model to be tested (holds for all following parameters)
-* hidden_units - used to initialize the model to be tested
-* hidden_layers - used to initialize the model to be tested
-* dropout - used to initialize the model to be tested
-* bidirectional - used to initialize the model to be tested
-
-For these rules the inputs are the selected test dataset and labels, along with the model that will run the inference on these.  The outputs are the metrics of the test (in results.txt), an ROC graph and another graph showcasing the probability outputs of the model for the given test data. The graphs are not created in the case of the last rule. The script used is model_testing.py.
-
-TEST DATASET TO BE DETERMINED!

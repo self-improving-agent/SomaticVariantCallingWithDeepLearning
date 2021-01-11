@@ -3,8 +3,7 @@ import vcf
 from vcf.parser import _Info as VcfInfo, field_counts as vcf_field_counts
 import math
 
-#CHR = snakemake.config['chr']
-CHR = 22
+CHR = snakemake.config['chr']
 chr_to_num = lambda x: ''.join([c for c in x if c.isdigit()])
 purity = snakemake.config['purity']
 

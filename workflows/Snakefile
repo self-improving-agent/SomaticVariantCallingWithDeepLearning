@@ -39,34 +39,34 @@ rule pre_process_test_set:
     script:
         "../scripts/pre_processing/pre_processing.py"
 
-rule build_dataset:
+rule build_train_dataset:
     input:
-        "../data/interim/normal_data.txt",
-        "../data/interim/tumor_data.txt"
+        "../data/interim/normal_train_data.txt",
+        "../data/interim/tumor_train_data.txt"
     output:
-        "../data/processed/dataset.npy",
-        "../data/processed/labels.npy"
+        "../data/processed/train_dataset.npy",
+        "../data/processed/train_labels.npy"
+    script:
+        "../scripts/pre_processing/building_dataset.py"
+        
+rule build_test_dataset:
+    input:
+        "../data/interim/normal_test_data.txt",
+        "../data/interim/tumor_test_data.txt"
+    output:
+        "../data/processed/test_dataset.npy",
+        "../data/processed/test_labels.npy"
     script:
         "../scripts/pre_processing/building_dataset.py"
 
 rule run_experiment:
     input:
-        "../data/processed/dataset.npy",
-        "../data/processed/labels.npy"
+        "../data/processed/train_dataset.npy",
+        "../data/processed/train_labels.npy",
+        "../data/processed/test_dataset.npy",
+        "../data/processed/test_labels.npy"
     output:
         "../results/{}".format(config['experiment_name'])
     script:
         "../scripts/analysis/run_experiment.py"
-
-rule test_model:
-    input:
-        "../data/processed/test_dataset.npy",
-        "../data/processed/test_labels.npy",
-        "../results/{}/{}.pt".format(config['experiment_name'], config['experiment_name'])
-    output:
-        "../results/{}/tables/{}_{}_results.txt".format(config['experiment_name'], config['experiment_name'], config['test_name']),
-        "../results/{}/figures/{}_{}_roc.pdf".format(config['experiment_name'], config['experiment_name'], config['test_name']),
-        "../results/{}/figures/{}_{}_class_dist.pdf".format(config['experiment_name'], config['experiment_name'], config['test_name'])
-    script:
-        "../scripts/analysis/model_testing.py" 
 

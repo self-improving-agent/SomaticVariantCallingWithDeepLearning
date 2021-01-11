@@ -1,0 +1,4 @@
+x	Accuracy	Precision	Recall		F1 Score
+Test	94.12		93.68		88.52		91.03
+Class Test AUCs:	0.9107		0.9148		0.9173
+

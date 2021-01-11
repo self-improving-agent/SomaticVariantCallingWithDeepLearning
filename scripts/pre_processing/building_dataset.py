@@ -11,9 +11,9 @@ tumor_data = np.loadtxt(snakemake.input[1], skiprows=1, delimiter="\t", dtype=st
 # Indices already used that should not be sampled for Normal data
 used_idx = []
 
-# Indices of germline variant and somatic variant elements (labels cropped by numpy)
-germline_variants_idx = np.where(normal_data[:,-1] == "GermlineVariant")[0]
-somatic_variants_idx = np.where(tumor_data[:,-1] == "SomaticVariant")[0]
+# Indices of germline variant and somatic variant elements
+germline_variants_idx = np.where(normal_data[:,-1] == "Germline")[0]
+somatic_variants_idx = np.where(tumor_data[:,-1] == "SomaticV")[0]
 
 # Building germline_variant data points
 germline_variants = np.zeros((len(germline_variants_idx),4,2*context_size+1))
@@ -68,8 +68,8 @@ normals_idx = normals_idx[to_remove]
 
 # Limit number of normal samples to the sum of the number of germline and somatic variant samples
 normal_samples_num = len(germline_variants_idx) + len(somatic_variants_idx)
-# Drawing sample indices
 
+# Drawing sample indices
 normal_samples = rand.choice(normals_idx, normal_samples_num)
 
 normals = np.zeros((normal_samples_num,4,2*context_size+1))
@@ -97,11 +97,6 @@ germline_variants_labels = np.array(len(germline_variants_idx)*[[1,0,0]])
 somatic_variants_labels = np.array(len(somatic_variants_idx)*[[0,1,0]])
 normal_labels = np.array(normal_samples_num*[[0,0,1]])
 labels = np.concatenate((germline_variants_labels, somatic_variants_labels, normal_labels))
-
-# Shuffle everything
-shuffle_order = rand.permutation(dataset.shape[0])
-dataset = dataset[shuffle_order]
-labels = labels[shuffle_order]
 
 # Save the result
 np.save(snakemake.output[0], dataset)

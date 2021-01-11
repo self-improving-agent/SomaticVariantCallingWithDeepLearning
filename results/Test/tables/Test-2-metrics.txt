@@ -1,0 +1,12 @@
+Epoch No:	1
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	70.28		41.73		38.51		40.06		0.9884
+Valid	66.34		33.51		36.29		34.84		0.9902
+Class Valid AUCs:	0.7621		0.4297		0.7123
+
+Epoch No:	2
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	81.56		51.29		53.43		52.34		0.9205
+Valid	79.37		46.07		52.83		49.22		0.9318
+Class Valid AUCs:	0.7826		0.5302		0.8154
+

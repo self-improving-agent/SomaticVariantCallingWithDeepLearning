@@ -1,10 +1,10 @@
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 import torch
 import torch.nn as nn
-import gc
 import os
 
 
@@ -185,11 +185,11 @@ def calculate_metrics(confusion_matrix):
         precision += 100*(tp / (tp + fp)) if (tp + fp) > 0 else 0.0
         recall += 100*(tp / (tp + fn)) if (tp + fn) > 0 else 0.0
         
-    accuracy = round(accuracy/3,4)
-    precision = round(precision/3,4)
-    recall = round(recall/3,4)
+    accuracy = round(accuracy/3,2)
+    precision = round(precision/3,2)
+    recall = round(recall/3,2)
     f1 = round(2 * precision * recall / (precision + recall),2)
-    return np.array([accuracy, precision, recall, f1])
+    return accuracy, precision, recall, f1
 
 
 # Main function
@@ -227,16 +227,9 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)   
     loss_func = nn.CrossEntropyLoss()
 
-    # Metrics to record
-    train_losses = np.zeros((epochs))
-    valid_losses = np.zeros((epochs))
-
-    # 0: Accuracy, 1: Precision, 2: Recall, 3: F1 Score
-    train_metrics = np.zeros((epochs, 4))
-    valid_metrics = np.zeros((epochs, 4))
-
+    # Load and start from checkpoint if exists
     if os.path.exists("{}/tables/{}-metrics.txt".format(path, experiment_name)):
-        start_epoch = int(sum(1 for line in open("{}/tables/{}-metrics.txt".format(path, experiment_name), "r")) / 5)
+        start_epoch = int(sum(1 for line in open("{}/tables/{}-metrics.txt".format(path, experiment_name), "r")) / 6)
         metrics_file = open("{}/tables/{}-metrics.txt".format(path, experiment_name), "a")
         model.load_state_dict(torch.load("{}/models/{}-checkpoint.pt".format(path, experiment_name)))
     else:
@@ -250,8 +243,6 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
         
         # Training loop
         for step, (x, y) in enumerate(train_data_loader):        
-            gc.collect()
-            
             x, y = x.to(device), y.to(device)
 
             output = model(x)                               
@@ -288,64 +279,8 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
         # Process Validation Set
         if model_type == "Transformer":
             # The transformer model needs too much memory, split validation into parts
-            pos = range(0, 1438, 250)
-            valid_loss = 0.0
-            valid_confusion_matrix = np.zeros((3,3))
-            for i in range(1, len(pos)):
-                start = pos[i-1]
-                end = pos[i]
-                
-                current_part = valid_x[start:end]
-                current_labels = valid_y[start:end]
-                _, valid_true_labels = current_labels.max(dim=1)
-                
-
-                valid_output = model(current_part)
-                valid_output = valid_output.squeeze()
-                valid_labels = np.argmax(valid_output.detach().cpu().numpy(), axis=-1)
-                valid_loss += np.round(loss_func(valid_output, valid_true_labels).data.cpu().numpy(),4)
-                valid_confusion_matrix += confusion_matrix(valid_true_labels.cpu(), valid_labels)
-            valid_loss /= len(pos)-1
-            valid_loss = np.round(valid_loss, 4)
-        else:
-            valid_output = model(valid_x).squeeze().detach().cpu().numpy()
-            valid_output = valid_output.squeeze()
-            _, valid_true_labels = valid_y.max(dim=1)
-            valid_labels = np.argmax(valid_output, axis=-1)
-            valid_loss = np.round(loss_func(valid_output, valid_true_labels).data.cpu().numpy(),4)
-            valid_confusion_matrix = confusion_matrix(valid_true_labels.cpu(), valid_labels)
-        
-        # Calculate and store metrics
-        train_metrics[epoch] = calculate_metrics(train_confusion_matrix)
-        valid_metrics[epoch] = calculate_metrics(valid_confusion_matrix)
-        train_losses[epoch] = train_loss
-        valid_losses[epoch] = valid_loss
-
-        # Save progress
-        torch.save(model.state_dict(), "{}/models/{}-checkpoint.pt".format(path, experiment_name))
-
-        # Print metrics to output
-        metrics_file.write("Epoch No:\t{}\n".format(epoch+1))
-        metrics_file.write("x\tAccuracy\tPrecision\tRecall\t\tF1 Score\tLoss\n")
-        metrics_file.write("Train\t{:.2f}\t\t{:.2f}\t\t{:.2f}\t\t{:.2f}\t\t{}\n".format(train_metrics[epoch,0], train_metrics[epoch,1], train_metrics[epoch,2], train_metrics[epoch,3], train_loss))
-        metrics_file.write("Valid\t{:.2f}\t\t{:.2f}\t\t{:.2f}\t\t{:.2f}\t\t{}\n".format(valid_metrics[epoch,0], valid_metrics[epoch,1], valid_metrics[epoch,2], valid_metrics[epoch,3], valid_loss))
-        metrics_file.write("\n")
-
-        # Print progress
-        print("Epoch no: {}/{}\t Train Accuracy: {}\t Validation Accuracy: {}\t Train loss: {}\t Validation Loss: {}\n".format(
-            epoch+1, epochs, train_metrics[epoch,0], valid_metrics[epoch,0], train_loss, valid_loss))
-
-        # Free up memory
-        del output, loss, valid_output
-
-    # Save model
-    torch.save(model.state_dict(), "{}/models/{}.pt".format(path, experiment_name))
-
-    # Calculate ROC stats
-    if model_type == "Transformer":
-            # The transformer model needs too much memory, split validation into parts
-            pos = range(0, 1438, 250)
-            valid_output = np.zeros((1438, 3))
+            pos = range(0, len(valid_x), 250)
+            valid_output = np.zeros((len(valid_x), 3))
             for i in range(1, len(pos)):
                 start = pos[i-1]
                 end = pos[i]
@@ -353,32 +288,60 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
                 current_part = valid_x[start:end]
                 
                 valid_output[start:end] = model(current_part).detach().cpu().numpy()
-    else:
-        valid_output = model(valid_x)
-    valid_output = valid_output.squeeze()
-
-    fpr = np.zeros((3, 1311))
-    tpr = np.zeros((3, 1311))
-    #auc = np.zeros((3, 1311))
-
-    for i in range(3):#
-        if model_type == "Transformer":
-            class_fpr, class_tpr, _ = roc_curve(valid_y[:,i].cpu(), valid_output[:,i], drop_intermediate=False)
+            valid_output = torch.from_numpy(valid_output)
         else:
-            class_fpr, class_tpr, _ = roc_curve(valid_y[:,i].cpu(), valid_output.detach().cpu().numpy()[:,i], drop_intermediate=False)
+            valid_output = model(valid_x).squeeze().detach().cpu()
+        
+        valid_output = valid_output.squeeze()
+        _, valid_true_labels = valid_y.max(dim=1)
+        valid_labels = np.argmax(valid_output, axis=-1)
+        valid_loss = np.round(loss_func(valid_output, valid_true_labels).data.cpu().numpy(),4)
+        valid_confusion_matrix = confusion_matrix(valid_true_labels.cpu(), valid_labels)
 
-        if fpr[i].shape[0] > class_fpr.shape[0]:
-            fpr[i] = np.append(class_fpr, class_fpr[-(fpr[i].shape[0]-class_fpr.shape[0]):])
-        elif fpr[i].shape[0] < class_fpr.shape[0]:
-            fpr[i] = class_fpr[:fpr[i].shape[0]]
-        else:
-            fpr[i] = class_fpr
+        # Calculate AUC
+        auc = []
+        for i in range(3):
+            auc.append(round(roc_auc_score(valid_y[:,i], valid_output[:,i]),4))
 
-        if tpr[i].shape[0] > class_tpr.shape[0]:
-            tpr[i] = np.append(class_tpr, class_tpr[-(tpr[i].shape[0]-class_tpr.shape[0]):])
-        elif tpr[i].shape[0] < class_tpr.shape[0]:
-            tpr[i] = class_tpr[:tpr[i].shape[0]]
-        else:
-            tpr[i] = class_tpr
+        # Calculate metrics
+        train_accuracy, train_precision, train_recall, train_f1 = calculate_metrics(train_confusion_matrix)
+        valid_accuracy, valid_precision, valid_recall, valid_f1 = calculate_metrics(valid_confusion_matrix)
 
-    return train_metrics, valid_metrics, train_losses, valid_losses, fpr, tpr
+        # Save progress
+        torch.save(model.state_dict(), "{}/models/{}-checkpoint.pt".format(path, experiment_name))
+
+        # Print metrics to output
+        metrics_file.write("Epoch No:\t{}\n".format(epoch+1))
+        metrics_file.write("x\tAccuracy\tPrecision\tRecall\t\tF1 Score\tLoss\n")
+        metrics_file.write("Train\t{}\t\t{}\t\t{}\t\t{}\t\t{}\n".format(train_accuracy, train_precision, train_recall, train_f1, train_loss))
+        metrics_file.write("Valid\t{}\t\t{}\t\t{}\t\t{}\t\t{}\n".format(valid_accuracy, valid_precision, valid_recall, valid_f1, valid_loss))
+        metrics_file.write("Class Valid AUCs:\t{}\t\t{}\t\t{}\n".format(auc[0], auc[1], auc[2]))
+        metrics_file.write("\n")
+
+        # Print progress
+        print("Epoch no: {}/{}\t Train Accuracy: {}\t Validation Accuracy: {}\t Train loss: {}\t Validation Loss: {}\n".format(
+            epoch+1, epochs, train_accuracy, valid_accuracy, train_loss, valid_loss))
+
+    # Save model
+    torch.save(model.state_dict(), "{}/models/{}.pt".format(path, experiment_name))
+
+    # Calculate ROC stats
+    fpr = dict()
+    tpr = dict()
+
+    for i in range(3):
+        fpr[i], tpr[i], _ = roc_curve(valid_y[:,i].cpu(), valid_output[:,i])
+
+    # Plot ROC curves
+    plt.plot(fpr[0], tpr[0], '--', label="Germline Variant")
+    plt.plot(fpr[1], tpr[1], '--', label="Somatic Variant")
+    plt.plot(fpr[2], tpr[2], '--', label="Normal")
+    x = np.linspace(0, 1, 2)
+    plt.plot(x)
+    plt.title("Validation ROC")
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.legend(loc="best")
+    plt.grid('on')
+    plt.savefig("{}/figures/ROCs/{}_valid_roc.pdf".format(path, experiment_name))
+    plt.clf()
