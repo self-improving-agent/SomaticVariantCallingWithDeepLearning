@@ -5,16 +5,21 @@ import sys
 from numpy.random import RandomState
 
 from model_training import train_model
+from genotyping_model_training import genotyping_train_model
 from model_testing import test_model
+from genotyping_model_testing import genotyping_test_model
 
 sys.path.append("..")
 from visualization.produce_plots import produce_plots
+from visualization.genotyping_produce_plots import genotyping_produce_plots
 from utils.aggregate_results import aggregate_results
+from utils.genotyping_aggregate_results import genotyping_aggregate_results
 
 
 NUMBER_OF_RUNS = snakemake.config["number_of_runs"]
 EXPERIMENT_NAME = snakemake.config["experiment_name"]
 MODEL_TYPE = snakemake.config["model_type"]
+MODE = snakemake.config["mode"]
 
 # Hyperparameters
 EPOCHS = snakemake.config["epochs"]
@@ -31,6 +36,9 @@ if not os.path.exists(path):
     os.makedirs(path)
     os.makedirs("{}/tables".format(path))
     os.makedirs("{}/figures".format(path))
+    if MODE != "genotyping_":
+	    os.makedirs("{}/figures/train".format(path))
+	    os.makedirs("{}/figures/valid".format(path))
     os.makedirs("{}/figures/ROCs".format(path))
     os.makedirs("{}/models".format(path))
 
@@ -64,15 +72,25 @@ for i in range(NUMBER_OF_RUNS):
 	train_y = train_y[shuffle_order]
 
 	# Train a model and return all metrics
-	train_model(current_experiment, MODEL_TYPE, EPOCHS, LEARNING_RATE, BATCH_SIZE, HIDDEN_UNITS,
+	if MODE != "genotyping_":
+		train_model(current_experiment, MODEL_TYPE, EPOCHS, LEARNING_RATE, BATCH_SIZE, HIDDEN_UNITS,
+				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path)
+	else:
+		genotyping_train_model(current_experiment, MODEL_TYPE, EPOCHS, LEARNING_RATE, BATCH_SIZE, HIDDEN_UNITS,
 				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path)
 
 
 # After all models are trained, produce aggregate plots
-produce_plots(EXPERIMENT_NAME)
+if MODE != "genotyping_":
+	produce_plots(EXPERIMENT_NAME)
+else:
+	genotyping_produce_plots(EXPERIMENT_NAME)
 
 # Also calculate aggregate results for the final epoch for convieninent performance comparision
-aggregate_results(EXPERIMENT_NAME)
+if MODE != "genotyping_":
+	aggregate_results(EXPERIMENT_NAME)
+else:
+	genotyping_aggregate_results(EXPERIMENT_NAME)
 
 # TESTING
 
@@ -97,11 +115,15 @@ for i in range(NUMBER_OF_RUNS):
 		continue
 
 	# Test a model
-	test_model(current_experiment, MODEL_TYPE, HIDDEN_UNITS, LAYERS, DROPOUT, BIDIRECTIONAL, 
+	if MODE != "genotyping_":
+		test_model(current_experiment, MODEL_TYPE, HIDDEN_UNITS, LAYERS, DROPOUT, BIDIRECTIONAL, 
+		       test_x, test_y, path)
+	else:
+		genotyping_test_model(current_experiment, MODEL_TYPE, HIDDEN_UNITS, LAYERS, DROPOUT, BIDIRECTIONAL, 
 		       test_x, test_y, path)
 
 # Calculate aggregate results for the test metrics
-print("Aggregating test tresults")
-aggregate_results(EXPERIMENT_NAME, mode="Test")
-
-print("Experiment concluded!")
+if MODE != "genotyping_":
+	aggregate_results(EXPERIMENT_NAME, mode="Test")
+else:
+	genotyping_aggregate_results(EXPERIMENT_NAME, mode="Test")

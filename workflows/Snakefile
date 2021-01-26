@@ -12,59 +12,63 @@ if config.get('experiment_name') == None:
 
 if config.get('test_name') == None:
     config['test_name'] = 'placeholder'
+    
+if config.get('mode') == None:
+    config['mode'] = 'placeholder'
 
 rule pre_process_train_set:
     input:
         "../data/external/HG002.hs37d5.300x.bam",
         "../data/external/HG001.hs37d5.300x.bam",
-        "../data/external/HG002_GRCh37_1_22_v4.1_draft_benchmark.vcf",
+        "../data/external/HG002_GRCh37_1_22_v4.2.1_benchmark.vcf",
         "../data/external/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf",
         "../data/external/chr22_exons.bed"
     output:
-        "../data/interim/normal_train_data.txt",
-        "../data/interim/tumor_train_data.txt"
+        "../data/interim/{}normal_train_data.txt".format(config['mode']),
+        "../data/interim/{}tumor_train_data.txt".format(config['mode'])
     script:
-        "../scripts/pre_processing/pre_processing.py"
+        "../scripts/pre_processing/{}pre_processing.py".format(config['mode'])
 
 rule pre_process_test_set:
     input:
         "../data/external/HG002.hs37d5.300x.bam",
         "../data/external/HG001.hs37d5.300x.bam",
-        "../data/external/HG002_GRCh37_1_22_v4.1_draft_benchmark.vcf",
+        "../data/external/HG002_GRCh37_1_22_v4.2.1_benchmark.vcf",
         "../data/external/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf",
         "../data/external/chr20_exons.bed"
     output:
-        "../data/interim/normal_test_data.txt",
-        "../data/interim/tumor_test_data.txt"
+        "../data/interim/{}normal_test_data.txt".format(config['mode']),
+        "../data/interim/{}tumor_test_data.txt".format(config['mode'])
     script:
-        "../scripts/pre_processing/pre_processing.py"
+        "../scripts/pre_processing/{}pre_processing.py".format(config['mode'])
+
 
 rule build_train_dataset:
     input:
-        "../data/interim/normal_train_data.txt",
-        "../data/interim/tumor_train_data.txt"
+        "../data/interim/{}normal_train_data.txt".format(config['mode']),
+        "../data/interim/{}tumor_train_data.txt".format(config['mode'])
     output:
-        "../data/processed/train_dataset.npy",
-        "../data/processed/train_labels.npy"
+        "../data/processed/{}train_dataset.npy".format(config['mode']),
+        "../data/processed/{}train_labels.npy".format(config['mode'])
     script:
-        "../scripts/pre_processing/building_dataset.py"
+        "../scripts/pre_processing/{}building_dataset.py".format(config['mode'])
         
 rule build_test_dataset:
     input:
-        "../data/interim/normal_test_data.txt",
-        "../data/interim/tumor_test_data.txt"
+        "../data/interim/{}normal_test_data.txt".format(config['mode']),
+        "../data/interim/{}tumor_test_data.txt".format(config['mode'])
     output:
-        "../data/processed/test_dataset.npy",
-        "../data/processed/test_labels.npy"
+        "../data/processed/{}test_dataset.npy".format(config['mode']),
+        "../data/processed/{}test_labels.npy".format(config['mode'])
     script:
-        "../scripts/pre_processing/building_dataset.py"
+        "../scripts/pre_processing/{}building_dataset.py".format(config['mode'])
 
 rule run_experiment:
     input:
-        "../data/processed/train_dataset.npy",
-        "../data/processed/train_labels.npy",
-        "../data/processed/test_dataset.npy",
-        "../data/processed/test_labels.npy"
+        "../data/processed/{}train_dataset.npy".format(config['mode']),
+        "../data/processed/{}train_labels.npy".format(config['mode']),
+        "../data/processed/{}test_dataset.npy".format(config['mode']),
+        "../data/processed/{}test_labels.npy".format(config['mode'])
     output:
         "../results/{}".format(config['experiment_name'])
     script:

@@ -13,8 +13,8 @@ module load anaconda/5.0.1
 
 source activate somatic-variant-calling
 
-# number_of_runs, experiment_name, model_type - GRU, LSTM, RNN, Transformer, Perceptron, default is GRU, epochs, batch_size, learning_rate, hidden_units, hidden_layers, dropout, bidirectional
+# number_of_runs, experiment_name, mode - "", "genotyping_", model_type - GRU, LSTM, RNN, Transformer, Perceptron, default is GRU, epochs, batch_size, learning_rate, hidden_units, hidden_layers, dropout, bidirectional
 
-snakemake run_experiment --config number_of_runs=10 experiment_name="GRU" model_type="GRU" epochs=1000 batch_size=250 learning_rate=0.001 hidden_units=32 hidden_layers=2 dropout=0.0 bidirectional=False
+snakemake run_experiment --config number_of_runs=10 experiment_name="GRU" mode="genotyping_" model_type="GRU" epochs=1000 batch_size=250 learning_rate=0.001 hidden_units=32 hidden_layers=2 dropout=0.0 bidirectional=False
 
 source deactivate

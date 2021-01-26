@@ -1,0 +1,7 @@
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		93.4		97.17		91.72
+Test Precision	95.82		99.57		86.77
+Test Recall		84.82		81.58		98.45
+Test F1 Score		89.99		89.68		92.24
+Test AUCs		0.9391		0.9169		0.923
+

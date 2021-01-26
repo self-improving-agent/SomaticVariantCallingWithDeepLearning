@@ -12,8 +12,9 @@ tumor_data = np.loadtxt(snakemake.input[1], skiprows=1, delimiter="\t", dtype=st
 used_idx = []
 
 # Indices of germline variant and somatic variant elements
-germline_variants_idx = np.where(normal_data[:,-1] == "Germline")[0]
-somatic_variants_idx = np.where(tumor_data[:,-1] == "SomaticV")[0]
+# Sometimes shorter versions are recorded, e.g. GermlineV
+germline_variants_idx = np.where(normal_data[:,-1] == "GermlineVariant")[0]
+somatic_variants_idx = np.where(tumor_data[:,-1] == "SomaticVariant")[0]
 
 # Building germline_variant data points
 germline_variants = np.zeros((len(germline_variants_idx),4,2*context_size+1))

@@ -14,6 +14,8 @@ module load anaconda/5.0.1
 
 source activate somatic-variant-calling
 
-snakemake --cores 2 build_test_dataset --config context_size=40
+# mode - "", "genotyping_"
+
+snakemake --cores 2 build_test_dataset --config context_size=40 mode="genotyping_"
 
 source deactivate

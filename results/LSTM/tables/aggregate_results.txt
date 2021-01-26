@@ -1,0 +1,6 @@
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	84.7+-3.7		61.7+-9.25		64.73+-7.28		62.57+-8.48		0.7777+-0.05
+Valid	83.59+-3.93		61.0+-9.37		65.14+-7.5		62.34+-8.69		0.792+-0.06
+
+Class Valid AUCs:
+Germline Variant:	0.8984+-0.02		Somatic Variant:	0.7509+-0.06		Normal:	0.8093+-0.07

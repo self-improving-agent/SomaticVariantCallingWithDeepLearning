@@ -1,0 +1,6 @@
+Test Accuracy		88.59
+Test Precision	77.55
+Test Recall		76.99
+Test F1 Score		77.27
+Test AUC		0.8865
+
