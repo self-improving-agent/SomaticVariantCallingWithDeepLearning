@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 import sys
-from numpy.random import RandomState
 
 from model_training import train_model
 from genotyping_model_training import genotyping_train_model
@@ -20,6 +19,7 @@ NUMBER_OF_RUNS = snakemake.config["number_of_runs"]
 EXPERIMENT_NAME = snakemake.config["experiment_name"]
 MODEL_TYPE = snakemake.config["model_type"]
 MODE = snakemake.config["mode"]
+SAVE_FREQ = snakemake.config["save_freq"]
 
 # Hyperparameters
 EPOCHS = snakemake.config["epochs"]
@@ -39,14 +39,17 @@ if not os.path.exists(path):
     if MODE != "genotyping_":
 	    os.makedirs("{}/figures/train".format(path))
 	    os.makedirs("{}/figures/valid".format(path))
+	    os.makedirs("{}/figures/test".format(path))
     os.makedirs("{}/figures/ROCs".format(path))
     os.makedirs("{}/models".format(path))
+    os.makedirs("{}/models/checkpoints".format(path))
+    for i in range(NUMBER_OF_RUNS):
+    	os.makedirs("{}/models/checkpoints/{}".format(path, i+1))
 
 # Set up data
 data = np.load(snakemake.input[0])
 labels = np.load(snakemake.input[1])
 train_set_size = int(np.ceil(data.shape[0] * 0.9))
-rand = RandomState(1618820) # Student number as random seed
 
 # Swap axes to have (Set_size x Seq_len x Features) size
 train_x = data[:train_set_size]
@@ -66,18 +69,13 @@ for i in range(NUMBER_OF_RUNS):
 	if os.path.exists("{}/models/{}.pt".format(path, current_experiment)):
 		continue
 
-	# Shuffle training data
-	shuffle_order = rand.permutation(train_x.shape[0])
-	train_x = train_x[shuffle_order]
-	train_y = train_y[shuffle_order]
-
 	# Train a model and return all metrics
 	if MODE != "genotyping_":
 		train_model(current_experiment, MODEL_TYPE, EPOCHS, LEARNING_RATE, BATCH_SIZE, HIDDEN_UNITS,
-				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path)
+				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path, SAVE_FREQ)
 	else:
 		genotyping_train_model(current_experiment, MODEL_TYPE, EPOCHS, LEARNING_RATE, BATCH_SIZE, HIDDEN_UNITS,
-				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path)
+				LAYERS, DROPOUT, BIDIRECTIONAL, train_x, train_y, valid_x, valid_y, path, SAVE_FREQ)
 
 
 # After all models are trained, produce aggregate plots
@@ -105,7 +103,6 @@ test_y = np.load(snakemake.input[3])
 
 
 # Evaluate all experiments on test set
-print("Begin evaluation")
 for i in range(NUMBER_OF_RUNS):
 	current_experiment = "{}-{}".format(EXPERIMENT_NAME, i+1)
 	print("\n\nTesting model no {}\n\n".format(i+1))
@@ -121,6 +118,12 @@ for i in range(NUMBER_OF_RUNS):
 	else:
 		genotyping_test_model(current_experiment, MODEL_TYPE, HIDDEN_UNITS, LAYERS, DROPOUT, BIDIRECTIONAL, 
 		       test_x, test_y, path)
+
+# Produce plots for testing
+if MODE != "genotyping_":
+	produce_plots(EXPERIMENT_NAME, mode="Test")
+else:
+	genotyping_produce_plots(EXPERIMENT_NAME, mode="Test")
 
 # Calculate aggregate results for the test metrics
 if MODE != "genotyping_":

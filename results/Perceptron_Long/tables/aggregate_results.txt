@@ -1,0 +1,12 @@
+Train Loss		0.5536+-0.0
+Valid Loss		0.5578+-0.0
+x			Germline Variant	Somatic Variant	Normal
+Train Accuracy		99.88+-0.0		99.92+-0.0		99.83+-0.0
+Train Precision	99.86+-0.0		99.82+-0.0		99.79+-0.0
+Train Recall		99.73+-0.0		99.82+-0.0		99.87+-0.0
+Train F1 Score		99.79+-0.0		99.82+-0.0		99.83+-0.0
+Valid Accuracy		99.54+-0.0		99.88+-0.0		99.42+-0.0
+Valid Precision	100.0+-0.0		100.0+-0.0		98.87+-0.0
+Valid Recall		98.44+-0.0		99.41+-0.0		100.0+-0.0
+Valid F1 Score		99.21+-0.0		99.7+-0.0		99.43+-0.0
+Valid AUCs		0.9999+-0.0		1.0+-0.0		0.9997+-0.0

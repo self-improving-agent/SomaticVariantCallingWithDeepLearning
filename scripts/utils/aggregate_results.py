@@ -110,7 +110,7 @@ def aggregate_results(experiment_name, mode="Train"):
 		# Fill up metrics arrays
 		for i in range(number_of_runs):
 			file = open("{}/tables/test/{}-{}-test-metrics.txt".format(path, experiment_name, i+1), 'r')
-			lines = file.readlines()
+			lines = file.readlines()[-8:]
 
 			for j in range(len(lines)):
 				line = lines[j].split()

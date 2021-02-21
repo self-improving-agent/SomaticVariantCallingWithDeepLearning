@@ -2,10 +2,12 @@ import pysam
 import vcf
 from vcf.parser import _Info as VcfInfo, field_counts as vcf_field_counts
 import math
+import numpy as np
 
 CHR = snakemake.config['CHR']
-chr_to_num = lambda x: ''.join([c for c in x if c.isdigit()])
 purity = snakemake.config['purity']
+
+chr_to_num = lambda x: ''.join([c for c in x if c.isdigit()])
 
 # Open files
 normalSample = pysam.AlignmentFile(snakemake.input[0], "rb", ignore_truncation=True)
@@ -22,10 +24,10 @@ tumorvcf.infos['datasetsmissingcall'] = VcfInfo('datasetsmissingcall', None, 'St
 												  None, None)
 
 normalOutput = open(snakemake.output[0], "w")
-normalOutput.write("CHR\tPOS\tREF\tALT\tLABEL\n")
+normalOutput.write("CHR\tPOS\tREF\tALT\tGAPS\tLABEL\n")
 
 tumorOutput = open(snakemake.output[1], "w")
-tumorOutput.write("CHR\tPOS\tREF\tALT\tLABEL\n")
+tumorOutput.write("CHR\tPOS\tREF\tALT\tGAPS\tLABEL\n")
 
 # Retrieve genomic region locations from BED
 regions = []
@@ -35,7 +37,6 @@ next(bed)
 for line in bed:
 	region_start, region_end = line.split()[1:3]
 	regions.append((int(region_start), int(region_end)))
-
 
 # Retrieve mutations from VCFs
 normalMutations = {}
@@ -53,6 +54,7 @@ for record in normalvcf:
 		normalMutations[record.POS] = record.REF[0]
 
 tumorMutations = {}
+uniqueTumorMutations = {}
 
 for record in tumorvcf:
 	current_chr = chr_to_num(record.CHROM)
@@ -66,15 +68,74 @@ for record in tumorvcf:
 	if any(region_start <= record.POS <= region_end for (region_start, region_end) in regions):
 		# Extra condition to get mutations unique to tumor sample
 		if record.POS not in normalMutations.keys():
+			uniqueTumorMutations[record.POS] = record.REF[0]
+		else:
 			tumorMutations[record.POS] = record.REF[0]
-
 
 # Process BAM file
 for region in regions:
+	skipped = []
+	germline_to_copy = {}
+
+	# Process tumor sample
+	for tumor_pileup_column in tumorSample.pileup("{}".format(CHR), region[0], region[1]):
+		pos = tumor_pileup_column.pos + 1
+		tumor_bases = {"A": 0, "T": 0, "C": 0, "G": 0}
+		tumor_gaps = 0.0
+
+		# Count up pileup column reads
+		for pileup_read in tumor_pileup_column.pileups:
+			if not pileup_read.is_del and not pileup_read.is_refskip:
+				read = pileup_read.alignment.query_sequence[pileup_read.query_position]
+				if read in ["A","T","C","G"]:
+					tumor_bases[read] += 1
+			if pileup_read.indel != 0:
+				tumor_gaps += 1
+
+		tumor_values = list(tumor_bases.values())
+
+		# Take purity % of reads from tumor reads
+		tumor_values = [math.ceil(purity*base) for base in tumor_values]
+		tumor_bases = {"A": tumor_values[0], "T": tumor_values[1], "C": tumor_values[2], "G": tumor_values[3]}
+		tumor_gaps = math.ceil(purity*tumor_gaps)
+
+		# Determine classes and select reads
+		somaticVar = uniqueTumorMutations.get(pos, None)
+		germlineVar = tumorMutations.get(pos, None)
+
+		if somaticVar:
+			tumor_ref = tumor_bases[somaticVar]
+			tumor_label = "SomaticVariant"
+		elif germlineVar:
+			tumor_ref = tumor_bases[germlineVar]
+			tumor_label = "GermlineVariant"
+
+			germline_to_copy[pos] = {"ref": germlineVar,"values": tumor_values.copy(), "bases": tumor_bases.copy(), "gaps": tumor_gaps}
+		else:
+			tumor_ref = float(max(tumor_values))
+			tumor_label = "Normal"
+
+		tumor_values.remove(tumor_ref)
+		tumor_alt = float(max(tumor_values))
+
+		tumor_total = tumor_ref + tumor_alt + tumor_gaps
+
+		if tumor_total == 0:
+			skipped.append(pos)
+			continue
+
+		tumor_ref = round(tumor_ref / tumor_total, 3)
+		tumor_alt = round(tumor_alt / tumor_total, 3)
+		tumor_gaps = round(tumor_gaps / tumor_total, 3)
+
+		tumorOutput.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(CHR,pos,tumor_ref,tumor_alt,tumor_gaps,tumor_label))
+
+	# Process normal sample
 	for pileup_column in normalSample.pileup("{}".format(CHR), region[0], region[1]):
 		
 		pos = pileup_column.pos + 1
 		bases = {"A": 0, "T": 0, "C": 0, "G": 0}
+		gaps = 0.0
 
 		# Count up pileup column reads
 		for pileup_read in pileup_column.pileups:
@@ -82,62 +143,48 @@ for region in regions:
 				read = pileup_read.alignment.query_sequence[pileup_read.query_position]
 				if read in ["A","T","C","G"]:
 					bases[read] += 1
+			if pileup_read.indel != 0:
+				gaps += 1
 
 		values = list(bases.values())
-
-		somaticVar = tumorMutations.get(pos, None)
-
-		# Mix in reads from tumor sample if there is a somatic variant recorded at the location
-		if somaticVar:
-			tumor_bases = {"A": 0, "T": 0, "C": 0, "G": 0}
-			for tumor_pileup_column in tumorSample.pileup("{}".format(CHR), pos-1, pos):
-				if tumor_pileup_column.pos == pos-1:
-					for pileup_read in tumor_pileup_column.pileups:
-						if not pileup_read.is_del and not pileup_read.is_refskip:
-							read = pileup_read.alignment.query_sequence[pileup_read.query_position]
-							if read in ["A","T","C","G"]:
-								tumor_bases[read] += 1
-
-			tumor_values = list(tumor_bases.values())
-
-			# Take purity % of reads from tumor reads, 1-purity % of reads from normal reads
-			combined_values = [math.floor((1-purity)*x) + math.ceil(purity*y) for (x,y) in zip(values, tumor_values)]
-			combined_bases = {"A": combined_values[0], "T": combined_values[1], "C": combined_values[2], "G": combined_values[3]}
-
-			tumor_ref = combined_bases[somaticVar]
-			tumor_label = "SomaticVariant"
-
-			combined_values.remove(tumor_ref)
-			tumor_alt = float(max(combined_values))
-
-			total = tumor_ref + tumor_alt
-
-			tumor_ref = round(tumor_ref / total, 3)
-			tumor_alt = round(tumor_alt / total, 3)
-
-			tumorOutput.write("{}\t{}\t{}\t{}\t{}\n".format(CHR,pos,tumor_ref,tumor_alt,tumor_label))
 		
-		germlineVar = normalMutations.get(pos, None)
+		# Take, 1-purity % of reads from normal reads
+		values = [math.ceil((1-purity)*base) for base in values]
+		bases = {"A": values[0], "T": values[1], "C": values[2], "G": values[3]}
+		gaps = math.ceil((1-purity)*gaps)
+
+		# Determine classes and select reads
+		#germlineVar = tumorMutations.get(pos, None)
+		germlineVar = germline_to_copy.get(pos, None)
 
 		if germlineVar:
-			ref = bases[germlineVar]
-			label = "GermlineVariant" 
+			values = germlineVar["values"]
+			bases = germlineVar["bases"]
+			gaps = germlineVar["gaps"]
+
+			ref = bases[germlineVar["ref"]]
+			label = "GermlineVariant"
 		else:
 			ref = float(max(values))
 			label = "Normal"
 			
 		values.remove(ref)
 		alt = float(max(values))
-		
-		total = ref + alt
 
-		if total == 0:
+		# When the class is germline variant, reads are copied from the tumor sample with noise
+		if germlineVar:
+			ref = abs(ref + np.random.normal(0,0.1,1)[0])
+			alt = abs(alt + np.random.normal(0,0.1,1)[0])
+			gaps = abs(gaps + np.random.normal(0,0.1,1)[0])
+
+		total = ref + alt + gaps
+		
+		if total == 0 or (pos in skipped):
 			continue
 
 		ref = round(ref / total, 3)
 		alt = round(alt / total, 3)
+		gaps = round(gaps / total, 3)
 
-		normalOutput.write("{}\t{}\t{}\t{}\t{}\n".format(CHR,pos,ref,alt,label))
-		
-		if not somaticVar:
-			tumorOutput.write("{}\t{}\t{}\t{}\t{}\n".format(CHR,pos,ref,alt,label))
+		# Record values
+		normalOutput.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(CHR,pos,ref,alt,gaps,label))

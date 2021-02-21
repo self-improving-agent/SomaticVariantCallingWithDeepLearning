@@ -1,140 +1,490 @@
 Epoch No	1
-Train Loss		1.0359
-Valid Loss		1.0258
+Train Loss		1.0185
+Valid Loss		1.0233
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		63.27		87.05		50.32
-Train Precision		0.0		0.0		50.32
-Train Recall		0.0		0.0		100.0
-Train F1 Score		0.0		0.0		66.95
-Valid Accuracy		60.64		86.44		47.08
-Valid Precision	0.0		0.0		47.08
+Train Accuracy		60.88		87.13		50.44
+Train Precision	37.98		0.0		50.42
+Train Recall		9.97		0.0		90.51
+Train F1 Score		15.79		0.0		64.76
+Valid Accuracy		60.7		86.34		47.04
+Valid Precision	0.0		0.0		47.04
 Valid Recall		0.0		0.0		100.0
-Valid F1 Score		0.0		0.0		64.02
-Valid AUCs		0.6094		0.5451		0.62
+Valid F1 Score		0.0		0.0		63.98
+Valid AUCs		0.7462		0.9824		0.8142
 
 Epoch No	2
-Train Loss		1.0123
-Valid Loss		1.025
+Train Loss		1.0014
+Valid Loss		1.0085
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		63.27		87.05		50.32
-Train Precision		0.0		0.0		50.32
-Train Recall		0.0		0.0		100.0
-Train F1 Score		0.0		0.0		66.95
-Valid Accuracy		60.64		86.44		47.08
-Valid Precision	0.0		0.0		47.08
-Valid Recall		0.0		0.0		100.0
-Valid F1 Score		0.0		0.0		64.02
-Valid AUCs		0.9391		0.5461		0.9447
+Train Accuracy		63.3		87.13		50.43
+Train Precision	100.0		0.0		50.38
+Train Recall		0.27		0.0		100.0
+Train F1 Score		0.54		0.0		67.0
+Valid Accuracy		61.53		86.34		47.87
+Valid Precision	100.0		0.0		47.43
+Valid Recall		2.13		0.0		100.0
+Valid F1 Score		4.17		0.0		64.34
+Valid AUCs		0.7402		0.9863		0.8424
 
 Epoch No	3
-Train Loss		1.011
-Valid Loss		1.0234
+Train Loss		0.9932
+Valid Loss		1.0044
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		63.27		87.05		50.32
-Train Precision		0.0		0.0		50.32
-Train Recall		0.0		0.0		100.0
-Train F1 Score		0.0		0.0		66.95
-Valid Accuracy		60.64		86.44		47.08
-Valid Precision	0.0		0.0		47.08
-Valid Recall		0.0		0.0		100.0
-Valid F1 Score		0.0		0.0		64.02
-Valid AUCs		0.9398		0.5639		0.952
+Train Accuracy		63.82		87.13		50.95
+Train Precision	100.0		0.0		50.64
+Train Recall		1.68		0.0		100.0
+Train F1 Score		3.3		0.0		67.23
+Valid Accuracy		60.84		86.34		47.18
+Valid Precision	100.0		0.0		47.1
+Valid Recall		0.35		0.0		100.0
+Valid F1 Score		0.7		0.0		64.04
+Valid AUCs		0.7397		0.9834		0.8451
 
 Epoch No	4
-Train Loss		1.0054
-Valid Loss		1.003
+Train Loss		0.9849
+Valid Loss		0.9942
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		63.37		87.05		50.42
-Train Precision		100.0		0.0		50.37
-Train Recall		0.25		0.0		100.0
-Train F1 Score		0.5		0.0		66.99
-Valid Accuracy		61.06		86.44		47.5
-Valid Precision	100.0		0.0		47.28
-Valid Recall		1.06		0.0		100.0
-Valid F1 Score		2.1		0.0		64.2
-Valid AUCs		0.9394		0.563		0.9519
+Train Accuracy		65.87		87.13		53.0
+Train Precision	100.0		0.0		51.71
+Train Recall		7.26		0.0		100.0
+Train F1 Score		13.54		0.0		68.17
+Valid Accuracy		68.78		86.34		55.12
+Valid Precision	100.0		0.0		51.18
+Valid Recall		20.57		0.0		100.0
+Valid F1 Score		34.12		0.0		67.71
+Valid AUCs		0.7398		0.9889		0.8481
 
 Epoch No	5
-Train Loss		0.9969
-Valid Loss		0.9166
+Train Loss		0.9774
+Valid Loss		0.9869
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		62.48		87.05		59.43
-Train Precision		49.1		0.0		58.71
-Train Recall		58.85		0.0		65.31
-Train F1 Score		53.53		0.0		61.83
-Valid Accuracy		73.5		86.44		60.36
-Valid Precision	97.93		0.0		54.3
-Valid Recall		33.39		0.0		99.85
-Valid F1 Score		49.8		0.0		70.35
-Valid AUCs		0.9436		0.558		0.9534
+Train Accuracy		69.58		87.13		56.72
+Train Precision	99.88		0.0		53.77
+Train Recall		17.35		0.0		100.0
+Train F1 Score		29.56		0.0		69.94
+Valid Accuracy		71.78		86.34		58.12
+Valid Precision	100.0		0.0		52.9
+Valid Recall		28.19		0.0		100.0
+Valid F1 Score		43.98		0.0		69.2
+Valid AUCs		0.7403		0.9911		0.8493
 
 Epoch No	6
-Train Loss		0.8323
-Valid Loss		0.7546
+Train Loss		0.9699
+Valid Loss		0.9817
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		84.93		87.05		73.33
-Train Precision		94.28		0.0		65.65
-Train Recall		62.78		0.0		98.56
-Train F1 Score		75.37		0.0		78.81
-Valid Accuracy		92.35		86.44		81.99
-Valid Precision	91.61		0.0		73.48
-Valid Recall		88.69		0.0		96.6
-Valid F1 Score		90.13		0.0		83.47
-Valid AUCs		0.9444		0.573		0.955
+Train Accuracy		72.1		87.13		59.28
+Train Precision	99.74		0.0		55.28
+Train Recall		24.25		0.0		100.0
+Train F1 Score		39.01		0.0		71.2
+Valid Accuracy		68.99		86.34		55.33
+Valid Precision	100.0		0.0		51.29
+Valid Recall		21.1		0.0		100.0
+Valid F1 Score		34.85		0.0		67.8
+Valid AUCs		0.7402		0.9869		0.85
 
 Epoch No	7
-Train Loss		0.7386
-Valid Loss		0.7499
+Train Loss		0.9633
+Valid Loss		0.9843
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		93.31		87.05		83.07
-Train Precision		91.68		0.0		76.1
-Train Recall		89.95		0.0		96.73
-Train F1 Score		90.81		0.0		85.18
-Valid Accuracy		91.72		86.44		82.48
-Valid Precision	89.98		0.0		74.18
-Valid Recall		88.87		0.0		96.31
-Valid F1 Score		89.42		0.0		83.81
-Valid AUCs		0.9439		0.6128		0.9558
+Train Accuracy		73.41		87.13		60.62
+Train Precision	99.62		0.0		56.1
+Train Recall		27.85		0.0		100.0
+Train F1 Score		43.53		0.0		71.88
+Valid Accuracy		68.78		86.34		55.12
+Valid Precision	100.0		0.0		51.18
+Valid Recall		20.57		0.0		100.0
+Valid F1 Score		34.12		0.0		67.71
+Valid AUCs		0.7399		0.9507		0.85
 
 Epoch No	8
-Train Loss		0.7355
-Valid Loss		0.7483
+Train Loss		0.958
+Valid Loss		0.9715
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		93.34		87.05		83.23
-Train Precision		91.73		0.0		76.22
-Train Recall		89.97		0.0		96.9
-Train F1 Score		90.84		0.0		85.32
-Valid Accuracy		91.93		86.44		82.41
-Valid Precision	90.47		0.0		74.04
-Valid Recall		88.87		0.0		96.45
-Valid F1 Score		89.66		0.0		83.77
-Valid AUCs		0.9438		0.6157		0.9561
+Train Accuracy		74.3		87.13		61.82
+Train Precision	98.25		0.0		56.86
+Train Recall		30.71		0.0		99.98
+Train F1 Score		46.79		0.0		72.49
+Valid Accuracy		69.2		86.34		55.54
+Valid Precision	100.0		0.0		51.41
+Valid Recall		21.63		0.0		100.0
+Valid F1 Score		35.57		0.0		67.91
+Valid AUCs		0.7402		0.9826		0.8508
 
 Epoch No	9
-Train Loss		0.734
-Valid Loss		0.7475
+Train Loss		0.9514
+Valid Loss		0.9716
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		93.47		87.05		83.24
-Train Precision		92.1		0.0		76.16
-Train Recall		89.93		0.0		97.07
-Train F1 Score		91.0		0.0		85.35
-Valid Accuracy		92.14		86.44		82.34
-Valid Precision	90.96		0.0		73.9
-Valid Recall		88.87		0.0		96.6
-Valid F1 Score		89.9		0.0		83.74
-Valid AUCs		0.9438		0.6144		0.9561
+Train Accuracy		75.58		87.13		63.25
+Train Precision	97.85		0.0		57.8
+Train Recall		34.39		0.0		99.98
+Train F1 Score		50.89		0.0		73.25
+Valid Accuracy		68.78		86.34		55.12
+Valid Precision	100.0		0.0		51.18
+Valid Recall		20.57		0.0		100.0
+Valid F1 Score		34.12		0.0		67.71
+Valid AUCs		0.7401		0.9614		0.8509
 
 Epoch No	10
-Train Loss		0.7331
-Valid Loss		0.7473
+Train Loss		0.9461
+Valid Loss		0.963
 x		Germline Variant	Somatic Variant  Normal
-Train Accuracy		93.48		87.05		83.3
-Train Precision		92.14		0.0		76.2
-Train Recall		89.93		0.0		97.15
-Train F1 Score		91.02		0.0		85.41
-Valid Accuracy		92.07		86.44		82.41
-Valid Precision	90.94		0.0		73.93
-Valid Recall		88.69		0.0		96.75
-Valid F1 Score		89.8		0.0		83.81
-Valid AUCs		0.9434		0.615		0.9564
+Train Accuracy		76.76		87.13		64.5
+Train Precision	97.76		0.0		58.64
+Train Recall		37.69		0.0		99.98
+Train F1 Score		54.4		0.0		73.92
+Valid Accuracy		69.97		86.34		56.31
+Valid Precision	100.0		0.0		51.84
+Valid Recall		23.58		0.0		100.0
+Valid F1 Score		38.16		0.0		68.28
+Valid AUCs		0.7402		0.975		0.8513
+
+Epoch No	11
+Train Loss		0.9412
+Valid Loss		0.955
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		76.8		87.13		64.61
+Train Precision	97.51		0.0		58.72
+Train Recall		37.93		0.0		99.97
+Train F1 Score		54.62		0.0		73.98
+Valid Accuracy		78.61		86.34		67.6
+Valid Precision	93.27		0.0		59.23
+Valid Recall		49.11		0.0		99.85
+Valid F1 Score		64.34		0.0		74.35
+Valid AUCs		0.7402		0.9902		0.8516
+
+Epoch No	12
+Train Loss		0.9357
+Valid Loss		0.9557
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		79.35		87.13		67.57
+Train Precision	96.77		0.0		60.82
+Train Recall		45.39		0.0		99.98
+Train F1 Score		61.8		0.0		75.63
+Valid Accuracy		70.45		86.34		56.93
+Valid Precision	99.3		0.0		52.2
+Valid Recall		25.0		0.0		100.0
+Valid F1 Score		39.94		0.0		68.59
+Valid AUCs		0.7403		0.9719		0.8519
+
+Epoch No	13
+Train Loss		0.9317
+Valid Loss		0.9511
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		79.3		87.13		67.59
+Train Precision	96.59		0.0		60.83
+Train Recall		45.35		0.0		99.98
+Train F1 Score		61.72		0.0		75.64
+Valid Accuracy		72.4		86.34		59.02
+Valid Precision	98.84		0.0		53.44
+Valid Recall		30.14		0.0		100.0
+Valid F1 Score		46.19		0.0		69.66
+Valid AUCs		0.7402		0.9746		0.8522
+
+Epoch No	14
+Train Loss		0.9276
+Valid Loss		0.948
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		80.28		87.13		69.07
+Train Precision	95.54		0.0		61.94
+Train Recall		48.7		0.0		99.98
+Train F1 Score		64.51		0.0		76.49
+Valid Accuracy		73.38		86.34		60.0
+Valid Precision	98.92		0.0		54.04
+Valid Recall		32.62		0.0		100.0
+Valid F1 Score		49.06		0.0		70.16
+Valid AUCs		0.7401		0.9739		0.8523
+
+Epoch No	15
+Train Loss		0.9235
+Valid Loss		0.9418
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		80.56		87.13		69.46
+Train Precision	95.27		0.0		62.24
+Train Recall		49.62		0.0		99.97
+Train F1 Score		65.25		0.0		76.72
+Valid Accuracy		78.47		86.34		67.46
+Valid Precision	93.22		0.0		59.12
+Valid Recall		48.76		0.0		99.85
+Valid F1 Score		64.03		0.0		74.27
+Valid AUCs		0.7401		0.9849		0.8526
+
+Epoch No	16
+Train Loss		0.9198
+Valid Loss		0.9388
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.12		87.13		70.32
+Train Precision	94.74		0.0		62.91
+Train Recall		51.56		0.0		99.97
+Train F1 Score		66.78		0.0		77.22
+Valid Accuracy		78.54		86.34		67.53
+Valid Precision	93.24		0.0		59.17
+Valid Recall		48.94		0.0		99.85
+Valid F1 Score		64.19		0.0		74.31
+Valid AUCs		0.7401		0.9851		0.8527
+
+Epoch No	17
+Train Loss		0.9167
+Valid Loss		0.9349
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.11		87.13		70.43
+Train Precision	94.43		0.0		63.0
+Train Recall		51.7		0.0		99.95
+Train F1 Score		66.82		0.0		77.29
+Valid Accuracy		78.89		86.34		68.43
+Valid Precision	92.23		0.0		59.86
+Valid Recall		50.53		0.0		99.85
+Valid F1 Score		65.29		0.0		74.85
+Valid AUCs		0.7402		0.9898		0.8529
+
+Epoch No	18
+Train Loss		0.9141
+Valid Loss		0.9343
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.24		87.13		70.76
+Train Precision	94.03		0.0		63.26
+Train Recall		52.36		0.0		99.94
+Train F1 Score		67.26		0.0		77.48
+Valid Accuracy		78.47		86.34		67.46
+Valid Precision	93.22		0.0		59.12
+Valid Recall		48.76		0.0		99.85
+Valid F1 Score		64.03		0.0		74.27
+Valid AUCs		0.7398		0.9814		0.8528
+
+Epoch No	19
+Train Loss		0.911
+Valid Loss		0.9319
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.48		87.13		71.18
+Train Precision	93.81		0.0		63.59
+Train Recall		53.2		0.0		99.98
+Train F1 Score		67.9		0.0		77.74
+Valid Accuracy		78.54		86.34		67.53
+Valid Precision	93.24		0.0		59.17
+Valid Recall		48.94		0.0		99.85
+Valid F1 Score		64.19		0.0		74.31
+Valid AUCs		0.7398		0.9819		0.853
+
+Epoch No	20
+Train Loss		0.9081
+Valid Loss		0.9283
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.52		87.13		71.24
+Train Precision	93.72		0.0		63.64
+Train Recall		53.37		0.0		99.95
+Train F1 Score		68.01		0.0		77.77
+Valid Accuracy		78.54		86.34		68.08
+Valid Precision	92.11		0.0		59.59
+Valid Recall		49.65		0.0		99.85
+Valid F1 Score		64.52		0.0		74.64
+Valid AUCs		0.7399		0.9868		0.8532
+
+Epoch No	21
+Train Loss		0.9054
+Valid Loss		0.9267
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.56		87.13		71.49
+Train Precision	93.32		0.0		63.84
+Train Recall		53.74		0.0		99.97
+Train F1 Score		68.2		0.0		77.92
+Valid Accuracy		78.47		86.34		67.87
+Valid Precision	92.36		0.0		59.44
+Valid Recall		49.29		0.0		99.85
+Valid F1 Score		64.28		0.0		74.52
+Valid AUCs		0.7399		0.9852		0.8532
+
+Epoch No	22
+Train Loss		0.9027
+Valid Loss		0.923
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.5		87.13		71.41
+Train Precision	93.36		0.0		63.78
+Train Recall		53.53		0.0		99.98
+Train F1 Score		68.04		0.0		77.88
+Valid Accuracy		78.82		86.34		69.34
+Valid Precision	90.12		0.0		60.58
+Valid Recall		51.77		0.0		99.7
+Valid F1 Score		65.76		0.0		75.37
+Valid AUCs		0.7398		0.9923		0.8534
+
+Epoch No	23
+Train Loss		0.9011
+Valid Loss		0.9211
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.52		87.13		71.53
+Train Precision	93.05		0.0		63.88
+Train Recall		53.81		0.0		99.92
+Train F1 Score		68.19		0.0		77.94
+Valid Accuracy		79.16		86.34		68.85
+Valid Precision	92.06		0.0		60.18
+Valid Recall		51.42		0.0		99.85
+Valid F1 Score		65.98		0.0		75.1
+Valid AUCs		0.74		0.9911		0.8536
+
+Epoch No	24
+Train Loss		0.8981
+Valid Loss		0.9251
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.74		87.13		71.76
+Train Precision	93.15		0.0		64.07
+Train Recall		54.38		0.0		99.95
+Train F1 Score		68.67		0.0		78.09
+Valid Accuracy		78.05		86.34		67.04
+Valid Precision	93.08		0.0		58.81
+Valid Recall		47.7		0.0		99.85
+Valid F1 Score		63.08		0.0		74.02
+Valid AUCs		0.7402		0.9733		0.8538
+
+Epoch No	25
+Train Loss		0.8966
+Valid Loss		0.9184
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.47		87.13		71.75
+Train Precision	92.42		0.0		64.07
+Train Recall		54.08		0.0		99.89
+Train F1 Score		68.23		0.0		78.07
+Valid Accuracy		78.89		86.34		68.43
+Valid Precision	92.23		0.0		59.86
+Valid Recall		50.53		0.0		99.85
+Valid F1 Score		65.29		0.0		74.85
+Valid AUCs		0.7402		0.9883		0.854
+
+Epoch No	26
+Train Loss		0.8943
+Valid Loss		0.9171
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.83		87.13		71.86
+Train Precision	93.09		0.0		64.16
+Train Recall		54.67		0.0		99.92
+Train F1 Score		68.89		0.0		78.14
+Valid Accuracy		78.82		86.34		68.36
+Valid Precision	92.21		0.0		59.8
+Valid Recall		50.35		0.0		99.85
+Valid F1 Score		65.13		0.0		74.8
+Valid AUCs		0.7404		0.9877		0.8541
+
+Epoch No	27
+Train Loss		0.8923
+Valid Loss		0.914
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.69		87.13		71.93
+Train Precision	92.65		0.0		64.21
+Train Recall		54.59		0.0		99.92
+Train F1 Score		68.7		0.0		78.18
+Valid Accuracy		78.33		86.34		70.24
+Valid Precision	87.54		0.0		61.29
+Valid Recall		52.3		0.0		99.7
+Valid F1 Score		65.48		0.0		75.91
+Valid AUCs		0.7404		0.9933		0.8542
+
+Epoch No	28
+Train Loss		0.8905
+Valid Loss		0.9146
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.75		87.13		72.03
+Train Precision	92.6		0.0		64.29
+Train Recall		54.77		0.0		99.94
+Train F1 Score		68.83		0.0		78.25
+Valid Accuracy		78.82		86.34		68.36
+Valid Precision	92.21		0.0		59.8
+Valid Recall		50.35		0.0		99.85
+Valid F1 Score		65.13		0.0		74.8
+Valid AUCs		0.7406		0.9866		0.8544
+
+Epoch No	29
+Train Loss		0.8886
+Valid Loss		0.9177
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.62		87.13		72.41
+Train Precision	91.55		0.0		64.61
+Train Recall		55.13		0.0		99.92
+Train F1 Score		68.82		0.0		78.48
+Valid Accuracy		78.4		86.34		67.53
+Valid Precision	92.91		0.0		59.17
+Valid Recall		48.76		0.0		99.85
+Valid F1 Score		63.96		0.0		74.31
+Valid AUCs		0.7408		0.974		0.8545
+
+Epoch No	30
+Train Loss		0.8873
+Valid Loss		0.9095
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.68		87.13		72.24
+Train Precision	91.98		0.0		64.47
+Train Recall		55.01		0.0		99.91
+Train F1 Score		68.85		0.0		78.37
+Valid Accuracy		78.4		86.34		70.03
+Valid Precision	88.02		0.0		61.13
+Valid Recall		52.13		0.0		99.7
+Valid F1 Score		65.48		0.0		75.79
+Valid AUCs		0.7409		0.9928		0.8548
+
+Epoch No	31
+Train Loss		0.8852
+Valid Loss		0.9083
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.7		87.13		72.2
+Train Precision	92.17		0.0		64.43
+Train Recall		54.94		0.0		99.94
+Train F1 Score		68.84		0.0		78.35
+Valid Accuracy		78.82		86.34		69.76
+Valid Precision	89.63		0.0		60.89
+Valid Recall		52.13		0.0		99.85
+Valid F1 Score		65.92		0.0		75.65
+Valid AUCs		0.7412		0.9919		0.855
+
+Epoch No	32
+Train Loss		0.8835
+Valid Loss		0.9091
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.85		87.13		72.46
+Train Precision	92.01		0.0		64.64
+Train Recall		55.49		0.0		99.94
+Train F1 Score		69.23		0.0		78.5
+Valid Accuracy		78.95		86.34		68.5
+Valid Precision	92.26		0.0		59.91
+Valid Recall		50.71		0.0		99.85
+Valid F1 Score		65.45		0.0		74.89
+Valid AUCs		0.7412		0.9874		0.855
+
+Epoch No	33
+Train Loss		0.8819
+Valid Loss		0.9065
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.95		87.13		72.36
+Train Precision	92.43		0.0		64.56
+Train Recall		55.49		0.0		99.94
+Train F1 Score		69.35		0.0		78.45
+Valid Accuracy		78.89		86.34		69.13
+Valid Precision	90.91		0.0		60.39
+Valid Recall		51.42		0.0		99.85
+Valid F1 Score		65.69		0.0		75.26
+Valid AUCs		0.7415		0.9903		0.8552
+
+Epoch No	34
+Train Loss		0.8809
+Valid Loss		0.9049
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.82		87.13		72.55
+Train Precision	91.77		0.0		64.72
+Train Recall		55.57		0.0		99.94
+Train F1 Score		69.22		0.0		78.56
+Valid Accuracy		78.89		86.34		69.69
+Valid Precision	89.91		0.0		60.83
+Valid Recall		52.13		0.0		99.85
+Valid F1 Score		66.0		0.0		75.6
+Valid AUCs		0.7416		0.9913		0.8553
+
+Epoch No	35
+Train Loss		0.8789
+Valid Loss		0.9035
+x		Germline Variant	Somatic Variant  Normal
+Train Accuracy		81.81		87.13		72.62
+Train Precision	91.59		0.0		64.78
+Train Recall		55.68		0.0		99.92
+Train F1 Score		69.26		0.0		78.6
+Valid Accuracy		78.68		86.34		69.9
+Valid Precision	89.09		0.0		61.0
+Valid Recall		52.13		0.0		99.85
+Valid F1 Score		65.77		0.0		75.73
+Valid AUCs		0.7416		0.992		0.8553
 

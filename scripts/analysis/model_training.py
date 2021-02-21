@@ -6,6 +6,7 @@ from sklearn.metrics import roc_auc_score
 import torch
 import torch.nn as nn
 import os
+from numpy.random import RandomState
 
 from models import GRU, LSTM, RNN, Transformer, Perceptron
 
@@ -46,8 +47,9 @@ def calculate_metrics(confusion_matrix):
 
 # Main function
 def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, hidden_units, 
-                layers, dropout, bidirectional, train_x, train_y, valid_x, valid_y, path):
-    
+                layers, dropout, bidirectional, train_x, train_y, valid_x, valid_y, path, save_freq):
+    rand = RandomState(1618820) # Student number as random seed
+
     # Set up GPU devide if available
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -57,9 +59,6 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
 
     valid_x = torch.Tensor(valid_x).double().to(device)
     valid_y = torch.Tensor(valid_y).double().to(device)
-
-    train_data = Dataset(train_x, train_y)    
-    train_data_loader = torch.utils.data.DataLoader(dataset=train_data, batch_size=batch_size, num_workers=10)
 
     # Initialise model
     if model_type == "GRU":
@@ -90,6 +89,15 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
 
     # Model training
     for epoch in range(start_epoch, epochs):
+        # Shuffle training data
+        shuffle_order = rand.permutation(train_x.shape[0])
+        train_x = train_x[shuffle_order]
+        train_y = train_y[shuffle_order]
+
+        train_data = Dataset(train_x, train_y)    
+        train_data_loader = torch.utils.data.DataLoader(dataset=train_data, batch_size=batch_size, num_workers=10)
+
+
         train_loss = 0.0
         train_confusion_matrix = np.zeros((3,3))
         
@@ -161,6 +169,11 @@ def train_model(experiment_name, model_type, epochs, learning_rate, batch_size, 
 
         # Save progress
         torch.save(model.state_dict(), "{}/models/{}-checkpoint.pt".format(path, experiment_name))
+
+        if (epoch+1) % save_freq == 0:
+            print("Saving")
+            torch.save(model.state_dict(), "{}/models/checkpoints/{}/{}-{}.pt".format(path, experiment_name[experiment_name.rfind('-')+1:],
+                                                                                      experiment_name, epoch+1))
 
         # Print metrics to output
         metrics_file.write("Epoch No\t{}\n".format(epoch+1)) 

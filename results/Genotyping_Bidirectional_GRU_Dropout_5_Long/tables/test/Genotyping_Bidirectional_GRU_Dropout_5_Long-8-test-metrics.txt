@@ -1,0 +1,280 @@
+Epoch No	50
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	100
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	150
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	200
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	250
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	300
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	350
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	400
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	450
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	500
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	550
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	600
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	650
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	700
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	750
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	800
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	850
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	900
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	950
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1000
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1050
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1100
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1150
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1200
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1250
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1300
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1350
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1400
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1450
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1500
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1550
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1600
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1650
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1700
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1750
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1800
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1850
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1900
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	1950
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+
+Epoch No	2000
+Test Accuracy		63.51
+Test Precision		26.97
+Test Recall		26.83
+Test F1 Score		26.9
+Test AUC		0.5171
+

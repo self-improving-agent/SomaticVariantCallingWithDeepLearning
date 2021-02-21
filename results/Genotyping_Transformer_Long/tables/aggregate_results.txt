@@ -1,0 +1,11 @@
+Train Loss		0.8744+-0.001
+Valid Loss		1.0076+-0.0023
+Train Accuracy		93.44+-0.05
+Train Precision	86.89+-0.1
+Train Recall		86.65+-0.11
+Train F1 Score		86.76+-0.11
+Valid Accuracy		85.75+-0.13
+Valid Precision	73.26+-0.28
+Valid Recall		71.67+-0.26
+Valid F1 Score		72.45+-0.27
+Valid AUC		0.817+-0.0005

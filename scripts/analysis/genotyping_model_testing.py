@@ -59,42 +59,50 @@ def genotyping_test_model(experiment_name, model_type, hidden_units, layers, dro
         # Default to GRU
         model = Genotyping_GRU(hidden_units, layers, dropout, bidirectional).double().to(device)
  
-    model.load_state_dict(torch.load("{}/models/{}.pt".format(path, experiment_name)))
-    model.eval()
-
-    # Run Inference
-    pos = range(0, len(test_x), 250)
-    test_output = np.zeros((len(test_x), 4))
-    for i in range(1, len(pos)):
-        start = pos[i-1]
-        end = pos[i]
-        
-        current_part = test_x[start:end]
-        
-        test_output[start:end] = model(current_part).detach().cpu().numpy()
-    test_output = torch.from_numpy(test_output)
-
-    test_output = test_output.squeeze().detach().numpy()
-    test_labels = np.argmax(test_output, axis=-1)
-    _, test_true_labels = test_y.max(dim=1)
-    test_confusion_matrix = confusion_matrix(test_true_labels, test_labels)
-
-    # Calculate AUC
-    auc = 0.0
-    for i in range(4):
-        auc += roc_auc_score(test_y[:,i], test_output[:,i])
-    auc = round(auc/4, 4)
-
-    # Calculate metrics
-    test_accuracy, test_precision, test_recall, test_f1 = calculate_metrics(test_confusion_matrix)
-
     metrics_file = open("{}/tables/test/{}-test-metrics.txt".format(path, experiment_name), "w")
-    metrics_file.write("Test Accuracy\t\t{}\n".format(test_accuracy))
-    metrics_file.write("Test Precision\t{}\n".format(test_precision))
-    metrics_file.write("Test Recall\t\t{}\n".format(test_recall))
-    metrics_file.write("Test F1 Score\t\t{}\n".format(test_f1))
-    metrics_file.write("Test AUC\t\t{}\n".format(auc))
-    metrics_file.write("\n")
+
+    saves = sorted(os.listdir("{}/models/checkpoints/{}".format(path,experiment_name[experiment_name.rfind('-')+1:])))
+    nums = [int(save[save.rfind('-')+1:save.rfind('.')]) for save in saves]
+    saves = [save[1] for save in sorted(zip(nums, saves))]
+    
+    # Iterate over saved checkpoints
+    for save in saves:
+        model.load_state_dict(torch.load("{}/models/{}.pt".format(path, experiment_name)))
+        model.eval()
+
+        # Run Inference
+        pos = range(0, len(test_x), 250)
+        test_output = np.zeros((len(test_x), 4))
+        for i in range(1, len(pos)):
+            start = pos[i-1]
+            end = pos[i]
+            
+            current_part = test_x[start:end]
+            
+            test_output[start:end] = model(current_part).detach().cpu().numpy()
+        test_output = torch.from_numpy(test_output)
+
+        test_output = test_output.squeeze().detach().numpy()
+        test_labels = np.argmax(test_output, axis=-1)
+        _, test_true_labels = test_y.max(dim=1)
+        test_confusion_matrix = confusion_matrix(test_true_labels, test_labels)
+
+        # Calculate AUC
+        auc = 0.0
+        for i in range(4):
+            auc += roc_auc_score(test_y[:,i], test_output[:,i])
+        auc = round(auc/4, 4)
+
+        # Calculate metrics
+        test_accuracy, test_precision, test_recall, test_f1 = calculate_metrics(test_confusion_matrix)
+
+        metrics_file.write("Epoch No\t{}\n".format(save[save.rfind('-')+1:-3]))
+        metrics_file.write("Test Accuracy\t\t{}\n".format(test_accuracy))
+        metrics_file.write("Test Precision\t\t{}\n".format(test_precision))
+        metrics_file.write("Test Recall\t\t{}\n".format(test_recall))
+        metrics_file.write("Test F1 Score\t\t{}\n".format(test_f1))
+        metrics_file.write("Test AUC\t\t{}\n".format(auc))
+        metrics_file.write("\n")
 
     # Calculate ROC stats
     fpr = dict()

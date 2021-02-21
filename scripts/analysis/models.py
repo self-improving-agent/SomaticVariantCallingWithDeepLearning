@@ -12,7 +12,7 @@ class GRU(nn.Module):
         self.bidirectional = bidirectional
 
         self.gru = nn.GRU(         
-            input_size = 4, # 4 features: Normal REF %, Normal ALT %, Tumor REF %, Tumor ALT %
+            input_size = 6, # 6 features: Normal REF %, Normal ALT %, Normal GAP %,  Tumor REF %, Tumor ALT %, Tumor GAP %
             hidden_size = self.n_hidden,         
             num_layers = self.n_layers,           
             batch_first = True,
@@ -47,7 +47,7 @@ class LSTM(nn.Module):
         self.bidirectional = bidirectional
 
         self.LSTM = nn.LSTM(         
-            input_size = 4, # 4 features: Normal REF %, Normal ALT %, Tumor REF %, Tumor ALT %
+            input_size = 6, # 6 features: Normal REF %, Normal ALT %, Normal GAP %,  Tumor REF %, Tumor ALT %, Tumor GAP %
             hidden_size = self.n_hidden,         
             num_layers = self.n_layers,           
             batch_first = True,
@@ -82,7 +82,7 @@ class RNN(nn.Module):
         self.bidirectional = bidirectional
 
         self.rnn = nn.RNN(         
-            input_size = 4, # 4 features: Normal REF %, Normal ALT %, Tumor REF %, Tumor ALT %
+            input_size = 6, # 6 features: Normal REF %, Normal ALT %, Normal GAP %,  Tumor REF %, Tumor ALT %, Tumor GAP %
             hidden_size = self.n_hidden,         
             num_layers = self.n_layers,           
             batch_first = True,
@@ -114,12 +114,12 @@ class Transformer(nn.Module):
         self.dropout = dropout
         self.seq_len = seq_len
 
-        encoder_layer = nn.TransformerEncoderLayer(d_model=4, nhead=4, dropout=self.dropout)
+        encoder_layer = nn.TransformerEncoderLayer(d_model=6, nhead=6, dropout=self.dropout)
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=n_layers)
         if self.dropout != 0.0:
             self.dropout_layer = nn.Dropout(p=self.dropout)
         self.flatten = nn.Flatten()
-        self.out = nn.Linear(self.seq_len*4, 3)
+        self.out = nn.Linear(self.seq_len*6, 3)
         self.out_act = nn.Softmax(dim=1)
 
     def forward(self, x):
@@ -137,7 +137,7 @@ class Perceptron(nn.Module):
         
         self.seq_len = seq_len
         
-        self.out = nn.Linear(self.seq_len*4, 3)
+        self.out = nn.Linear(self.seq_len*6, 3)
         self.out_act = nn.Softmax(dim=1)
         
     def forward(self, x):

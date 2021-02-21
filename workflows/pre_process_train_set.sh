@@ -14,7 +14,7 @@ module load anaconda/5.0.1
 
 source activate somatic-variant-calling
 
-# mode - "", "genotyping_"
+# mode - "normal", "genotyping_"
 
 snakemake --cores 2 pre_process_train_set --config CHR=22 purity=0.6 mode="genotyping_"
 

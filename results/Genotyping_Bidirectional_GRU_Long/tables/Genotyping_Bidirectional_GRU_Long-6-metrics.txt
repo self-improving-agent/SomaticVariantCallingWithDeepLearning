@@ -1,0 +1,889 @@
+Epoch No	1
+Train Loss		1.3811
+Valid Loss		1.3819
+Train Accuracy		63.74
+Train Precision	25.64
+Train Recall		25.29
+Train F1 Score		25.46
+Valid Accuracy		64.0
+Valid Precision	7.0
+Valid Recall		25.0
+Valid F1 Score		10.94
+Valid AUC		0.5225
+
+Epoch No	2
+Train Loss		1.3772
+Valid Loss		1.3807
+Train Accuracy		64.6
+Train Precision	14.61
+Train Recall		25.08
+Train F1 Score		18.46
+Valid Accuracy		63.54
+Valid Precision	13.61
+Valid Recall		24.49
+Valid F1 Score		17.5
+Valid AUC		0.5259
+
+Epoch No	3
+Train Loss		1.3756
+Valid Loss		1.3797
+Train Accuracy		64.91
+Train Precision	15.19
+Train Recall		25.82
+Train F1 Score		19.13
+Valid Accuracy		64.87
+Valid Precision	17.18
+Valid Recall		26.66
+Valid F1 Score		20.9
+Valid AUC		0.5295
+
+Epoch No	4
+Train Loss		1.3741
+Valid Loss		1.3789
+Train Accuracy		64.88
+Train Precision	15.08
+Train Recall		25.78
+Train F1 Score		19.03
+Valid Accuracy		64.18
+Valid Precision	14.73
+Valid Recall		25.57
+Valid F1 Score		18.69
+Valid AUC		0.5313
+
+Epoch No	5
+Train Loss		1.3745
+Valid Loss		1.3776
+Train Accuracy		64.96
+Train Precision	15.04
+Train Recall		26.09
+Train F1 Score		19.08
+Valid Accuracy		64.76
+Valid Precision	17.32
+Valid Recall		26.46
+Valid F1 Score		20.94
+Valid AUC		0.5409
+
+Epoch No	6
+Train Loss		1.3724
+Valid Loss		1.3771
+Train Accuracy		65.02
+Train Precision	25.26
+Train Recall		26.15
+Train F1 Score		25.7
+Valid Accuracy		64.0
+Valid Precision	14.31
+Valid Recall		25.26
+Valid F1 Score		18.27
+Valid AUC		0.539
+
+Epoch No	7
+Train Loss		1.3743
+Valid Loss		1.3754
+Train Accuracy		65.29
+Train Precision	22.6
+Train Recall		26.74
+Train F1 Score		24.5
+Valid Accuracy		64.7
+Valid Precision	22.98
+Valid Recall		27.06
+Valid F1 Score		24.85
+Valid AUC		0.5432
+
+Epoch No	8
+Train Loss		1.3726
+Valid Loss		1.3745
+Train Accuracy		65.36
+Train Precision	22.73
+Train Recall		27.0
+Train F1 Score		24.68
+Valid Accuracy		64.81
+Valid Precision	26.44
+Valid Recall		26.91
+Valid F1 Score		26.67
+Valid AUC		0.5468
+
+Epoch No	9
+Train Loss		1.3706
+Valid Loss		1.3739
+Train Accuracy		65.4
+Train Precision	23.51
+Train Recall		27.34
+Train F1 Score		25.28
+Valid Accuracy		64.7
+Valid Precision	26.71
+Valid Recall		26.85
+Valid F1 Score		26.78
+Valid AUC		0.5471
+
+Epoch No	10
+Train Loss		1.3715
+Valid Loss		1.3737
+Train Accuracy		65.45
+Train Precision	23.65
+Train Recall		27.37
+Train F1 Score		25.37
+Valid Accuracy		65.28
+Valid Precision	26.7
+Valid Recall		27.88
+Valid F1 Score		27.28
+Valid AUC		0.5497
+
+Epoch No	11
+Train Loss		1.3708
+Valid Loss		1.3732
+Train Accuracy		65.29
+Train Precision	22.4
+Train Recall		27.29
+Train F1 Score		24.6
+Valid Accuracy		64.58
+Valid Precision	24.48
+Valid Recall		26.43
+Valid F1 Score		25.42
+Valid AUC		0.5518
+
+Epoch No	12
+Train Loss		1.3711
+Valid Loss		1.3722
+Train Accuracy		65.79
+Train Precision	30.37
+Train Recall		27.98
+Train F1 Score		29.13
+Valid Accuracy		65.45
+Valid Precision	30.51
+Valid Recall		28.43
+Valid F1 Score		29.43
+Valid AUC		0.5525
+
+Epoch No	13
+Train Loss		1.372
+Valid Loss		1.372
+Train Accuracy		65.33
+Train Precision	29.65
+Train Recall		27.3
+Train F1 Score		28.43
+Valid Accuracy		65.51
+Valid Precision	34.01
+Valid Recall		28.36
+Valid F1 Score		30.93
+Valid AUC		0.5555
+
+Epoch No	14
+Train Loss		1.3694
+Valid Loss		1.373
+Train Accuracy		65.77
+Train Precision	31.33
+Train Recall		28.14
+Train F1 Score		29.65
+Valid Accuracy		64.12
+Valid Precision	26.99
+Valid Recall		25.85
+Valid F1 Score		26.41
+Valid AUC		0.5559
+
+Epoch No	15
+Train Loss		1.3682
+Valid Loss		1.3699
+Train Accuracy		65.72
+Train Precision	30.79
+Train Recall		28.2
+Train F1 Score		29.44
+Valid Accuracy		65.16
+Valid Precision	29.04
+Valid Recall		27.8
+Valid F1 Score		28.41
+Valid AUC		0.5613
+
+Epoch No	16
+Train Loss		1.3684
+Valid Loss		1.3701
+Train Accuracy		65.81
+Train Precision	31.69
+Train Recall		28.37
+Train F1 Score		29.94
+Valid Accuracy		64.99
+Valid Precision	29.14
+Valid Recall		27.59
+Valid F1 Score		28.34
+Valid AUC		0.5611
+
+Epoch No	17
+Train Loss		1.3658
+Valid Loss		1.3702
+Train Accuracy		66.09
+Train Precision	32.62
+Train Recall		28.93
+Train F1 Score		30.66
+Valid Accuracy		65.1
+Valid Precision	29.7
+Valid Recall		28.25
+Valid F1 Score		28.96
+Valid AUC		0.5596
+
+Epoch No	18
+Train Loss		1.3651
+Valid Loss		1.3715
+Train Accuracy		65.96
+Train Precision	30.79
+Train Recall		29.11
+Train F1 Score		29.93
+Valid Accuracy		64.41
+Valid Precision	27.76
+Valid Recall		26.5
+Valid F1 Score		27.12
+Valid AUC		0.5582
+
+Epoch No	19
+Train Loss		1.3666
+Valid Loss		1.3705
+Train Accuracy		66.02
+Train Precision	31.07
+Train Recall		29.53
+Train F1 Score		30.28
+Valid Accuracy		64.93
+Valid Precision	29.81
+Valid Recall		27.26
+Valid F1 Score		28.48
+Valid AUC		0.5649
+
+Epoch No	20
+Train Loss		1.3633
+Valid Loss		1.3705
+Train Accuracy		66.22
+Train Precision	32.41
+Train Recall		29.44
+Train F1 Score		30.85
+Valid Accuracy		65.39
+Valid Precision	29.12
+Valid Recall		28.79
+Valid F1 Score		28.95
+Valid AUC		0.56
+
+Epoch No	21
+Train Loss		1.363
+Valid Loss		1.3695
+Train Accuracy		66.13
+Train Precision	31.81
+Train Recall		29.56
+Train F1 Score		30.64
+Valid Accuracy		65.74
+Valid Precision	31.48
+Valid Recall		28.89
+Valid F1 Score		30.13
+Valid AUC		0.5641
+
+Epoch No	22
+Train Loss		1.3632
+Valid Loss		1.3698
+Train Accuracy		66.2
+Train Precision	32.32
+Train Recall		29.35
+Train F1 Score		30.76
+Valid Accuracy		64.35
+Valid Precision	29.23
+Valid Recall		26.68
+Valid F1 Score		27.9
+Valid AUC		0.5633
+
+Epoch No	23
+Train Loss		1.3621
+Valid Loss		1.3711
+Train Accuracy		66.24
+Train Precision	31.73
+Train Recall		29.72
+Train F1 Score		30.69
+Valid Accuracy		65.1
+Valid Precision	29.16
+Valid Recall		28.58
+Valid F1 Score		28.87
+Valid AUC		0.5645
+
+Epoch No	24
+Train Loss		1.3625
+Valid Loss		1.3696
+Train Accuracy		66.39
+Train Precision	32.7
+Train Recall		30.71
+Train F1 Score		31.67
+Valid Accuracy		64.93
+Valid Precision	29.65
+Valid Recall		27.52
+Valid F1 Score		28.55
+Valid AUC		0.5657
+
+Epoch No	25
+Train Loss		1.3604
+Valid Loss		1.3699
+Train Accuracy		66.5
+Train Precision	32.62
+Train Recall		30.29
+Train F1 Score		31.41
+Valid Accuracy		64.7
+Valid Precision	26.37
+Valid Recall		27.14
+Valid F1 Score		26.75
+Valid AUC		0.5651
+
+Epoch No	26
+Train Loss		1.3592
+Valid Loss		1.3692
+Train Accuracy		66.54
+Train Precision	32.61
+Train Recall		30.69
+Train F1 Score		31.62
+Valid Accuracy		65.68
+Valid Precision	28.49
+Valid Recall		29.19
+Valid F1 Score		28.84
+Valid AUC		0.569
+
+Epoch No	27
+Train Loss		1.3559
+Valid Loss		1.3709
+Train Accuracy		66.85
+Train Precision	33.74
+Train Recall		31.12
+Train F1 Score		32.38
+Valid Accuracy		65.16
+Valid Precision	28.84
+Valid Recall		29.35
+Valid F1 Score		29.09
+Valid AUC		0.5687
+
+Epoch No	28
+Train Loss		1.3581
+Valid Loss		1.3726
+Train Accuracy		66.68
+Train Precision	32.83
+Train Recall		31.43
+Train F1 Score		32.11
+Valid Accuracy		64.53
+Valid Precision	28.11
+Valid Recall		27.36
+Valid F1 Score		27.73
+Valid AUC		0.5654
+
+Epoch No	29
+Train Loss		1.3557
+Valid Loss		1.3677
+Train Accuracy		66.91
+Train Precision	33.46
+Train Recall		31.61
+Train F1 Score		32.51
+Valid Accuracy		65.57
+Valid Precision	29.31
+Valid Recall		29.25
+Valid F1 Score		29.28
+Valid AUC		0.5732
+
+Epoch No	30
+Train Loss		1.3526
+Valid Loss		1.367
+Train Accuracy		67.22
+Train Precision	33.65
+Train Recall		32.13
+Train F1 Score		32.87
+Valid Accuracy		65.62
+Valid Precision	29.19
+Valid Recall		29.3
+Valid F1 Score		29.24
+Valid AUC		0.5729
+
+Epoch No	31
+Train Loss		1.3556
+Valid Loss		1.3675
+Train Accuracy		67.09
+Train Precision	33.83
+Train Recall		31.87
+Train F1 Score		32.82
+Valid Accuracy		65.28
+Valid Precision	29.18
+Valid Recall		29.02
+Valid F1 Score		29.1
+Valid AUC		0.5745
+
+Epoch No	32
+Train Loss		1.3507
+Valid Loss		1.3665
+Train Accuracy		67.51
+Train Precision	34.45
+Train Recall		33.08
+Train F1 Score		33.75
+Valid Accuracy		66.09
+Valid Precision	30.81
+Valid Recall		30.05
+Valid F1 Score		30.43
+Valid AUC		0.5752
+
+Epoch No	33
+Train Loss		1.3499
+Valid Loss		1.3682
+Train Accuracy		67.13
+Train Precision	33.84
+Train Recall		32.12
+Train F1 Score		32.96
+Valid Accuracy		65.86
+Valid Precision	30.12
+Valid Recall		29.66
+Valid F1 Score		29.89
+Valid AUC		0.5708
+
+Epoch No	34
+Train Loss		1.3445
+Valid Loss		1.3712
+Train Accuracy		67.69
+Train Precision	35.42
+Train Recall		33.16
+Train F1 Score		34.25
+Valid Accuracy		65.57
+Valid Precision	30.89
+Valid Recall		30.63
+Valid F1 Score		30.76
+Valid AUC		0.5683
+
+Epoch No	35
+Train Loss		1.3485
+Valid Loss		1.3682
+Train Accuracy		67.53
+Train Precision	34.56
+Train Recall		33.31
+Train F1 Score		33.92
+Valid Accuracy		65.97
+Valid Precision	31.39
+Valid Recall		31.13
+Valid F1 Score		31.26
+Valid AUC		0.5724
+
+Epoch No	36
+Train Loss		1.3436
+Valid Loss		1.3669
+Train Accuracy		68.17
+Train Precision	36.11
+Train Recall		34.2
+Train F1 Score		35.13
+Valid Accuracy		66.61
+Valid Precision	31.79
+Valid Recall		31.71
+Valid F1 Score		31.75
+Valid AUC		0.5721
+
+Epoch No	37
+Train Loss		1.3412
+Valid Loss		1.3691
+Train Accuracy		68.27
+Train Precision	36.36
+Train Recall		34.43
+Train F1 Score		35.37
+Valid Accuracy		66.2
+Valid Precision	32.76
+Valid Recall		30.76
+Valid F1 Score		31.73
+Valid AUC		0.5715
+
+Epoch No	38
+Train Loss		1.3426
+Valid Loss		1.3678
+Train Accuracy		67.96
+Train Precision	36.01
+Train Recall		33.89
+Train F1 Score		34.92
+Valid Accuracy		66.26
+Valid Precision	31.57
+Valid Recall		30.62
+Valid F1 Score		31.09
+Valid AUC		0.5762
+
+Epoch No	39
+Train Loss		1.3349
+Valid Loss		1.3683
+Train Accuracy		68.66
+Train Precision	36.76
+Train Recall		35.17
+Train F1 Score		35.95
+Valid Accuracy		66.44
+Valid Precision	32.13
+Valid Recall		31.18
+Valid F1 Score		31.65
+Valid AUC		0.5713
+
+Epoch No	40
+Train Loss		1.3307
+Valid Loss		1.3675
+Train Accuracy		68.78
+Train Precision	37.6
+Train Recall		35.44
+Train F1 Score		36.49
+Valid Accuracy		66.26
+Valid Precision	31.08
+Valid Recall		30.83
+Valid F1 Score		30.95
+Valid AUC		0.5764
+
+Epoch No	41
+Train Loss		1.331
+Valid Loss		1.37
+Train Accuracy		68.97
+Train Precision	37.87
+Train Recall		35.89
+Train F1 Score		36.85
+Valid Accuracy		66.9
+Valid Precision	33.24
+Valid Recall		32.59
+Valid F1 Score		32.91
+Valid AUC		0.5699
+
+Epoch No	42
+Train Loss		1.3299
+Valid Loss		1.3686
+Train Accuracy		69.1
+Train Precision	37.62
+Train Recall		36.12
+Train F1 Score		36.85
+Valid Accuracy		67.07
+Valid Precision	33.77
+Valid Recall		33.14
+Valid F1 Score		33.45
+Valid AUC		0.5715
+
+Epoch No	43
+Train Loss		1.3254
+Valid Loss		1.3671
+Train Accuracy		69.54
+Train Precision	38.92
+Train Recall		37.05
+Train F1 Score		37.96
+Valid Accuracy		66.55
+Valid Precision	32.51
+Valid Recall		31.88
+Valid F1 Score		32.19
+Valid AUC		0.5737
+
+Epoch No	44
+Train Loss		1.3232
+Valid Loss		1.3687
+Train Accuracy		69.62
+Train Precision	38.76
+Train Recall		37.27
+Train F1 Score		38.0
+Valid Accuracy		66.67
+Valid Precision	32.17
+Valid Recall		31.76
+Valid F1 Score		31.96
+Valid AUC		0.5733
+
+Epoch No	45
+Train Loss		1.3199
+Valid Loss		1.366
+Train Accuracy		69.75
+Train Precision	39.41
+Train Recall		37.45
+Train F1 Score		38.41
+Valid Accuracy		66.49
+Valid Precision	32.72
+Valid Recall		31.7
+Valid F1 Score		32.2
+Valid AUC		0.5795
+
+Epoch No	46
+Train Loss		1.3173
+Valid Loss		1.3685
+Train Accuracy		69.85
+Train Precision	39.47
+Train Recall		37.65
+Train F1 Score		38.54
+Valid Accuracy		67.13
+Valid Precision	33.6
+Valid Recall		32.5
+Valid F1 Score		33.04
+Valid AUC		0.5776
+
+Epoch No	47
+Train Loss		1.3103
+Valid Loss		1.3684
+Train Accuracy		70.45
+Train Precision	40.55
+Train Recall		38.7
+Train F1 Score		39.6
+Valid Accuracy		66.72
+Valid Precision	32.99
+Valid Recall		32.24
+Valid F1 Score		32.61
+Valid AUC		0.5763
+
+Epoch No	48
+Train Loss		1.3138
+Valid Loss		1.3724
+Train Accuracy		70.23
+Train Precision	40.09
+Train Recall		38.48
+Train F1 Score		39.27
+Valid Accuracy		66.44
+Valid Precision	30.81
+Valid Recall		30.9
+Valid F1 Score		30.85
+Valid AUC		0.5753
+
+Epoch No	49
+Train Loss		1.3088
+Valid Loss		1.3692
+Train Accuracy		70.75
+Train Precision	40.95
+Train Recall		39.34
+Train F1 Score		40.13
+Valid Accuracy		66.84
+Valid Precision	32.69
+Valid Recall		31.92
+Valid F1 Score		32.3
+Valid AUC		0.5784
+
+Epoch No	50
+Train Loss		1.303
+Valid Loss		1.3689
+Train Accuracy		71.12
+Train Precision	42.01
+Train Recall		40.04
+Train F1 Score		41.0
+Valid Accuracy		66.84
+Valid Precision	33.09
+Valid Recall		32.37
+Valid F1 Score		32.73
+Valid AUC		0.5769
+
+Epoch No	51
+Train Loss		1.3049
+Valid Loss		1.3677
+Train Accuracy		70.92
+Train Precision	41.37
+Train Recall		39.83
+Train F1 Score		40.59
+Valid Accuracy		66.72
+Valid Precision	32.82
+Valid Recall		31.99
+Valid F1 Score		32.4
+Valid AUC		0.5803
+
+Epoch No	52
+Train Loss		1.2971
+Valid Loss		1.3668
+Train Accuracy		71.32
+Train Precision	41.91
+Train Recall		40.56
+Train F1 Score		41.22
+Valid Accuracy		67.48
+Valid Precision	34.41
+Valid Recall		33.64
+Valid F1 Score		34.02
+Valid AUC		0.577
+
+Epoch No	53
+Train Loss		1.2921
+Valid Loss		1.3683
+Train Accuracy		71.94
+Train Precision	43.33
+Train Recall		41.67
+Train F1 Score		42.48
+Valid Accuracy		67.19
+Valid Precision	33.62
+Valid Recall		32.71
+Valid F1 Score		33.16
+Valid AUC		0.5774
+
+Epoch No	54
+Train Loss		1.2904
+Valid Loss		1.3731
+Train Accuracy		71.88
+Train Precision	43.36
+Train Recall		41.69
+Train F1 Score		42.51
+Valid Accuracy		67.01
+Valid Precision	33.69
+Valid Recall		32.47
+Valid F1 Score		33.07
+Valid AUC		0.5754
+
+Epoch No	55
+Train Loss		1.2888
+Valid Loss		1.3655
+Train Accuracy		71.98
+Train Precision	43.6
+Train Recall		41.66
+Train F1 Score		42.61
+Valid Accuracy		67.42
+Valid Precision	34.46
+Valid Recall		33.7
+Valid F1 Score		34.08
+Valid AUC		0.5792
+
+Epoch No	56
+Train Loss		1.2898
+Valid Loss		1.373
+Train Accuracy		71.82
+Train Precision	43.01
+Train Recall		41.6
+Train F1 Score		42.29
+Valid Accuracy		67.07
+Valid Precision	33.39
+Valid Recall		32.73
+Valid F1 Score		33.06
+Valid AUC		0.5756
+
+Epoch No	57
+Train Loss		1.2851
+Valid Loss		1.3708
+Train Accuracy		72.59
+Train Precision	44.84
+Train Recall		43.0
+Train F1 Score		43.9
+Valid Accuracy		67.36
+Valid Precision	34.24
+Valid Recall		33.28
+Valid F1 Score		33.75
+Valid AUC		0.5791
+
+Epoch No	58
+Train Loss		1.2836
+Valid Loss		1.3767
+Train Accuracy		72.51
+Train Precision	44.42
+Train Recall		42.91
+Train F1 Score		43.65
+Valid Accuracy		66.49
+Valid Precision	32.18
+Valid Recall		31.6
+Valid F1 Score		31.89
+Valid AUC		0.5755
+
+Epoch No	59
+Train Loss		1.285
+Valid Loss		1.3737
+Train Accuracy		72.47
+Train Precision	44.63
+Train Recall		42.75
+Train F1 Score		43.67
+Valid Accuracy		67.13
+Valid Precision	33.25
+Valid Recall		32.91
+Valid F1 Score		33.08
+Valid AUC		0.5739
+
+Epoch No	60
+Train Loss		1.2884
+Valid Loss		1.3698
+Train Accuracy		72.08
+Train Precision	43.33
+Train Recall		42.27
+Train F1 Score		42.79
+Valid Accuracy		67.01
+Valid Precision	32.78
+Valid Recall		32.55
+Valid F1 Score		32.66
+Valid AUC		0.5799
+
+Epoch No	61
+Train Loss		1.2791
+Valid Loss		1.3729
+Train Accuracy		72.5
+Train Precision	44.67
+Train Recall		42.9
+Train F1 Score		43.77
+Valid Accuracy		67.19
+Valid Precision	33.85
+Valid Recall		32.93
+Valid F1 Score		33.38
+Valid AUC		0.5762
+
+Epoch No	62
+Train Loss		1.267
+Valid Loss		1.366
+Train Accuracy		73.59
+Train Precision	46.66
+Train Recall		45.08
+Train F1 Score		45.86
+Valid Accuracy		67.48
+Valid Precision	34.45
+Valid Recall		33.59
+Valid F1 Score		34.01
+Valid AUC		0.5806
+
+Epoch No	63
+Train Loss		1.2668
+Valid Loss		1.3703
+Train Accuracy		73.51
+Train Precision	46.39
+Train Recall		44.97
+Train F1 Score		45.67
+Valid Accuracy		67.3
+Valid Precision	33.64
+Valid Recall		33.17
+Valid F1 Score		33.4
+Valid AUC		0.5779
+
+Epoch No	64
+Train Loss		1.2614
+Valid Loss		1.3721
+Train Accuracy		73.66
+Train Precision	46.97
+Train Recall		45.15
+Train F1 Score		46.04
+Valid Accuracy		67.07
+Valid Precision	33.56
+Valid Recall		32.68
+Valid F1 Score		33.11
+Valid AUC		0.5779
+
+Epoch No	65
+Train Loss		1.2625
+Valid Loss		1.3643
+Train Accuracy		73.4
+Train Precision	46.17
+Train Recall		44.74
+Train F1 Score		45.44
+Valid Accuracy		67.48
+Valid Precision	34.74
+Valid Recall		33.74
+Valid F1 Score		34.23
+Valid AUC		0.5849
+
+Epoch No	66
+Train Loss		1.2539
+Valid Loss		1.3735
+Train Accuracy		74.44
+Train Precision	48.31
+Train Recall		46.7
+Train F1 Score		47.49
+Valid Accuracy		67.48
+Valid Precision	34.63
+Valid Recall		33.34
+Valid F1 Score		33.97
+Valid AUC		0.58
+
+Epoch No	67
+Train Loss		1.2506
+Valid Loss		1.3627
+Train Accuracy		74.28
+Train Precision	47.95
+Train Recall		46.41
+Train F1 Score		47.17
+Valid Accuracy		68.23
+Valid Precision	36.34
+Valid Recall		35.18
+Valid F1 Score		35.75
+Valid AUC		0.5822
+
+Epoch No	68
+Train Loss		1.2463
+Valid Loss		1.3651
+Train Accuracy		74.5
+Train Precision	48.4
+Train Recall		46.83
+Train F1 Score		47.6
+Valid Accuracy		67.65
+Valid Precision	35.05
+Valid Recall		34.13
+Valid F1 Score		34.58
+Valid AUC		0.5813
+
+Epoch No	69
+Train Loss		1.2444
+Valid Loss		1.3654
+Train Accuracy		74.74
+Train Precision	48.93

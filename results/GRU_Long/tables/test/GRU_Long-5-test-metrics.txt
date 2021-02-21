@@ -1,0 +1,320 @@
+Epoch No	50
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		93.86		94.56		93.23
+Test Precision		85.74		90.33		94.67
+Test Recall		96.33		79.54		91.62
+Test F1 Score		90.73		84.59		93.12
+Test AUCs		0.9571		0.8983		0.9327
+
+Epoch No	100
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		67.72		81.21		50.04
+Test Precision		30.8		0.0		50.02
+Test Recall		2.74		0.0		97.27
+Test F1 Score		5.03		0.0		66.07
+Test AUCs		0.7053		0.363		0.6446
+
+Epoch No	150
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		80.26		81.21		62.93
+Test Precision		86.6		0.0		57.67
+Test Recall		43.47		0.0		97.27
+Test F1 Score		57.88		0.0		72.41
+Test AUCs		0.9367		0.4557		0.8531
+
+Epoch No	200
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		92.64		81.21		83.59
+Test Precision		81.55		0.0		77.01
+Test Recall		98.79		0.0		95.78
+Test F1 Score		89.35		0.0		85.38
+Test AUCs		0.9637		0.8827		0.9619
+
+Epoch No	250
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		67.72		79.6		52.21
+Test Precision		30.8		12.82		51.16
+Test Recall		2.74		1.48		97.27
+Test F1 Score		5.03		2.65		67.05
+Test AUCs		0.8928		0.6344		0.9171
+
+Epoch No	300
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		67.72		94.59		70.49
+Test Precision		30.8		80.43		63.61
+Test Recall		2.74		94.09		95.73
+Test F1 Score		5.03		86.73		76.43
+Test AUCs		0.7193		0.9521		0.9563
+
+Epoch No	350
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		94.91		96.4		94.96
+Test Precision		87.57		89.85		98.68
+Test Recall		97.54		91.13		91.13
+Test F1 Score		92.29		90.49		94.75
+Test AUCs		0.9498		0.9556		0.9572
+
+Epoch No	400
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		95.87		97.5		96.43
+Test Precision		89.52		93.94		99.18
+Test Recall		98.26		92.67		93.64
+Test F1 Score		93.69		93.3		96.33
+Test AUCs		0.9617		0.9603		0.9585
+
+Epoch No	450
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.72		98.37		97.51
+Test Precision		91.98		97.07		98.97
+Test Recall		98.04		94.15		96.02
+Test F1 Score		94.91		95.59		97.47
+Test AUCs		0.9654		0.9617		0.9672
+
+Epoch No	500
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.92		98.33		97.72
+Test Precision		92.51		96.11		99.36
+Test Recall		98.08		94.97		96.07
+Test F1 Score		95.21		95.54		97.69
+Test AUCs		0.9672		0.9643		0.9687
+
+Epoch No	550
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.76		98.17		97.19
+Test Precision		92.5		94.88		98.94
+Test Recall		97.51		95.39		95.4
+Test F1 Score		94.94		95.13		97.14
+Test AUCs		0.965		0.9611		0.9623
+
+Epoch No	600
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.03		98.64		97.7
+Test Precision		92.79		97.52		99.02
+Test Recall		98.11		95.21		96.36
+Test F1 Score		95.38		96.35		97.67
+Test AUCs		0.9666		0.9657		0.9669
+
+Epoch No	650
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.97		98.63		97.82
+Test Precision		92.75		97.34		99.15
+Test Recall		97.94		95.33		96.47
+Test F1 Score		95.27		96.32		97.79
+Test AUCs		0.9663		0.9672		0.9675
+
+Epoch No	700
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.01		98.66		97.8
+Test Precision		93.05		97.35		98.98
+Test Recall		97.72		95.45		96.6
+Test F1 Score		95.33		96.39		97.78
+Test AUCs		0.9662		0.9659		0.9676
+
+Epoch No	750
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.0		98.61		97.83
+Test Precision		92.9		97.28		99.09
+Test Recall		97.86		95.27		96.56
+Test F1 Score		95.32		96.26		97.81
+Test AUCs		0.9663		0.9657		0.9661
+
+Epoch No	800
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.09		98.47		97.6
+Test Precision		93.21		96.47		98.88
+Test Recall		97.79		95.33		96.29
+Test F1 Score		95.45		95.9		97.57
+Test AUCs		0.9663		0.9658		0.9652
+
+Epoch No	850
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.09		98.68		97.81
+Test Precision		93.15		97.41		99.0
+Test Recall		97.86		95.51		96.6
+Test F1 Score		95.45		96.45		97.79
+Test AUCs		0.966		0.9665		0.9662
+
+Epoch No	900
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.1		98.73		97.9
+Test Precision		93.01		97.93		99.07
+Test Recall		98.08		95.27		96.71
+Test F1 Score		95.48		96.58		97.88
+Test AUCs		0.9669		0.9668		0.9671
+
+Epoch No	950
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.8		98.23		97.37
+Test Precision		92.31		95.01		99.35
+Test Recall		97.9		95.62		95.36
+Test F1 Score		95.02		95.31		97.31
+Test AUCs		0.9647		0.9597		0.9612
+
+Epoch No	1000
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.07		98.62		97.73
+Test Precision		93.0		97.34		98.97
+Test Recall		97.97		95.27		96.47
+Test F1 Score		95.42		96.29		97.7
+Test AUCs		0.9654		0.9661		0.9678
+
+Epoch No	1050
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.59		98.08		97.11
+Test Precision		91.84		94.75		99.14
+Test Recall		97.76		95.03		95.04
+Test F1 Score		94.71		94.89		97.05
+Test AUCs		0.9594		0.9648		0.959
+
+Epoch No	1100
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.18		98.78		97.84
+Test Precision		93.23		97.65		99.09
+Test Recall		98.08		95.8		96.58
+Test F1 Score		95.59		96.72		97.82
+Test AUCs		0.9661		0.9684		0.9667
+
+Epoch No	1150
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.0		98.73		97.8
+Test Precision		93.11		97.3		99.02
+Test Recall		97.61		95.92		96.56
+Test F1 Score		95.31		96.61		97.77
+Test AUCs		0.9652		0.9679		0.9665
+
+Epoch No	1200
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.12		98.8		97.9
+Test Precision		93.19		98.12		98.96
+Test Recall		97.94		95.45		96.82
+Test F1 Score		95.51		96.77		97.88
+Test AUCs		0.9655		0.9675		0.9678
+
+Epoch No	1250
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.24		98.88		97.92
+Test Precision		93.36		98.24		99.02
+Test Recall		98.15		95.74		96.8
+Test F1 Score		95.7		96.97		97.9
+Test AUCs		0.9655		0.9675		0.9665
+
+Epoch No	1300
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.01		98.62		97.66
+Test Precision		92.93		96.72		99.13
+Test Recall		97.86		95.92		96.16
+Test F1 Score		95.33		96.32		97.62
+Test AUCs		0.9673		0.9676		0.9639
+
+Epoch No	1350
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.18		98.81		97.88
+Test Precision		93.26		97.65		99.13
+Test Recall		98.04		95.98		96.6
+Test F1 Score		95.59		96.81		97.85
+Test AUCs		0.9666		0.9678		0.9666
+
+Epoch No	1400
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.12		98.74		97.8
+Test Precision		93.1		98.11		98.86
+Test Recall		98.04		95.15		96.71
+Test F1 Score		95.51		96.61		97.77
+Test AUCs		0.9651		0.968		0.9659
+
+Epoch No	1450
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		96.87		97.6		96.73
+Test Precision		92.79		96.12		97.28
+Test Recall		97.54		90.89		96.16
+Test F1 Score		95.11		93.43		96.72
+Test AUCs		0.9651		0.9648		0.9647
+
+Epoch No	1500
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.12		98.73		97.83
+Test Precision		93.05		97.47		99.18
+Test Recall		98.11		95.74		96.47
+Test F1 Score		95.51		96.6		97.81
+Test AUCs		0.966		0.967		0.9651
+
+Epoch No	1550
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.09		98.66		97.79
+Test Precision		93.07		97.63		98.93
+Test Recall		97.97		95.15		96.62
+Test F1 Score		95.46		96.37		97.76
+Test AUCs		0.9648		0.9663		0.966
+
+Epoch No	1600
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.13		98.7		97.83
+Test Precision		93.08		97.75		99.02
+Test Recall		98.11		95.27		96.62
+Test F1 Score		95.53		96.49		97.81
+Test AUCs		0.9668		0.9672		0.9676
+
+Epoch No	1650
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.32		98.81		97.89
+Test Precision		93.06		98.18		99.27
+Test Recall		98.79		95.45		96.49
+Test F1 Score		95.84		96.8		97.86
+Test AUCs		0.9684		0.9677		0.967
+
+Epoch No	1700
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.12		98.73		97.77
+Test Precision		93.25		97.99		98.75
+Test Recall		97.86		95.21		96.76
+Test F1 Score		95.5		96.58		97.74
+Test AUCs		0.9644		0.9673		0.9659
+
+Epoch No	1750
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.14		98.74		97.8
+Test Precision		93.28		97.64		98.93
+Test Recall		97.9		95.62		96.64
+Test F1 Score		95.53		96.62		97.77
+Test AUCs		0.9663		0.9677		0.9685
+
+Epoch No	1800
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.04		98.41		97.61
+Test Precision		92.83		96.74		98.97
+Test Recall		98.11		94.74		96.22
+Test F1 Score		95.4		95.73		97.58
+Test AUCs		0.967		0.9642		0.9614
+
+Epoch No	1850
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.21		98.71		97.86
+Test Precision		93.12		97.3		99.29
+Test Recall		98.33		95.8		96.4
+Test F1 Score		95.65		96.54		97.82
+Test AUCs		0.9684		0.9672		0.9679
+
+Epoch No	1900
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.23		98.79		97.89
+Test Precision		92.98		98.11		99.22
+Test Recall		98.58		95.39		96.53
+Test F1 Score		95.7		96.73		97.86
+Test AUCs		0.9678		0.9663		0.9663
+
+Epoch No	1950
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.11		98.52		97.7
+Test Precision		92.81		96.54		99.36
+Test Recall		98.36		95.56		96.02
+Test F1 Score		95.5		96.05		97.66
+Test AUCs		0.968		0.9663		0.9667
+
+Epoch No	2000
+x		Germline Variant	Somatic Variant  Normal
+Test Accuracy		97.21		98.86		97.96
+Test Precision		92.98		98.47		99.2
+Test Recall		98.5		95.39		96.69
+Test F1 Score		95.66		96.91		97.93
+Test AUCs		0.9679		0.9668		0.9653
+

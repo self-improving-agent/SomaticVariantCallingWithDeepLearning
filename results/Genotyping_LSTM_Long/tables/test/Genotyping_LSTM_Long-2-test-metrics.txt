@@ -1,0 +1,42 @@
+Epoch No	50
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+
+Epoch No	100
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+
+Epoch No	150
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+
+Epoch No	200
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+
+Epoch No	250
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+
+Epoch No	300
+Test Accuracy		63.57
+Test Precision		27.02
+Test Recall		26.98
+Test F1 Score		27.0
+Test AUC		0.5188
+

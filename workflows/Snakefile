@@ -15,6 +15,9 @@ if config.get('test_name') == None:
     
 if config.get('mode') == None:
     config['mode'] = 'placeholder'
+    
+if config.get('mode') == "normal":
+    config['mode'] = ''  
 
 rule pre_process_train_set:
     input:
