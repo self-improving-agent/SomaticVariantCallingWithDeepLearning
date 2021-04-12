@@ -1,0 +1,5000 @@
+Epoch No:	1
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.89		30.11		33.34		31.64		1.0242
+Valid	64.72		15.69		33.33		21.34		1.0257
+
+Epoch No:	2
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.87		22.33		33.32		26.74		1.0119
+Valid	64.67		15.68		33.28		21.32		1.0241
+
+Epoch No:	3
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.87		26.77		33.32		29.69		1.0118
+Valid	64.67		15.69		33.28		21.33		1.0237
+
+Epoch No:	4
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.88		16.78		33.33		22.32		1.0118
+Valid	64.72		15.69		33.33		21.34		1.0237
+
+Epoch No:	5
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	66.88		16.77		33.33		22.32		1.0102
+Valid	64.72		15.69		33.33		21.34		1.0219
+
+Epoch No:	6
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	70.37		47.76		38.16		42.42		0.9768
+Valid	86.18		52.73		61.09		56.61		0.8741
+
+Epoch No:	7
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	80.31		51.15		51.90		51.52		0.8571
+Valid	73.16		50.80		44.05		47.19		0.9528
+
+Epoch No:	8
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	82.33		52.96		54.64		53.79		0.8206
+Valid	86.79		55.03		61.57		58.12		0.7511
+
+Epoch No:	9
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.79		55.89		62.17		58.86		0.7356
+Valid	86.88		54.94		61.71		58.13		0.749
+
+Epoch No:	10
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.93		56.11		62.32		59.05		0.7329
+Valid	86.88		54.83		61.71		58.07		0.7475
+
+Epoch No:	11
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.96		56.15		62.34		59.08		0.7325
+Valid	86.79		54.50		61.61		57.84		0.7487
+
+Epoch No:	12
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.03		56.10		62.43		59.10		0.7308
+Valid	87.02		54.97		61.85		58.21		0.746
+
+Epoch No:	13
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.07		56.23		62.47		59.19		0.7303
+Valid	87.02		55.09		61.84		58.27		0.7458
+
+Epoch No:	14
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.02		56.08		62.42		59.08		0.7306
+Valid	86.97		54.73		61.80		58.05		0.7468
+
+Epoch No:	15
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.04		55.73		62.43		58.89		0.7295
+Valid	86.97		55.37		61.76		58.39		0.7469
+
+Epoch No:	16
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.04		56.42		62.41		59.27		0.7307
+Valid	87.07		55.47		61.86		58.49		0.7457
+
+Epoch No:	17
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.01		55.95		62.42		59.01		0.7314
+Valid	86.93		55.30		61.71		58.33		0.747
+
+Epoch No:	18
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.05		56.45		62.42		59.28		0.7307
+Valid	87.11		55.36		61.95		58.47		0.7451
+
+Epoch No:	19
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	84.75		53.68		58.00		55.76		0.7804
+Valid	72.88		50.70		43.70		46.94		0.9579
+
+Epoch No:	20
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	73.97		51.73		42.98		46.95		0.9419
+Valid	72.88		50.70		43.70		46.94		0.9581
+
+Epoch No:	21
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	73.97		51.73		42.98		46.95		0.9418
+Valid	72.88		50.70		43.70		46.94		0.9581
+
+Epoch No:	22
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.00		51.73		43.02		46.98		0.9415
+Valid	72.93		50.72		43.76		46.98		0.9577
+
+Epoch No:	23
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.74		43.05		47.00		0.9414
+Valid	72.93		50.72		43.76		46.98		0.9577
+
+Epoch No:	24
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.74		43.05		47.00		0.9413
+Valid	72.93		50.72		43.76		46.98		0.9576
+
+Epoch No:	25
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.70		43.05		46.98		0.9413
+Valid	72.93		50.72		43.76		46.98		0.9576
+
+Epoch No:	26
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.70		43.05		46.98		0.9412
+Valid	72.93		50.72		43.76		46.98		0.9576
+
+Epoch No:	27
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.70		43.05		46.98		0.9412
+Valid	72.93		50.72		43.76		46.98		0.9576
+
+Epoch No:	28
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.70		43.05		46.98		0.9412
+Valid	72.93		50.72		43.76		46.98		0.9576
+
+Epoch No:	29
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.02		51.70		43.05		46.98		0.9412
+Valid	72.93		50.72		43.76		46.98		0.9573
+
+Epoch No:	30
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9412
+Valid	72.93		50.72		43.76		46.98		0.9572
+
+Epoch No:	31
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9571
+
+Epoch No:	32
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	33
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.72		43.06		47.00		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9571
+
+Epoch No:	34
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9572
+
+Epoch No:	35
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9572
+
+Epoch No:	36
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9571
+
+Epoch No:	37
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		51.70		43.06		46.99		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	38
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	39
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	40
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	41
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	42
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	43
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	44
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	45
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	46
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.941
+Valid	72.97		50.73		43.82		47.02		0.9569
+
+Epoch No:	47
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		85.06		43.08		57.19		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	48
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.9411
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	49
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.941
+Valid	72.97		50.73		43.82		47.02		0.9569
+
+Epoch No:	50
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	51
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.941
+Valid	72.97		50.73		43.82		47.02		0.9569
+
+Epoch No:	52
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.03		68.39		43.08		52.86		0.9411
+Valid	72.97		50.73		43.82		47.02		0.9569
+
+Epoch No:	53
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		73.97		43.10		54.47		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	54
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		85.08		43.10		57.22		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	55
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		73.97		43.10		54.47		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	56
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		73.97		43.10		54.47		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	57
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		73.97		43.10		54.47		0.941
+Valid	72.97		50.73		43.82		47.02		0.9569
+
+Epoch No:	58
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.04		73.97		43.10		54.47		0.941
+Valid	72.97		50.73		43.82		47.02		0.957
+
+Epoch No:	59
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	74.22		68.36		43.36		53.06		0.9381
+Valid	73.76		50.88		44.82		47.66		0.9449
+
+Epoch No:	60
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	85.34		54.67		58.75		56.63		0.7709
+Valid	86.83		54.58		61.67		57.91		0.7489
+
+Epoch No:	61
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.89		56.00		62.29		58.97		0.733
+Valid	86.93		55.16		61.74		58.26		0.7477
+
+Epoch No:	62
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.92		56.22		62.30		59.10		0.7324
+Valid	86.93		55.16		61.74		58.26		0.7475
+
+Epoch No:	63
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.91		56.26		62.29		59.12		0.7323
+Valid	86.79		55.16		61.55		58.18		0.7494
+
+Epoch No:	64
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.94		56.41		62.29		59.20		0.7322
+Valid	86.74		55.00		61.51		58.07		0.7497
+
+Epoch No:	65
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.00		56.40		62.38		59.24		0.7313
+Valid	86.83		55.03		61.63		58.14		0.7485
+
+Epoch No:	66
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.05		56.27		62.45		59.20		0.7306
+Valid	86.79		54.60		61.60		57.89		0.7493
+
+Epoch No:	67
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.06		56.10		62.47		59.12		0.7303
+Valid	86.79		54.63		61.60		57.90		0.749
+
+Epoch No:	68
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.09		56.30		62.49		59.24		0.7301
+Valid	87.02		55.23		61.84		58.35		0.746
+
+Epoch No:	69
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.09		56.32		62.49		59.24		0.7297
+Valid	86.93		54.79		61.75		58.06		0.7471
+
+Epoch No:	70
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.10		56.22		62.51		59.19		0.7295
+Valid	86.97		54.88		61.80		58.14		0.7464
+
+Epoch No:	71
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.11		56.20		62.52		59.19		0.7296
+Valid	86.97		54.86		61.80		58.12		0.7463
+
+Epoch No:	72
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.11		56.24		62.52		59.21		0.7295
+Valid	87.02		54.95		61.84		58.19		0.7458
+
+Epoch No:	73
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.13		89.62		62.56		73.69		0.7292
+Valid	87.02		55.03		61.84		58.24		0.7452
+
+Epoch No:	74
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.14		89.66		62.58		73.71		0.729
+Valid	87.07		55.07		61.89		58.28		0.7449
+
+Epoch No:	75
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.14		89.66		62.57		73.71		0.729
+Valid	87.02		54.92		61.84		58.18		0.7454
+
+Epoch No:	76
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.12		89.65		62.56		73.69		0.729
+Valid	87.02		54.95		61.84		58.19		0.7452
+
+Epoch No:	77
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.14		89.61		62.57		73.69		0.7289
+Valid	87.02		55.00		61.84		58.22		0.7454
+
+Epoch No:	78
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.01		89.83		62.37		73.62		0.7311
+Valid	86.88		55.44		61.62		58.37		0.7483
+
+Epoch No:	79
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.00		90.01		62.33		73.65		0.7312
+Valid	86.83		55.34		61.57		58.29		0.7485
+
+Epoch No:	80
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.99		77.55		63.05		69.55		0.7275
+Valid	86.93		76.97		62.00		68.68		0.747
+
+Epoch No:	81
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	86.45		62.32		60.25		61.27		0.7547
+Valid	86.79		55.03		61.57		58.12		0.7496
+
+Epoch No:	82
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.95		89.33		62.39		73.47		0.7321
+Valid	86.88		87.92		61.83		72.60		0.7483
+
+Epoch No:	83
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.92		76.50		62.42		68.75		0.7325
+Valid	86.88		54.60		61.71		57.94		0.7476
+
+Epoch No:	84
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.96		75.03		62.42		68.15		0.732
+Valid	86.88		54.71		61.70		57.99		0.7479
+
+Epoch No:	85
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.08		74.50		62.56		68.01		0.7297
+Valid	86.93		54.75		61.74		58.03		0.7474
+
+Epoch No:	86
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.11		66.22		62.54		64.33		0.7296
+Valid	86.97		54.86		61.79		58.12		0.7469
+
+Epoch No:	87
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.06		76.80		62.53		68.93		0.7304
+Valid	86.97		81.84		62.24		70.71		0.7472
+
+Epoch No:	88
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.06		82.07		62.94		71.25		0.7303
+Valid	87.16		82.60		63.05		71.51		0.7447
+
+Epoch No:	89
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.17		81.90		63.48		71.53		0.7287
+Valid	87.20		79.84		63.35		70.65		0.7437
+
+Epoch No:	90
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.13		79.63		63.36		70.57		0.7293
+Valid	87.16		78.92		63.39		70.31		0.7447
+
+Epoch No:	91
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.20		80.89		63.66		71.25		0.7284
+Valid	87.16		80.36		63.39		70.88		0.7444
+
+Epoch No:	92
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.24		81.03		63.72		71.34		0.7278
+Valid	87.11		79.75		63.22		70.53		0.7443
+
+Epoch No:	93
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.24		82.86		63.72		72.04		0.7277
+Valid	87.20		80.88		63.57		71.19		0.7439
+
+Epoch No:	94
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.24		81.40		63.75		71.50		0.7278
+Valid	87.16		79.49		63.51		70.61		0.7445
+
+Epoch No:	95
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.26		82.26		63.80		71.87		0.7274
+Valid	86.88		73.67		62.94		67.88		0.7465
+
+Epoch No:	96
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.26		81.43		63.82		71.56		0.7275
+Valid	87.16		78.77		63.63		70.39		0.7442
+
+Epoch No:	97
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.28		81.75		63.91		71.74		0.7272
+Valid	87.30		78.91		63.79		70.54		0.7426
+
+Epoch No:	98
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.30		81.92		63.95		71.83		0.7268
+Valid	87.16		77.69		63.62		69.95		0.7442
+
+Epoch No:	99
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.25		79.27		63.85		70.73		0.7274
+Valid	87.16		75.32		63.50		68.91		0.7437
+
+Epoch No:	100
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.27		79.33		64.00		70.84		0.7271
+Valid	87.25		81.98		63.97		71.87		0.7431
+
+Epoch No:	101
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.23		66.36		62.59		64.42		0.7414
+Valid	86.60		55.32		61.29		58.15		0.7516
+
+Epoch No:	102
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.74		65.15		62.09		63.58		0.7353
+Valid	86.65		55.35		61.34		58.19		0.7516
+
+Epoch No:	103
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.60		66.55		62.03		64.21		0.7372
+Valid	86.65		55.24		61.34		58.13		0.7516
+
+Epoch No:	104
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.64		63.19		61.98		62.58		0.7362
+Valid	86.60		63.59		61.41		62.48		0.7521
+
+Epoch No:	105
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.74		65.06		62.10		63.55		0.7353
+Valid	86.65		55.19		61.36		58.11		0.7516
+
+Epoch No:	106
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		67.41		62.13		64.66		0.7349
+Valid	86.65		55.30		61.36		58.18		0.7511
+
+Epoch No:	107
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		70.18		62.13		65.91		0.7348
+Valid	86.69		62.00		61.53		61.77		0.7507
+
+Epoch No:	108
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		68.20		62.13		65.02		0.7349
+Valid	86.65		55.19		61.36		58.11		0.7509
+
+Epoch No:	109
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		66.54		62.11		64.25		0.7349
+Valid	86.65		61.97		61.48		61.72		0.7509
+
+Epoch No:	110
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		69.11		62.12		65.43		0.735
+Valid	86.69		63.65		61.52		62.57		0.7506
+
+Epoch No:	111
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.77		69.11		62.13		65.44		0.7348
+Valid	86.69		71.93		61.52		66.32		0.7505
+
+Epoch No:	112
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.78		69.64		62.13		65.67		0.7346
+Valid	86.69		63.64		61.53		62.57		0.7509
+
+Epoch No:	113
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.79		72.99		62.19		67.16		0.7345
+Valid	86.69		66.39		61.53		63.87		0.7505
+
+Epoch No:	114
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.78		72.96		62.16		67.13		0.7348
+Valid	86.65		55.10		61.36		58.07		0.7516
+
+Epoch No:	115
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.78		66.55		62.15		64.27		0.7346
+Valid	86.69		55.23		61.41		58.16		0.7509
+
+Epoch No:	116
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.75		67.43		62.11		64.66		0.735
+Valid	86.74		63.68		61.58		62.61		0.7503
+
+Epoch No:	117
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.76		62.32		62.09		62.20		0.7348
+Valid	86.60		55.13		61.30		58.05		0.7522
+
+Epoch No:	118
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.79		66.13		62.17		64.09		0.7343
+Valid	86.88		72.06		61.75		66.51		0.7487
+
+Epoch No:	119
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.79		67.40		62.16		64.68		0.7344
+Valid	86.74		55.16		61.49		58.15		0.7498
+
+Epoch No:	120
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.82		76.26		62.19		68.51		0.7341
+Valid	86.74		55.16		61.49		58.15		0.7499
+
+Epoch No:	121
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.81		71.43		62.21		66.50		0.7339
+Valid	86.79		55.20		61.54		58.20		0.7493
+
+Epoch No:	122
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.81		68.42		62.24		65.19		0.7342
+Valid	86.83		71.90		61.83		66.49		0.749
+
+Epoch No:	123
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.86		68.46		62.31		65.24		0.7336
+Valid	86.79		63.60		61.66		62.62		0.7495
+
+Epoch No:	124
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.89		71.76		62.40		66.75		0.7331
+Valid	86.79		66.35		61.66		63.92		0.7494
+
+Epoch No:	125
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.89		70.86		62.37		66.34		0.7331
+Valid	86.79		66.32		61.66		63.91		0.7494
+
+Epoch No:	126
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.87		68.28		62.35		65.18		0.7332
+Valid	86.51		55.14		61.20		58.01		0.7523
+
+Epoch No:	127
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.77		67.47		62.22		64.74		0.7346
+Valid	86.65		60.78		61.49		61.13		0.7517
+
+Epoch No:	128
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.84		70.66		62.36		66.25		0.7339
+Valid	86.65		59.99		61.49		60.73		0.7518
+
+Epoch No:	129
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.80		63.64		62.22		62.92		0.7343
+Valid	86.69		63.51		61.54		62.51		0.751
+
+Epoch No:	130
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.80		61.86		62.17		62.02		0.7342
+Valid	86.51		55.04		61.21		57.96		0.7535
+
+Epoch No:	131
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	87.95		72.83		62.76		67.42		0.732
+Valid	86.79		70.57		62.83		66.47		0.749
+
+Epoch No:	132
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.17		78.91		63.54		70.40		0.7288
+Valid	87.07		74.45		63.30		68.42		0.7458
+
+Epoch No:	133
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.21		78.41		63.70		70.29		0.7282
+Valid	86.97		72.75		63.29		67.69		0.7467
+
+Epoch No:	134
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.27		80.83		63.91		71.38		0.7272
+Valid	87.20		76.13		63.58		69.29		0.7434
+
+Epoch No:	135
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.35		81.70		63.94		71.74		0.726
+Valid	87.02		71.57		63.23		67.14		0.7453
+
+Epoch No:	136
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.38		80.66		64.07		71.41		0.7258
+Valid	87.25		76.74		63.75		69.64		0.7427
+
+Epoch No:	137
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.36		80.86		63.97		71.43		0.7257
+Valid	87.25		74.35		63.73		68.63		0.7429
+
+Epoch No:	138
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.41		80.96		64.13		71.57		0.7252
+Valid	87.20		74.65		63.44		68.59		0.7431
+
+Epoch No:	139
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.41		81.78		64.11		71.87		0.7253
+Valid	87.25		77.24		63.61		69.77		0.7423
+
+Epoch No:	140
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.43		84.00		64.15		72.74		0.7251
+Valid	87.16		74.27		63.63		68.54		0.7432
+
+Epoch No:	141
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.41		81.70		64.15		71.87		0.7251
+Valid	87.30		76.27		63.67		69.40		0.7421
+
+Epoch No:	142
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.45		84.53		64.18		72.96		0.7246
+Valid	87.34		76.01		63.84		69.40		0.7411
+
+Epoch No:	143
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.34		81.28		64.04		71.64		0.7261
+Valid	86.93		72.78		63.22		67.66		0.7472
+
+Epoch No:	144
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.32		81.61		64.06		71.78		0.7266
+Valid	87.11		75.15		63.47		68.82		0.7444
+
+Epoch No:	145
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.34		82.50		64.07		72.13		0.7261
+Valid	87.07		76.42		63.30		69.24		0.7452
+
+Epoch No:	146
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.36		83.50		64.11		72.53		0.726
+Valid	87.11		76.06		63.47		69.20		0.7445
+
+Epoch No:	147
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.32		81.93		64.02		71.87		0.7264
+Valid	87.07		74.48		63.30		68.43		0.7447
+
+Epoch No:	148
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.32		82.73		64.06		72.20		0.7265
+Valid	87.02		74.45		63.23		68.38		0.7458
+
+Epoch No:	149
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.29		82.84		63.96		72.18		0.7268
+Valid	87.20		78.25		63.58		70.15		0.7437
+
+Epoch No:	150
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.33		83.94		64.03		72.65		0.7264
+Valid	87.16		77.10		63.52		69.65		0.7443
+
+Epoch No:	151
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.35		84.21		64.05		72.76		0.7261
+Valid	87.16		77.10		63.52		69.65		0.7444
+
+Epoch No:	152
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.35		84.21		64.05		72.76		0.7262
+Valid	87.16		77.10		63.52		69.65		0.7445
+
+Epoch No:	153
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.36		84.73		64.06		72.96		0.7261
+Valid	87.16		77.10		63.52		69.65		0.744
+
+Epoch No:	154
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.35		84.25		64.07		72.79		0.7261
+Valid	87.16		77.61		63.40		69.79		0.7437
+
+Epoch No:	155
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.34		84.69		64.04		72.94		0.7264
+Valid	87.20		78.25		63.58		70.15		0.7441
+
+Epoch No:	156
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.36		84.66		64.05		72.92		0.7261
+Valid	87.25		78.28		63.63		70.20		0.7428
+
+Epoch No:	157
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.33		82.05		63.99		71.90		0.7263
+Valid	87.11		76.07		63.46		69.19		0.7445
+
+Epoch No:	158
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.32		81.71		64.06		71.82		0.7264
+Valid	87.16		77.10		63.52		69.65		0.7444
+
+Epoch No:	159
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.32		83.71		64.02		72.55		0.7264
+Valid	87.20		78.25		63.58		70.15		0.7437
+
+Epoch No:	160
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.36		84.93		64.05		73.02		0.726
+Valid	87.16		76.10		63.53		69.25		0.7437
+
+Epoch No:	161
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.38		83.15		64.12		72.40		0.7258
+Valid	87.20		78.25		63.58		70.15		0.7433
+
+Epoch No:	162
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.38		83.38		64.12		72.49		0.7257
+Valid	87.20		78.25		63.58		70.15		0.7434
+
+Epoch No:	163
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	88.40		81.40		64.28		71.84		0.7253
+Valid	87.30		78.25		63.92		70.36		0.7418
+
+Epoch No:	164
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	90.99		87.01		75.37		80.78		0.687
+Valid	93.79		90.99		87.99		89.46		0.6433
+
+Epoch No:	165
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.62		91.67		89.25		90.44		0.6319
+Valid	93.97		91.33		88.77		90.03		0.6418
+
+Epoch No:	166
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.79		92.31		89.49		90.88		0.6294
+Valid	94.16		92.06		88.99		90.50		0.6394
+
+Epoch No:	167
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.84		92.62		89.52		91.04		0.6288
+Valid	94.16		92.07		88.87		90.44		0.6391
+
+Epoch No:	168
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.79		92.18		89.46		90.80		0.6293
+Valid	94.30		92.68		88.93		90.77		0.6369
+
+Epoch No:	169
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.99		93.05		89.69		91.34		0.6265
+Valid	94.34		92.83		89.11		90.93		0.6361
+
+Epoch No:	170
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.84		92.44		89.46		90.92		0.6288
+Valid	94.25		91.76		89.01		90.36		0.6373
+
+Epoch No:	171
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.80		91.91		89.61		90.74		0.6292
+Valid	94.16		91.54		89.11		90.31		0.6392
+
+Epoch No:	172
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.84		92.28		89.63		90.93		0.6287
+Valid	94.30		92.49		89.06		90.74		0.6368
+
+Epoch No:	173
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.84		92.44		89.51		90.95		0.6286
+Valid	93.97		91.18		88.79		89.97		0.6414
+
+Epoch No:	174
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.84		92.49		89.54		90.99		0.6288
+Valid	94.20		91.73		89.05		90.37		0.6385
+
+Epoch No:	175
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.88		92.98		89.40		91.16		0.628
+Valid	94.25		92.06		89.12		90.57		0.638
+
+Epoch No:	176
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.92		92.50		89.72		91.09		0.6275
+Valid	94.25		92.33		89.11		90.69		0.6365
+
+Epoch No:	177
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.93		92.73		89.72		91.20		0.6271
+Valid	94.11		91.62		88.94		90.26		0.6395
+
+Epoch No:	178
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.91		92.47		89.72		91.07		0.6275
+Valid	94.02		91.15		89.08		90.10		0.6411
+
+Epoch No:	179
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.94		92.34		89.96		91.13		0.6273
+Valid	94.07		91.20		89.13		90.15		0.6406
+
+Epoch No:	180
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.94		92.54		89.92		91.21		0.627
+Valid	93.83		90.49		88.83		89.65		0.6442
+
+Epoch No:	181
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.80		92.17		89.58		90.85		0.6293
+Valid	94.30		92.77		89.17		90.94		0.6366
+
+Epoch No:	182
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.98		92.98		89.70		91.31		0.6268
+Valid	94.34		92.72		89.22		90.93		0.637
+
+Epoch No:	183
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.05		93.36		89.77		91.53		0.6259
+Valid	94.39		93.08		89.15		91.07		0.6358
+
+Epoch No:	184
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.01		93.11		89.69		91.37		0.6263
+Valid	94.11		91.79		88.93		90.34		0.6389
+
+Epoch No:	185
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.92		92.78		89.54		91.13		0.6275
+Valid	94.16		91.82		88.98		90.38		0.6387
+
+Epoch No:	186
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.00		92.92		89.74		91.30		0.6266
+Valid	94.34		92.88		89.10		90.95		0.6365
+
+Epoch No:	187
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.07		93.27		89.82		91.51		0.6254
+Valid	94.30		92.64		89.17		90.87		0.6366
+
+Epoch No:	188
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.01		92.76		89.87		91.29		0.6262
+Valid	94.30		92.39		89.17		90.75		0.6363
+
+Epoch No:	189
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.77		92.20		89.27		90.71		0.6297
+Valid	94.07		91.21		89.13		90.16		0.6406
+
+Epoch No:	190
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.86		92.44		89.60		91.00		0.6285
+Valid	94.25		91.92		89.21		90.54		0.6377
+
+Epoch No:	191
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.63		91.84		88.86		90.32		0.6321
+Valid	93.79		89.73		88.73		89.23		0.6434
+
+Epoch No:	192
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.75		91.54		89.75		90.64		0.63
+Valid	94.07		91.59		88.88		90.22		0.6402
+
+Epoch No:	193
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.90		92.38		89.91		91.13		0.6279
+Valid	93.74		90.47		88.73		89.59		0.6449
+
+Epoch No:	194
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.86		92.35		89.75		91.03		0.6285
+Valid	94.11		92.02		88.93		90.45		0.6398
+
+Epoch No:	195
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.91		92.90		89.57		91.20		0.6277
+Valid	94.16		91.96		89.10		90.51		0.6393
+
+Epoch No:	196
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.89		92.46		89.69		91.05		0.6278
+Valid	94.30		92.23		89.41		90.80		0.6373
+
+Epoch No:	197
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.01		92.74		89.86		91.28		0.6262
+Valid	94.25		91.79		89.36		90.56		0.6379
+
+Epoch No:	198
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.02		92.76		89.95		91.34		0.626
+Valid	94.25		91.81		89.35		90.56		0.6371
+
+Epoch No:	199
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.06		93.07		89.99		91.50		0.6252
+Valid	94.25		91.84		89.32		90.56		0.6384
+
+Epoch No:	200
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.99		93.29		89.49		91.35		0.6264
+Valid	94.34		92.41		89.34		90.85		0.6375
+
+Epoch No:	201
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.91		92.21		89.85		91.02		0.6273
+Valid	94.20		92.22		89.07		90.62		0.6382
+
+Epoch No:	202
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.95		92.57		89.95		91.24		0.6269
+Valid	93.65		90.59		88.03		89.29		0.6458
+
+Epoch No:	203
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.89		92.54		89.74		91.12		0.6279
+Valid	94.25		92.82		89.13		90.94		0.6374
+
+Epoch No:	204
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.97		93.19		89.76		91.44		0.627
+Valid	94.25		92.85		89.13		90.95		0.6374
+
+Epoch No:	205
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.01		93.10		89.84		91.44		0.6261
+Valid	94.16		92.59		89.02		90.77		0.6385
+
+Epoch No:	206
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.05		93.31		89.92		91.58		0.6258
+Valid	93.93		91.44		88.82		90.11		0.6431
+
+Epoch No:	207
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.07		93.54		90.00		91.74		0.6253
+Valid	94.25		92.34		89.31		90.80		0.6379
+
+Epoch No:	208
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.07		93.41		90.03		91.69		0.6252
+Valid	94.16		91.72		89.22		90.45		0.6389
+
+Epoch No:	209
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.02		92.72		90.13		91.41		0.6257
+Valid	93.88		92.64		87.63		90.07		0.6428
+
+Epoch No:	210
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	94.95		92.57		89.82		91.17		0.6268
+Valid	94.39		93.00		89.28		91.10		0.6355
+
+Epoch No:	211
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.14		93.04		90.28		91.64		0.6243
+Valid	94.53		92.92		89.67		91.27		0.634
+
+Epoch No:	212
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.23		93.49		90.30		91.87		0.6231
+Valid	94.48		93.02		89.50		91.23		0.6345
+
+Epoch No:	213
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.25		93.73		90.33		92.00		0.6228
+Valid	94.53		93.05		89.55		91.27		0.6336
+
+Epoch No:	214
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.22		93.78		90.21		91.96		0.623
+Valid	94.48		93.01		89.50		91.22		0.6333
+
+Epoch No:	215
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.24		93.68		90.35		91.98		0.6226
+Valid	94.58		93.00		89.72		91.33		0.6325
+
+Epoch No:	216
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.27		94.10		90.28		92.15		0.6224
+Valid	94.53		93.36		89.42		91.35		0.6337
+
+Epoch No:	217
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.23		93.77		90.22		91.96		0.6228
+Valid	94.44		92.93		89.45		91.16		0.6343
+
+Epoch No:	218
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.31		93.74		90.58		92.13		0.6215
+Valid	95.18		93.98		91.70		92.82		0.6251
+
+Epoch No:	219
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.48		94.03		91.16		92.57		0.6192
+Valid	95.09		94.01		91.59		92.78		0.6259
+
+Epoch No:	220
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.55		94.56		91.22		92.86		0.6182
+Valid	95.13		94.18		91.65		92.89		0.6243
+
+Epoch No:	221
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.53		94.60		91.11		92.82		0.6187
+Valid	94.81		93.31		91.14		92.21		0.629
+
+Epoch No:	222
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.49		94.30		91.12		92.68		0.6191
+Valid	94.90		93.29		91.38		92.32		0.6279
+
+Epoch No:	223
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.51		94.13		91.13		92.61		0.6186
+Valid	95.18		94.12		91.80		92.95		0.6241
+
+Epoch No:	224
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.64		94.61		91.40		92.98		0.6166
+Valid	94.99		93.71		91.44		92.56		0.6264
+
+Epoch No:	225
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.72		94.75		91.38		93.03		0.6157
+Valid	95.04		94.13		91.46		92.78		0.6261
+
+Epoch No:	226
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.71		94.89		91.34		93.08		0.6155
+Valid	94.95		94.02		91.24		92.61		0.6274
+
+Epoch No:	227
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.66		94.53		91.29		92.88		0.6164
+Valid	95.04		93.83		91.47		92.63		0.6263
+
+Epoch No:	228
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.70		94.77		91.34		93.03		0.6158
+Valid	94.85		93.80		91.24		92.50		0.6286
+
+Epoch No:	229
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.71		94.67		91.42		93.01		0.6157
+Valid	94.99		94.19		91.40		92.77		0.6265
+
+Epoch No:	230
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.73		94.88		91.45		93.13		0.6154
+Valid	95.09		94.37		91.54		92.93		0.6249
+
+Epoch No:	231
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.66		94.93		91.27		93.07		0.6165
+Valid	95.04		94.25		91.51		92.86		0.6257
+
+Epoch No:	232
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.61		94.60		91.29		92.92		0.617
+Valid	95.04		94.04		91.49		92.75		0.6255
+
+Epoch No:	233
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.72		94.51		91.52		92.99		0.6155
+Valid	95.04		94.18		91.48		92.81		0.6247
+
+Epoch No:	234
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.78		94.92		91.53		93.20		0.6148
+Valid	95.09		94.10		91.77		92.92		0.6258
+
+Epoch No:	235
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.84		95.06		91.69		93.35		0.6138
+Valid	95.13		94.46		91.81		93.12		0.6237
+
+Epoch No:	236
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.85		95.19		91.64		93.38		0.6136
+Valid	94.95		93.71		91.32		92.50		0.6262
+
+Epoch No:	237
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.82		94.92		91.64		93.25		0.614
+Valid	95.09		94.51		91.61		93.04		0.6251
+
+Epoch No:	238
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.88		95.08		91.86		93.44		0.6131
+Valid	95.04		94.10		91.36		92.71		0.6255
+
+Epoch No:	239
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.82		94.46		91.76		93.09		0.6142
+Valid	95.09		93.92		91.76		92.83		0.6248
+
+Epoch No:	240
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.93		95.13		91.94		93.51		0.6127
+Valid	94.99		94.26		91.38		92.80		0.6262
+
+Epoch No:	241
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.79		94.79		91.61		93.17		0.6147
+Valid	94.90		93.36		91.39		92.37		0.6275
+
+Epoch No:	242
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.70		94.75		91.47		93.08		0.6158
+Valid	94.90		94.29		91.44		92.85		0.6274
+
+Epoch No:	243
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.77		95.08		91.52		93.27		0.6147
+Valid	95.13		94.63		91.57		93.07		0.6251
+
+Epoch No:	244
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.91		95.09		91.90		93.47		0.6124
+Valid	95.22		94.67		91.89		93.26		0.6233
+
+Epoch No:	245
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.01		95.20		92.18		93.66		0.6111
+Valid	95.27		94.71		91.95		93.31		0.6225
+
+Epoch No:	246
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.99		95.41		92.02		93.68		0.6115
+Valid	95.18		94.72		91.85		93.26		0.624
+
+Epoch No:	247
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.57		92.15		93.83		0.6108
+Valid	95.22		94.81		91.89		93.33		0.6234
+
+Epoch No:	248
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.05		95.48		92.22		93.82		0.6106
+Valid	95.18		94.45		91.85		93.13		0.6235
+
+Epoch No:	249
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.55		92.13		93.81		0.6106
+Valid	95.13		94.53		91.79		93.14		0.6246
+
+Epoch No:	250
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.05		95.39		92.23		93.79		0.6105
+Valid	95.18		94.45		91.84		93.13		0.6239
+
+Epoch No:	251
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.06		95.33		92.31		93.80		0.6105
+Valid	95.13		94.27		91.78		93.01		0.6247
+
+Epoch No:	252
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.97		95.42		92.06		93.71		0.6116
+Valid	95.09		94.26		91.84		93.03		0.6253
+
+Epoch No:	253
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.06		95.34		92.33		93.81		0.6105
+Valid	95.27		94.88		91.94		93.39		0.6231
+
+Epoch No:	254
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.95		95.20		92.10		93.62		0.6119
+Valid	95.13		94.53		91.79		93.14		0.6245
+
+Epoch No:	255
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.00		95.20		92.24		93.70		0.6111
+Valid	95.18		94.43		91.97		93.18		0.6237
+
+Epoch No:	256
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.16		92.57		93.85		0.6101
+Valid	95.32		94.45		92.37		93.39		0.6222
+
+Epoch No:	257
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.01		95.10		92.30		93.68		0.6112
+Valid	95.09		94.61		91.74		93.15		0.6245
+
+Epoch No:	258
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.12		95.71		92.42		94.04		0.6094
+Valid	95.22		94.76		92.02		93.37		0.6226
+
+Epoch No:	259
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.14		95.58		92.52		94.03		0.6091
+Valid	95.13		94.90		91.77		93.31		0.6241
+
+Epoch No:	260
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.58		92.23		93.87		0.6106
+Valid	95.18		94.74		91.84		93.27		0.6234
+
+Epoch No:	261
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.94		94.83		92.22		93.51		0.6122
+Valid	95.04		94.45		91.68		93.04		0.6253
+
+Epoch No:	262
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.03		95.83		92.21		93.99		0.6106
+Valid	95.13		94.53		91.91		93.20		0.6244
+
+Epoch No:	263
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		95.92		92.44		94.15		0.6093
+Valid	95.27		94.71		92.06		93.37		0.6224
+
+Epoch No:	264
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.01		95.41		92.27		93.82		0.6111
+Valid	94.99		94.77		91.41		93.06		0.6261
+
+Epoch No:	265
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.07		95.79		92.22		93.97		0.6104
+Valid	95.36		95.08		92.18		93.61		0.621
+
+Epoch No:	266
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.86		95.03		91.97		93.48		0.6133
+Valid	95.41		95.05		92.26		93.63		0.6208
+
+Epoch No:	267
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.00		95.35		92.25		93.77		0.6112
+Valid	95.22		94.93		91.90		93.39		0.6226
+
+Epoch No:	268
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.12		95.92		92.42		94.14		0.6095
+Valid	95.04		94.94		91.67		93.27		0.6259
+
+Epoch No:	269
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.07		95.91		92.26		94.05		0.61
+Valid	95.36		95.03		92.20		93.59		0.6206
+
+Epoch No:	270
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.17		96.02		92.49		94.22		0.6089
+Valid	95.32		94.87		92.02		93.42		0.6215
+
+Epoch No:	271
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.11		95.85		92.36		94.07		0.6096
+Valid	95.32		94.89		92.12		93.49		0.6215
+
+Epoch No:	272
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		96.06		92.40		94.20		0.6089
+Valid	95.41		95.24		92.36		93.78		0.62
+
+Epoch No:	273
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.17		96.01		92.41		94.17		0.6087
+Valid	95.50		95.30		92.49		93.87		0.6192
+
+Epoch No:	274
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.71		92.35		94.00		0.6098
+Valid	95.22		94.61		91.91		93.24		0.6229
+
+Epoch No:	275
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.57		92.26		93.89		0.6108
+Valid	95.32		94.77		92.12		93.43		0.6218
+
+Epoch No:	276
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.13		95.99		92.34		94.13		0.6095
+Valid	95.46		95.29		92.31		93.77		0.6198
+
+Epoch No:	277
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.08		95.98		92.28		94.09		0.6097
+Valid	95.22		95.05		92.03		93.52		0.622
+
+Epoch No:	278
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.92		92.38		94.12		0.6095
+Valid	95.22		94.92		92.08		93.48		0.6227
+
+Epoch No:	279
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.08		95.97		92.35		94.13		0.6097
+Valid	95.46		95.14		92.31		93.70		0.6196
+
+Epoch No:	280
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.23		92.60		94.38		0.6079
+Valid	95.41		95.24		92.25		93.72		0.6204
+
+Epoch No:	281
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.17		92.63		94.37		0.6077
+Valid	95.46		94.85		92.55		93.69		0.6188
+
+Epoch No:	282
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.14		92.68		94.38		0.6076
+Valid	95.41		95.22		92.26		93.72		0.62
+
+Epoch No:	283
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.11		92.64		94.34		0.608
+Valid	95.55		95.22		92.55		93.86		0.6188
+
+Epoch No:	284
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		95.83		92.49		94.13		0.6088
+Valid	95.41		94.81		92.36		93.57		0.6202
+
+Epoch No:	285
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.17		92.53		94.32		0.608
+Valid	95.46		95.29		92.19		93.71		0.6194
+
+Epoch No:	286
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.23		92.57		94.37		0.6076
+Valid	95.50		95.30		92.38		93.82		0.6188
+
+Epoch No:	287
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.23		92.59		94.38		0.6077
+Valid	95.36		95.25		92.29		93.75		0.6205
+
+Epoch No:	288
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.13		92.60		94.33		0.6078
+Valid	95.46		95.26		92.32		93.77		0.6193
+
+Epoch No:	289
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.15		92.64		94.36		0.6074
+Valid	95.55		95.37		92.43		93.87		0.6184
+
+Epoch No:	290
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.21		92.70		94.42		0.6073
+Valid	95.50		95.33		92.37		93.82		0.6187
+
+Epoch No:	291
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.17		92.63		94.37		0.6075
+Valid	95.46		95.26		92.32		93.77		0.6195
+
+Epoch No:	292
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.09		95.81		92.38		94.07		0.6101
+Valid	95.22		94.57		92.21		93.38		0.6212
+
+Epoch No:	293
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.04		92.62		94.30		0.608
+Valid	95.50		95.15		92.49		93.80		0.6192
+
+Epoch No:	294
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.05		92.66		94.33		0.6074
+Valid	95.50		95.27		92.61		93.92		0.6192
+
+Epoch No:	295
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.15		92.73		94.41		0.6072
+Valid	95.50		95.28		92.50		93.87		0.6183
+
+Epoch No:	296
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.14		92.60		94.34		0.608
+Valid	95.41		95.22		92.26		93.72		0.6202
+
+Epoch No:	297
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.27		92.70		94.45		0.6069
+Valid	95.41		95.24		92.25		93.72		0.6203
+
+Epoch No:	298
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.00		92.67		94.31		0.6075
+Valid	95.55		95.32		92.67		93.97		0.6184
+
+Epoch No:	299
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.33		92.76		94.51		0.6064
+Valid	95.55		95.39		92.53		93.94		0.6183
+
+Epoch No:	300
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.92		95.49		92.10		93.76		0.6123
+Valid	95.04		94.66		91.70		93.15		0.6255
+
+Epoch No:	301
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.19		96.12		92.56		94.30		0.6084
+Valid	95.41		94.92		92.50		93.70		0.6205
+
+Epoch No:	302
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.01		92.68		94.32		0.6078
+Valid	95.32		95.01		92.02		93.49		0.6206
+
+Epoch No:	303
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.13		96.14		92.44		94.25		0.6095
+Valid	95.09		94.87		91.87		93.35		0.625
+
+Epoch No:	304
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.16		95.99		92.59		94.26		0.6089
+Valid	95.55		95.34		92.67		93.98		0.6178
+
+Epoch No:	305
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.12		92.64		94.35		0.6074
+Valid	95.55		95.36		92.55		93.94		0.6189
+
+Epoch No:	306
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.19		92.63		94.38		0.6076
+Valid	95.55		95.37		92.43		93.87		0.6184
+
+Epoch No:	307
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.24		96.17		92.57		94.34		0.6077
+Valid	95.46		95.29		92.31		93.77		0.6189
+
+Epoch No:	308
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.21		92.66		94.40		0.6071
+Valid	95.55		95.37		92.43		93.87		0.618
+
+Epoch No:	309
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.31		92.74		94.49		0.6067
+Valid	95.50		95.35		92.36		93.83		0.6181
+
+Epoch No:	310
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.27		92.70		94.45		0.6069
+Valid	95.50		95.35		92.36		93.83		0.6186
+
+Epoch No:	311
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.28		92.66		94.44		0.6073
+Valid	95.55		95.44		92.52		93.96		0.618
+
+Epoch No:	312
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.13		92.70		94.39		0.6071
+Valid	95.60		95.54		92.68		94.09		0.6179
+
+Epoch No:	313
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.37		92.79		94.55		0.6062
+Valid	95.64		95.50		92.65		94.05		0.617
+
+Epoch No:	314
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.30		92.87		94.56		0.6062
+Valid	95.60		95.45		92.82		94.12		0.6172
+
+Epoch No:	315
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.27		92.81		94.51		0.6065
+Valid	95.60		95.43		92.83		94.11		0.6173
+
+Epoch No:	316
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.17		95.74		92.43		94.06		0.6088
+Valid	95.41		95.23		92.13		93.65		0.6198
+
+Epoch No:	317
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.25		92.46		94.32		0.6081
+Valid	95.36		95.21		92.07		93.61		0.6202
+
+Epoch No:	318
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.98		92.40		94.16		0.6093
+Valid	95.36		95.15		92.20		93.65		0.6213
+
+Epoch No:	319
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.13		92.48		94.27		0.6081
+Valid	95.36		95.15		92.20		93.65		0.6203
+
+Epoch No:	320
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.16		92.58		94.34		0.6073
+Valid	95.55		95.37		92.54		93.93		0.6185
+
+Epoch No:	321
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.29		92.74		94.48		0.6067
+Valid	95.50		95.30		92.49		93.87		0.6184
+
+Epoch No:	322
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.28		92.80		94.50		0.6061
+Valid	95.64		95.48		92.76		94.10		0.617
+
+Epoch No:	323
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.24		92.81		94.49		0.6068
+Valid	95.55		95.39		92.53		93.94		0.6178
+
+Epoch No:	324
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.37		92.86		94.58		0.6059
+Valid	95.69		95.57		92.69		94.11		0.6168
+
+Epoch No:	325
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.31		92.80		94.52		0.6061
+Valid	95.60		95.38		92.72		94.03		0.6177
+
+Epoch No:	326
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.33		92.88		94.57		0.6059
+Valid	95.55		95.45		92.51		93.95		0.6178
+
+Epoch No:	327
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.42		92.80		94.58		0.6057
+Valid	95.60		95.44		92.48		93.93		0.6176
+
+Epoch No:	328
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.39		92.83		94.58		0.6057
+Valid	95.27		95.23		92.03		93.61		0.6236
+
+Epoch No:	329
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.11		95.88		92.63		94.23		0.6093
+Valid	95.46		94.99		92.55		93.75		0.62
+
+Epoch No:	330
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.27		92.80		94.50		0.6066
+Valid	95.36		95.13		92.10		93.59		0.6205
+
+Epoch No:	331
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.31		92.68		94.46		0.607
+Valid	95.50		95.35		92.36		93.83		0.6192
+
+Epoch No:	332
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.30		92.82		94.53		0.606
+Valid	95.60		95.38		92.72		94.03		0.6179
+
+Epoch No:	333
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.26		92.88		94.54		0.6058
+Valid	95.60		95.44		92.59		93.99		0.6175
+
+Epoch No:	334
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.31		92.79		94.52		0.6063
+Valid	93.00		93.31		89.17		91.19		0.651
+
+Epoch No:	335
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.94		95.42		92.36		93.87		0.612
+Valid	95.18		94.16		92.21		93.17		0.6236
+
+Epoch No:	336
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.54		92.55		94.02		0.6096
+Valid	95.32		95.11		92.03		93.55		0.6214
+
+Epoch No:	337
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.18		96.15		92.55		94.32		0.6085
+Valid	95.36		95.20		92.19		93.67		0.6208
+
+Epoch No:	338
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.20		92.72		94.43		0.6071
+Valid	95.55		95.34		92.55		93.92		0.6181
+
+Epoch No:	339
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.27		92.70		94.45		0.607
+Valid	95.46		94.99		92.42		93.69		0.6195
+
+Epoch No:	340
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.20		92.83		94.48		0.6066
+Valid	95.69		95.52		92.82		94.15		0.6164
+
+Epoch No:	341
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.31		92.82		94.53		0.6062
+Valid	95.55		95.39		92.64		94.00		0.6178
+
+Epoch No:	342
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.40		92.85		94.59		0.6059
+Valid	95.60		95.41		92.60		93.98		0.6177
+
+Epoch No:	343
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.38		92.92		94.62		0.6055
+Valid	95.69		95.52		92.82		94.15		0.6164
+
+Epoch No:	344
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.39		92.93		94.63		0.6052
+Valid	95.64		95.50		92.64		94.05		0.617
+
+Epoch No:	345
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		95.96		92.78		94.34		0.6071
+Valid	95.55		95.39		92.53		93.94		0.6183
+
+Epoch No:	346
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.90		95.63		92.04		93.80		0.6128
+Valid	95.09		94.76		91.79		93.25		0.6246
+
+Epoch No:	347
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.06		95.90		92.32		94.08		0.6101
+Valid	95.32		95.08		92.27		93.66		0.6211
+
+Epoch No:	348
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.15		92.79		94.44		0.6068
+Valid	95.64		95.47		92.88		94.16		0.6171
+
+Epoch No:	349
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.34		92.97		94.63		0.6056
+Valid	95.69		95.51		92.94		94.21		0.6165
+
+Epoch No:	350
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.37		92.98		94.64		0.6056
+Valid	95.60		95.43		92.71		94.05		0.6171
+
+Epoch No:	351
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.34		92.98		94.63		0.6056
+Valid	95.69		95.51		93.06		94.27		0.6161
+
+Epoch No:	352
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.26		92.91		94.56		0.6059
+Valid	95.69		95.51		92.94		94.21		0.6164
+
+Epoch No:	353
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.00		92.91		94.43		0.6064
+Valid	95.55		95.27		92.76		94.00		0.6177
+
+Epoch No:	354
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.14		92.92		94.50		0.6062
+Valid	95.60		95.46		92.58		94.00		0.6175
+
+Epoch No:	355
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.38		92.95		94.63		0.6057
+Valid	95.73		95.46		92.98		94.20		0.6162
+
+Epoch No:	356
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.12		92.85		94.46		0.6072
+Valid	95.50		95.32		92.60		93.94		0.6189
+
+Epoch No:	357
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.97		95.66		92.39		94.00		0.6119
+Valid	95.13		94.80		91.97		93.36		0.6239
+
+Epoch No:	358
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.14		95.96		92.57		94.23		0.6091
+Valid	95.41		95.21		92.48		93.83		0.6204
+
+Epoch No:	359
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.17		92.86		94.49		0.6069
+Valid	95.46		95.11		92.54		93.81		0.6197
+
+Epoch No:	360
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.35		96.27		92.93		94.57		0.6063
+Valid	95.60		95.26		92.71		93.97		0.6176
+
+Epoch No:	361
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.25		92.95		94.57		0.6058
+Valid	95.50		95.06		92.59		93.81		0.6188
+
+Epoch No:	362
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.26		92.91		94.56		0.606
+Valid	95.64		95.30		92.77		94.02		0.6175
+
+Epoch No:	363
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.32		92.99		94.62		0.6054
+Valid	95.60		95.46		92.69		94.05		0.6172
+
+Epoch No:	364
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.31		93.00		94.62		0.6053
+Valid	95.55		95.39		92.64		94.00		0.6182
+
+Epoch No:	365
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.28		92.89		94.56		0.6059
+Valid	95.55		95.39		92.64		94.00		0.6172
+
+Epoch No:	366
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.24		92.92		94.55		0.6057
+Valid	95.69		95.57		92.80		94.16		0.6164
+
+Epoch No:	367
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.32		92.95		94.60		0.6054
+Valid	95.64		95.53		92.63		94.06		0.617
+
+Epoch No:	368
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.45		92.94		94.66		0.6052
+Valid	95.64		95.48		92.76		94.10		0.6165
+
+Epoch No:	369
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.39		92.97		94.65		0.6053
+Valid	95.50		95.18		92.59		93.87		0.6184
+
+Epoch No:	370
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.38		92.96		94.64		0.6054
+Valid	95.60		95.44		92.59		93.99		0.6179
+
+Epoch No:	371
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.44		92.93		94.65		0.6051
+Valid	95.55		95.42		92.63		94.00		0.6179
+
+Epoch No:	372
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.45		93.02		94.71		0.6047
+Valid	95.60		95.38		92.72		94.03		0.6174
+
+Epoch No:	373
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.35		92.93		94.61		0.6054
+Valid	95.64		95.45		92.77		94.09		0.6166
+
+Epoch No:	374
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.37		92.95		94.63		0.6056
+Valid	95.60		95.43		92.70		94.05		0.6168
+
+Epoch No:	375
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.36		92.96		94.63		0.6055
+Valid	95.50		95.15		92.60		93.86		0.6187
+
+Epoch No:	376
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.35		93.00		94.65		0.6052
+Valid	95.60		95.41		92.71		94.04		0.6178
+
+Epoch No:	377
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.26		92.97		94.59		0.6059
+Valid	95.55		95.33		92.43		93.85		0.6181
+
+Epoch No:	378
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.41		92.82		94.58		0.6058
+Valid	95.60		95.46		92.69		94.05		0.6179
+
+Epoch No:	379
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.43		93.01		94.69		0.6048
+Valid	95.73		95.61		92.86		94.21		0.6158
+
+Epoch No:	380
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.83		95.50		91.96		93.70		0.614
+Valid	95.13		94.59		91.89		93.22		0.6242
+
+Epoch No:	381
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.99		95.42		92.34		93.85		0.6115
+Valid	95.50		95.32		92.60		93.94		0.6197
+
+Epoch No:	382
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.18		92.84		94.48		0.6066
+Valid	95.41		95.02		92.50		93.74		0.6196
+
+Epoch No:	383
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.30		92.98		94.61		0.6058
+Valid	95.36		94.88		92.43		93.64		0.6203
+
+Epoch No:	384
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.12		92.90		94.48		0.6064
+Valid	95.50		95.32		92.59		93.94		0.6188
+
+Epoch No:	385
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.18		92.70		94.41		0.6078
+Valid	95.22		95.05		92.02		93.51		0.6229
+
+Epoch No:	386
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.35		96.35		92.81		94.55		0.6062
+Valid	95.50		95.32		92.59		93.94		0.6187
+
+Epoch No:	387
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.39		92.98		94.65		0.6051
+Valid	95.50		95.27		92.61		93.92		0.6183
+
+Epoch No:	388
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.40		93.01		94.67		0.605
+Valid	95.60		95.36		92.73		94.03		0.6178
+
+Epoch No:	389
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.38		93.03		94.68		0.605
+Valid	95.46		94.99		92.66		93.81		0.6196
+
+Epoch No:	390
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.35		93.00		94.64		0.6052
+Valid	95.60		95.41		92.71		94.04		0.6178
+
+Epoch No:	391
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.41		93.04		94.69		0.605
+Valid	95.60		95.38		92.72		94.03		0.6176
+
+Epoch No:	392
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.36		93.00		94.65		0.6053
+Valid	95.55		95.19		92.67		93.91		0.6182
+
+Epoch No:	393
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.34		93.01		94.64		0.6054
+Valid	95.60		95.38		92.72		94.03		0.6176
+
+Epoch No:	394
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.39		92.88		94.60		0.6055
+Valid	95.55		95.37		92.54		93.93		0.6179
+
+Epoch No:	395
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.38		92.94		94.63		0.6055
+Valid	95.46		95.26		92.43		93.82		0.6185
+
+Epoch No:	396
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.41		93.02		94.68		0.6049
+Valid	95.60		95.41		92.71		94.04		0.6178
+
+Epoch No:	397
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.45		92.90		94.64		0.6052
+Valid	95.50		95.32		92.59		93.94		0.618
+
+Epoch No:	398
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.48		93.01		94.71		0.6049
+Valid	95.50		95.32		92.59		93.94		0.6186
+
+Epoch No:	399
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.43		93.05		94.71		0.6046
+Valid	95.50		95.32		92.59		93.94		0.6179
+
+Epoch No:	400
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.40		93.02		94.68		0.6049
+Valid	95.55		95.39		92.64		94.00		0.6177
+
+Epoch No:	401
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.34		92.91		94.59		0.6062
+Valid	95.55		95.32		92.67		93.97		0.6181
+
+Epoch No:	402
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.36		93.00		94.65		0.6048
+Valid	95.60		95.41		92.71		94.04		0.6174
+
+Epoch No:	403
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.36		92.98		94.64		0.6051
+Valid	95.55		95.37		92.65		93.99		0.6184
+
+Epoch No:	404
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.42		93.00		94.68		0.6048
+Valid	95.60		95.41		92.71		94.04		0.6172
+
+Epoch No:	405
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.40		93.04		94.69		0.6048
+Valid	95.64		95.45		92.77		94.09		0.6168
+
+Epoch No:	406
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.45		93.05		94.72		0.6047
+Valid	95.55		95.37		92.54		93.93		0.6179
+
+Epoch No:	407
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.44		92.90		94.64		0.6055
+Valid	95.64		95.50		92.75		94.10		0.6167
+
+Epoch No:	408
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.24		92.89		94.53		0.6055
+Valid	95.64		95.45		92.65		94.03		0.6169
+
+Epoch No:	409
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.03		95.83		92.33		94.05		0.6111
+Valid	95.18		94.80		91.93		93.34		0.6235
+
+Epoch No:	410
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.99		95.71		92.33		93.99		0.6112
+Valid	95.41		95.04		92.33		93.66		0.6194
+
+Epoch No:	411
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.09		92.61		94.32		0.6076
+Valid	95.55		95.35		92.43		93.86		0.6183
+
+Epoch No:	412
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.39		92.93		94.63		0.6054
+Valid	95.69		95.52		92.82		94.15		0.6159
+
+Epoch No:	413
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.18		92.77		94.44		0.6075
+Valid	95.41		95.22		92.37		93.77		0.6196
+
+Epoch No:	414
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.36		92.93		94.61		0.6057
+Valid	95.55		95.37		92.54		93.93		0.6178
+
+Epoch No:	415
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.05		92.76		94.38		0.607
+Valid	95.36		95.09		92.11		93.57		0.6204
+
+Epoch No:	416
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.20		92.60		94.37		0.6076
+Valid	95.36		94.99		92.28		93.61		0.6202
+
+Epoch No:	417
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.20		95.98		92.77		94.35		0.6082
+Valid	95.50		95.30		92.49		93.87		0.6187
+
+Epoch No:	418
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.37		93.00		94.66		0.6052
+Valid	95.60		95.41		92.71		94.04		0.6172
+
+Epoch No:	419
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.34		93.01		94.64		0.6053
+Valid	95.60		95.41		92.71		94.04		0.6177
+
+Epoch No:	420
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.34		92.97		94.63		0.6055
+Valid	95.64		95.45		92.77		94.09		0.6171
+
+Epoch No:	421
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.29		92.93		94.58		0.6058
+Valid	95.46		94.99		92.53		93.75		0.6188
+
+Epoch No:	422
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.35		92.99		94.64		0.6055
+Valid	95.60		95.41		92.71		94.04		0.6173
+
+Epoch No:	423
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.40		93.00		94.67		0.605
+Valid	95.69		95.54		92.81		94.16		0.616
+
+Epoch No:	424
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.38		93.00		94.66		0.6053
+Valid	95.69		95.54		92.81		94.16		0.616
+
+Epoch No:	425
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.40		93.06		94.70		0.6047
+Valid	95.73		95.64		92.85		94.22		0.6157
+
+Epoch No:	426
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.45		93.06		94.72		0.6047
+Valid	95.69		95.52		92.82		94.15		0.6164
+
+Epoch No:	427
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.48		93.07		94.74		0.6045
+Valid	95.60		95.41		92.71		94.04		0.6174
+
+Epoch No:	428
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.47		93.11		94.76		0.6044
+Valid	95.60		95.43		92.70		94.05		0.6169
+
+Epoch No:	429
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.45		92.94		94.66		0.6055
+Valid	95.55		95.50		92.49		93.97		0.6181
+
+Epoch No:	430
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.45		93.08		94.73		0.6044
+Valid	95.64		95.50		92.87		94.16		0.6168
+
+Epoch No:	431
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.86		95.52		92.07		93.76		0.6136
+Valid	95.13		94.57		91.77		93.15		0.6244
+
+Epoch No:	432
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.83		95.34		92.05		93.66		0.6137
+Valid	95.41		94.86		92.22		93.52		0.6204
+
+Epoch No:	433
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.02		95.55		92.38		93.94		0.611
+Valid	95.41		94.75		92.55		93.64		0.6193
+
+Epoch No:	434
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.08		95.67		92.51		94.06		0.6101
+Valid	95.32		94.80		92.43		93.60		0.6209
+
+Epoch No:	435
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.13		95.83		92.56		94.16		0.6093
+Valid	95.55		95.00		92.79		93.88		0.6182
+
+Epoch No:	436
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.14		93.00		94.54		0.6063
+Valid	95.55		95.19		92.77		93.97		0.618
+
+Epoch No:	437
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.21		93.05		94.60		0.6056
+Valid	95.69		95.35		92.94		94.13		0.6162
+
+Epoch No:	438
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.37		93.13		94.72		0.6047
+Valid	95.69		95.35		92.82		94.07		0.6166
+
+Epoch No:	439
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.36		93.14		94.72		0.6046
+Valid	95.69		95.37		92.82		94.08		0.6165
+
+Epoch No:	440
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.30		93.07		94.66		0.605
+Valid	95.60		95.26		92.71		93.97		0.6174
+
+Epoch No:	441
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.39		93.16		94.75		0.6044
+Valid	95.60		95.26		92.71		93.97		0.6177
+
+Epoch No:	442
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.31		93.11		94.68		0.6049
+Valid	95.60		95.26		92.82		94.03		0.6178
+
+Epoch No:	443
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.18		93.07		94.60		0.6055
+Valid	95.60		95.24		92.83		94.02		0.6172
+
+Epoch No:	444
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.31		93.13		94.69		0.6047
+Valid	95.60		95.26		92.82		94.03		0.6169
+
+Epoch No:	445
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.28		93.08		94.66		0.6049
+Valid	95.60		95.12		92.82		93.96		0.6176
+
+Epoch No:	446
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.36		93.14		94.72		0.6047
+Valid	95.60		95.26		92.82		94.03		0.6173
+
+Epoch No:	447
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.39		93.15		94.74		0.6046
+Valid	95.73		95.41		92.99		94.19		0.6157
+
+Epoch No:	448
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.38		93.17		94.74		0.6044
+Valid	95.60		95.26		92.71		93.97		0.6175
+
+Epoch No:	449
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.41		93.16		94.75		0.6042
+Valid	95.69		95.40		92.92		94.14		0.6162
+
+Epoch No:	450
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.38		93.18		94.75		0.6043
+Valid	95.78		95.48		93.04		94.24		0.6148
+
+Epoch No:	451
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.38		93.13		94.73		0.6046
+Valid	95.69		95.37		92.93		94.13		0.6158
+
+Epoch No:	452
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.41		93.18		94.77		0.6042
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	453
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.40		93.15		94.75		0.6045
+Valid	95.73		95.44		92.98		94.19		0.6154
+
+Epoch No:	454
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.43		93.19		94.78		0.6041
+Valid	95.78		95.51		93.03		94.25		0.6143
+
+Epoch No:	455
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.43		93.21		94.80		0.6037
+Valid	95.83		95.60		93.07		94.32		0.6139
+
+Epoch No:	456
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.44		93.23		94.81		0.6037
+Valid	95.73		95.44		92.98		94.19		0.6153
+
+Epoch No:	457
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.50		93.26		94.85		0.6033
+Valid	95.73		95.52		92.84		94.16		0.6157
+
+Epoch No:	458
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.31		93.12		94.69		0.6048
+Valid	95.64		95.28		92.89		94.07		0.6167
+
+Epoch No:	459
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.28		93.08		94.66		0.6051
+Valid	95.50		95.11		92.49		93.78		0.6187
+
+Epoch No:	460
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.36		93.08		94.69		0.6047
+Valid	95.60		95.29		92.70		93.98		0.6177
+
+Epoch No:	461
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.36		93.11		94.71		0.6046
+Valid	95.73		95.41		92.99		94.19		0.6157
+
+Epoch No:	462
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.44		93.19		94.79		0.604
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	463
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.38		93.12		94.72		0.6046
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	464
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.33		93.04		94.66		0.6053
+Valid	95.69		95.40		92.92		94.14		0.616
+
+Epoch No:	465
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.42		93.21		94.79		0.6038
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	466
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.36		93.16		94.73		0.6043
+Valid	95.73		95.41		92.99		94.19		0.6159
+
+Epoch No:	467
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.38		93.18		94.75		0.6041
+Valid	95.64		95.30		92.88		94.08		0.6168
+
+Epoch No:	468
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.41		93.20		94.77		0.604
+Valid	95.69		95.40		92.92		94.14		0.616
+
+Epoch No:	469
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.41		93.20		94.78		0.6041
+Valid	95.69		95.37		92.93		94.13		0.6162
+
+Epoch No:	470
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.43		93.23		94.80		0.6039
+Valid	95.73		95.41		92.99		94.19		0.6158
+
+Epoch No:	471
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.45		93.19		94.79		0.6038
+Valid	95.73		95.47		92.86		94.14		0.6154
+
+Epoch No:	472
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.39		93.11		94.73		0.6051
+Valid	95.73		95.44		92.98		94.19		0.6157
+
+Epoch No:	473
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.41		93.18		94.77		0.6041
+Valid	95.64		95.41		92.84		94.11		0.6173
+
+Epoch No:	474
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.39		93.20		94.76		0.604
+Valid	95.64		95.30		92.88		94.08		0.6163
+
+Epoch No:	475
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.40		93.08		94.71		0.6047
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	476
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.36		93.10		94.70		0.6045
+Valid	95.73		95.47		92.85		94.14		0.6155
+
+Epoch No:	477
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.37		93.15		94.73		0.6044
+Valid	95.69		95.37		92.93		94.13		0.6161
+
+Epoch No:	478
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.16		92.83		94.46		0.607
+Valid	95.27		94.63		92.09		93.34		0.6221
+
+Epoch No:	479
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.84		95.35		92.06		93.68		0.6141
+Valid	95.27		94.82		92.12		93.45		0.622
+
+Epoch No:	480
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.09		95.82		92.46		94.11		0.6099
+Valid	95.46		95.08		92.67		93.86		0.6196
+
+Epoch No:	481
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.20		95.64		92.84		94.22		0.6082
+Valid	95.46		95.09		92.55		93.80		0.6198
+
+Epoch No:	482
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.16		92.85		94.48		0.6065
+Valid	95.27		94.85		91.99		93.40		0.6218
+
+Epoch No:	483
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.20		96.01		92.34		94.14		0.6083
+Valid	95.46		95.02		92.33		93.66		0.6195
+
+Epoch No:	484
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.25		92.90		94.55		0.6055
+Valid	95.64		95.28		92.89		94.07		0.617
+
+Epoch No:	485
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.15		92.95		94.52		0.6061
+Valid	95.46		94.99		92.66		93.81		0.6196
+
+Epoch No:	486
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.35		96.24		93.02		94.60		0.6061
+Valid	95.73		95.44		93.10		94.25		0.6159
+
+Epoch No:	487
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.32		93.15		94.71		0.605
+Valid	95.69		95.35		92.94		94.13		0.6165
+
+Epoch No:	488
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.15		93.05		94.57		0.6053
+Valid	95.64		95.30		92.88		94.08		0.6167
+
+Epoch No:	489
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.34		93.18		94.73		0.6042
+Valid	95.73		95.41		92.99		94.19		0.6159
+
+Epoch No:	490
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.18		92.99		94.56		0.6064
+Valid	95.55		95.03		92.78		93.89		0.6177
+
+Epoch No:	491
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.33		93.16		94.72		0.6046
+Valid	95.64		95.16		92.88		94.01		0.617
+
+Epoch No:	492
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.41		93.21		94.79		0.604
+Valid	95.64		95.16		92.88		94.01		0.6169
+
+Epoch No:	493
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.36		93.17		94.74		0.6045
+Valid	95.64		95.16		92.88		94.01		0.6169
+
+Epoch No:	494
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.35		93.17		94.73		0.6044
+Valid	95.64		95.16		92.88		94.01		0.6169
+
+Epoch No:	495
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.38		93.11		94.71		0.6046
+Valid	95.64		95.38		92.74		94.04		0.6165
+
+Epoch No:	496
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.45		93.15		94.77		0.604
+Valid	95.73		95.44		92.98		94.19		0.6157
+
+Epoch No:	497
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.45		93.18		94.79		0.6039
+Valid	95.78		95.51		93.03		94.25		0.6152
+
+Epoch No:	498
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.46		93.21		94.81		0.6036
+Valid	95.69		95.40		92.92		94.14		0.6159
+
+Epoch No:	499
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.43		93.15		94.76		0.6042
+Valid	95.69		95.37		92.93		94.13		0.6158
+
+Epoch No:	500
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.46		93.22		94.81		0.6037
+Valid	95.69		95.35		92.94		94.13		0.616
+
+Epoch No:	501
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.45		93.20		94.79		0.6039
+Valid	95.69		95.40		92.92		94.14		0.6165
+
+Epoch No:	502
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.51		93.24		94.85		0.6033
+Valid	95.69		95.37		92.93		94.13		0.6162
+
+Epoch No:	503
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.46		93.22		94.82		0.6035
+Valid	95.73		95.44		92.98		94.19		0.6153
+
+Epoch No:	504
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.44		93.21		94.80		0.6038
+Valid	95.69		95.37		92.93		94.13		0.6163
+
+Epoch No:	505
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.54		93.28		94.88		0.6029
+Valid	95.69		95.40		92.92		94.14		0.616
+
+Epoch No:	506
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.45		93.21		94.80		0.6037
+Valid	95.64		95.33		92.87		94.08		0.6167
+
+Epoch No:	507
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.42		93.18		94.77		0.604
+Valid	95.73		95.46		92.97		94.20		0.6152
+
+Epoch No:	508
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.28		93.16		94.69		0.6048
+Valid	95.60		95.26		92.82		94.03		0.6175
+
+Epoch No:	509
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.08		95.70		92.46		94.05		0.6101
+Valid	95.22		94.86		92.20		93.51		0.6225
+
+Epoch No:	510
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		95.88		92.87		94.35		0.6064
+Valid	95.64		95.33		92.76		94.03		0.6166
+
+Epoch No:	511
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.20		92.81		94.48		0.6068
+Valid	95.60		95.26		92.71		93.97		0.6172
+
+Epoch No:	512
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.35		93.01		94.65		0.6052
+Valid	95.73		95.47		92.86		94.14		0.6154
+
+Epoch No:	513
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.44		93.17		94.78		0.6041
+Valid	95.78		95.51		93.03		94.25		0.6151
+
+Epoch No:	514
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.41		93.09		94.72		0.6044
+Valid	95.73		95.44		92.98		94.19		0.6154
+
+Epoch No:	515
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.46		93.16		94.78		0.604
+Valid	95.73		95.44		92.98		94.19		0.6151
+
+Epoch No:	516
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.46		93.20		94.80		0.6037
+Valid	95.69		95.40		92.92		94.14		0.6156
+
+Epoch No:	517
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.45		93.18		94.79		0.6037
+Valid	95.83		95.55		93.09		94.30		0.6142
+
+Epoch No:	518
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.51		93.22		94.83		0.6035
+Valid	95.73		95.42		92.87		94.12		0.6153
+
+Epoch No:	519
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.52		96.52		93.20		94.83		0.6036
+Valid	95.69		95.48		92.89		94.17		0.616
+
+Epoch No:	520
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.49		93.18		94.81		0.6036
+Valid	95.73		95.44		92.98		94.19		0.6152
+
+Epoch No:	521
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.50		93.19		94.82		0.6035
+Valid	95.78		95.53		93.02		94.26		0.6149
+
+Epoch No:	522
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.56		93.23		94.87		0.6031
+Valid	95.83		95.57		93.08		94.31		0.6145
+
+Epoch No:	523
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.57		93.26		94.89		0.6029
+Valid	95.78		95.51		93.03		94.25		0.6145
+
+Epoch No:	524
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.45		93.13		94.76		0.6042
+Valid	95.64		95.38		92.74		94.04		0.6168
+
+Epoch No:	525
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.98		95.88		92.32		94.07		0.6112
+Valid	94.95		94.25		91.71		92.96		0.6267
+
+Epoch No:	526
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.55		95.07		91.43		93.22		0.6179
+Valid	94.90		94.29		91.44		92.85		0.6274
+
+Epoch No:	527
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.74		95.28		91.75		93.48		0.6149
+Valid	95.04		94.44		91.83		93.12		0.6258
+
+Epoch No:	528
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.80		95.45		91.80		93.59		0.6142
+Valid	95.09		94.51		91.76		93.12		0.6253
+
+Epoch No:	529
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.81		95.48		91.78		93.60		0.614
+Valid	94.99		94.43		91.65		93.01		0.6262
+
+Epoch No:	530
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.87		95.58		91.85		93.68		0.6132
+Valid	95.09		94.51		91.76		93.12		0.6254
+
+Epoch No:	531
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.90		95.59		91.93		93.72		0.6129
+Valid	95.04		94.47		91.70		93.07		0.6257
+
+Epoch No:	532
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.91		95.59		91.95		93.74		0.6126
+Valid	95.09		94.51		91.76		93.12		0.6251
+
+Epoch No:	533
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.96		95.64		92.04		93.81		0.6119
+Valid	95.09		94.51		91.76		93.12		0.6255
+
+Epoch No:	534
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.94		95.64		92.02		93.79		0.6122
+Valid	95.09		94.51		91.76		93.12		0.6254
+
+Epoch No:	535
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.96		95.65		92.02		93.80		0.612
+Valid	95.09		94.51		91.76		93.12		0.6251
+
+Epoch No:	536
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.94		95.62		92.02		93.78		0.6122
+Valid	95.04		94.47		91.70		93.07		0.626
+
+Epoch No:	537
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.95		95.64		92.03		93.80		0.6121
+Valid	95.04		94.47		91.82		93.12		0.6256
+
+Epoch No:	538
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.94		95.65		92.00		93.79		0.6121
+Valid	95.09		94.56		91.74		93.13		0.6249
+
+Epoch No:	539
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.96		95.66		92.04		93.81		0.6118
+Valid	95.09		94.51		91.88		93.17		0.6246
+
+Epoch No:	540
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.99		95.70		92.08		93.85		0.6115
+Valid	95.09		94.51		91.88		93.17		0.6249
+
+Epoch No:	541
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.97		95.63		92.11		93.84		0.6115
+Valid	95.04		94.49		91.70		93.07		0.6259
+
+Epoch No:	542
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.95		95.66		92.03		93.81		0.6121
+Valid	95.04		94.44		91.71		93.06		0.6251
+
+Epoch No:	543
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.95		95.62		92.00		93.78		0.612
+Valid	95.04		94.44		91.71		93.06		0.6259
+
+Epoch No:	544
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.96		95.65		92.03		93.80		0.6121
+Valid	95.09		94.51		91.76		93.12		0.6252
+
+Epoch No:	545
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.02		95.71		92.11		93.88		0.6109
+Valid	95.18		94.57		91.89		93.21		0.6233
+
+Epoch No:	546
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.93		95.61		92.01		93.78		0.6123
+Valid	95.18		94.53		92.02		93.26		0.6234
+
+Epoch No:	547
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.70		92.16		93.90		0.6108
+Valid	95.22		94.64		91.94		93.27		0.6225
+
+Epoch No:	548
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.05		95.73		92.16		93.91		0.6106
+Valid	95.27		94.68		92.11		93.38		0.622
+
+Epoch No:	549
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.06		95.76		92.17		93.93		0.6106
+Valid	95.27		94.68		92.11		93.38		0.6223
+
+Epoch No:	550
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.07		95.72		92.20		93.93		0.6104
+Valid	95.27		94.71		91.99		93.33		0.6223
+
+Epoch No:	551
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.03		95.73		92.17		93.92		0.6109
+Valid	95.32		94.94		92.37		93.64		0.622
+
+Epoch No:	552
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.92		95.69		92.06		93.84		0.6124
+Valid	95.32		94.89		92.39		93.62		0.6223
+
+Epoch No:	553
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.96		95.69		92.14		93.88		0.612
+Valid	95.13		94.67		91.95		93.29		0.6244
+
+Epoch No:	554
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.89		95.65		92.08		93.83		0.6131
+Valid	95.04		94.71		91.78		93.22		0.6252
+
+Epoch No:	555
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.97		95.67		92.31		93.96		0.6117
+Valid	95.18		94.81		91.97		93.37		0.6236
+
+Epoch No:	556
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.07		95.87		92.38		94.10		0.6103
+Valid	95.22		94.81		92.05		93.41		0.6226
+
+Epoch No:	557
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.08		95.90		92.40		94.12		0.61
+Valid	95.36		95.03		92.19		93.59		0.6212
+
+Epoch No:	558
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		96.01		92.57		94.26		0.6091
+Valid	95.27		94.94		92.19		93.55		0.6225
+
+Epoch No:	559
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.18		96.06		92.67		94.33		0.6087
+Valid	95.32		94.86		92.25		93.54		0.6214
+
+Epoch No:	560
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.21		96.06		92.69		94.35		0.6083
+Valid	95.27		94.92		92.20		93.54		0.6221
+
+Epoch No:	561
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.11		92.71		94.38		0.608
+Valid	95.36		94.91		92.31		93.59		0.621
+
+Epoch No:	562
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.22		96.10		92.71		94.38		0.6082
+Valid	95.32		95.01		92.24		93.61		0.6217
+
+Epoch No:	563
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.13		92.72		94.40		0.608
+Valid	95.36		95.05		92.30		93.66		0.6213
+
+Epoch No:	564
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.21		96.10		92.72		94.38		0.6082
+Valid	95.32		94.89		92.24		93.55		0.6218
+
+Epoch No:	565
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.20		96.10		92.69		94.36		0.6085
+Valid	95.32		94.86		92.25		93.54		0.6219
+
+Epoch No:	566
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.13		92.75		94.41		0.6079
+Valid	95.27		94.92		92.20		93.54		0.6226
+
+Epoch No:	567
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.18		96.09		92.66		94.34		0.6086
+Valid	95.22		94.90		92.14		93.50		0.6227
+
+Epoch No:	568
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.23		96.22		92.74		94.44		0.608
+Valid	95.36		95.03		92.42		93.71		0.621
+
+Epoch No:	569
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.20		92.80		94.47		0.6072
+Valid	95.32		94.99		92.25		93.60		0.6213
+
+Epoch No:	570
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.20		92.83		94.48		0.6073
+Valid	95.32		94.86		92.37		93.60		0.6213
+
+Epoch No:	571
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.22		92.80		94.48		0.6076
+Valid	95.36		95.05		92.42		93.72		0.6207
+
+Epoch No:	572
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.22		92.84		94.50		0.6072
+Valid	95.27		94.91		92.33		93.60		0.6221
+
+Epoch No:	573
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.27		92.82		94.51		0.6072
+Valid	95.46		95.19		92.52		93.84		0.6197
+
+Epoch No:	574
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.22		92.85		94.50		0.6071
+Valid	95.32		94.86		92.37		93.60		0.6213
+
+Epoch No:	575
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.21		92.83		94.49		0.6073
+Valid	95.32		95.06		92.35		93.68		0.6215
+
+Epoch No:	576
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.22		92.82		94.49		0.6074
+Valid	95.55		95.30		92.63		93.94		0.6185
+
+Epoch No:	577
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.23		92.87		94.52		0.6069
+Valid	95.50		95.28		92.56		93.90		0.6191
+
+Epoch No:	578
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.22		92.85		94.50		0.6069
+Valid	95.36		95.05		92.42		93.72		0.6209
+
+Epoch No:	579
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.23		92.85		94.51		0.6072
+Valid	95.32		94.98		92.37		93.66		0.6215
+
+Epoch No:	580
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.25		92.85		94.52		0.6071
+Valid	95.32		94.72		92.48		93.59		0.6211
+
+Epoch No:	581
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.25		92.86		94.53		0.6069
+Valid	95.32		94.98		92.37		93.66		0.6215
+
+Epoch No:	582
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.25		92.83		94.51		0.6071
+Valid	95.50		95.23		92.58		93.89		0.6192
+
+Epoch No:	583
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.26		92.85		94.52		0.6069
+Valid	95.36		95.03		92.31		93.65		0.621
+
+Epoch No:	584
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.23		92.79		94.48		0.6074
+Valid	95.46		95.16		92.53		93.83		0.6197
+
+Epoch No:	585
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.28		92.84		94.53		0.6068
+Valid	95.46		95.16		92.53		93.83		0.6194
+
+Epoch No:	586
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.26		92.80		94.49		0.6071
+Valid	95.50		95.11		92.57		93.82		0.6185
+
+Epoch No:	587
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.32		92.91		94.58		0.6065
+Valid	95.50		95.14		92.56		93.83		0.6186
+
+Epoch No:	588
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.31		92.88		94.56		0.6066
+Valid	95.50		95.25		92.57		93.89		0.6187
+
+Epoch No:	589
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.26		92.84		94.52		0.6069
+Valid	95.46		95.19		92.52		93.84		0.6196
+
+Epoch No:	590
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.31		92.89		94.57		0.6067
+Valid	95.55		95.18		92.73		93.94		0.6181
+
+Epoch No:	591
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.31		92.89		94.57		0.6066
+Valid	95.46		95.10		92.50		93.78		0.6192
+
+Epoch No:	592
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.32		92.87		94.56		0.6065
+Valid	95.46		95.16		92.64		93.88		0.6193
+
+Epoch No:	593
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.27		92.85		94.53		0.607
+Valid	95.41		95.00		92.46		93.72		0.6196
+
+Epoch No:	594
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.30		92.89		94.56		0.6066
+Valid	95.41		95.00		92.59		93.78		0.6201
+
+Epoch No:	595
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.33		92.88		94.58		0.6065
+Valid	95.50		95.25		92.57		93.89		0.6188
+
+Epoch No:	596
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.35		92.91		94.60		0.6063
+Valid	95.55		95.32		92.62		93.95		0.6184
+
+Epoch No:	597
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.32		92.85		94.56		0.6067
+Valid	95.64		95.43		92.84		94.12		0.6168
+
+Epoch No:	598
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.33		92.87		94.57		0.6067
+Valid	95.46		95.19		92.40		93.77		0.6193
+
+Epoch No:	599
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.30		92.86		94.55		0.6066
+Valid	95.55		95.30		92.62		93.94		0.6181
+
+Epoch No:	600
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.30		92.87		94.55		0.6068
+Valid	95.55		95.32		92.62		93.95		0.618
+
+Epoch No:	601
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.30		92.85		94.54		0.6067
+Valid	95.46		95.22		92.39		93.78		0.6192
+
+Epoch No:	602
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.37		92.91		94.61		0.6063
+Valid	95.60		95.34		92.68		93.99		0.6175
+
+Epoch No:	603
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.20		92.79		94.47		0.6075
+Valid	95.41		95.00		92.50		93.73		0.6202
+
+Epoch No:	604
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.21		95.86		92.71		94.26		0.6084
+Valid	95.32		94.89		92.29		93.57		0.6216
+
+Epoch No:	605
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.18		95.90		92.64		94.24		0.6087
+Valid	95.41		95.00		92.40		93.68		0.6205
+
+Epoch No:	606
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.04		92.79		94.38		0.6074
+Valid	95.55		95.07		92.66		93.85		0.6182
+
+Epoch No:	607
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.24		92.89		94.54		0.6068
+Valid	95.46		95.14		92.53		93.82		0.6197
+
+Epoch No:	608
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		95.76		92.67		94.19		0.609
+Valid	95.50		95.15		92.60		93.86		0.6186
+
+Epoch No:	609
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.22		92.94		94.55		0.6068
+Valid	95.50		95.15		92.71		93.92		0.6189
+
+Epoch No:	610
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.15		92.92		94.51		0.6069
+Valid	95.50		94.89		92.71		93.79		0.6189
+
+Epoch No:	611
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.23		93.06		94.62		0.6057
+Valid	95.60		95.26		92.82		94.03		0.6175
+
+Epoch No:	612
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.32		93.07		94.67		0.6055
+Valid	95.55		95.22		92.76		93.97		0.6181
+
+Epoch No:	613
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.31		93.05		94.65		0.6054
+Valid	95.64		95.33		92.87		94.08		0.6168
+
+Epoch No:	614
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.18		92.97		94.55		0.6066
+Valid	95.50		95.10		92.62		93.85		0.6189
+
+Epoch No:	615
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.24		93.05		94.62		0.6057
+Valid	95.60		95.26		92.82		94.03		0.6176
+
+Epoch No:	616
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.26		93.05		94.63		0.6058
+Valid	95.64		95.16		92.89		94.01		0.617
+
+Epoch No:	617
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.15		93.04		94.57		0.6063
+Valid	95.55		95.15		92.79		93.95		0.6182
+
+Epoch No:	618
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.13		93.03		94.56		0.6063
+Valid	95.50		94.96		92.74		93.84		0.6189
+
+Epoch No:	619
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.08		92.99		94.51		0.6066
+Valid	95.60		95.24		92.83		94.02		0.6173
+
+Epoch No:	620
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.21		92.99		94.57		0.6063
+Valid	95.64		95.33		92.87		94.08		0.617
+
+Epoch No:	621
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.20		93.06		94.61		0.606
+Valid	95.60		95.29		92.81		94.03		0.6176
+
+Epoch No:	622
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.35		96.22		93.06		94.61		0.6062
+Valid	95.41		95.02		92.49		93.74		0.6199
+
+Epoch No:	623
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.24		93.01		94.60		0.6057
+Valid	95.41		95.10		92.36		93.71		0.6202
+
+Epoch No:	624
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.27		92.94		94.58		0.6059
+Valid	95.46		95.14		92.53		93.82		0.6196
+
+Epoch No:	625
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.28		92.98		94.60		0.6058
+Valid	95.55		95.22		92.76		93.97		0.6182
+
+Epoch No:	626
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.31		93.14		94.70		0.605
+Valid	95.55		95.22		92.76		93.97		0.6182
+
+Epoch No:	627
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.33		93.14		94.71		0.6049
+Valid	95.55		95.22		92.76		93.97		0.6184
+
+Epoch No:	628
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.29		93.12		94.68		0.6051
+Valid	95.46		95.11		92.65		93.87		0.6196
+
+Epoch No:	629
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.22		93.04		94.60		0.6058
+Valid	95.50		95.15		92.71		93.92		0.6191
+
+Epoch No:	630
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.29		93.02		94.63		0.606
+Valid	95.55		95.22		92.76		93.97		0.6182
+
+Epoch No:	631
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.33		93.11		94.69		0.605
+Valid	95.50		95.18		92.70		93.92		0.6187
+
+Epoch No:	632
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.37		93.14		94.73		0.6047
+Valid	95.60		95.14		92.81		93.96		0.6176
+
+Epoch No:	633
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.36		93.09		94.70		0.6049
+Valid	95.69		95.40		92.92		94.14		0.6162
+
+Epoch No:	634
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.44		93.19		94.79		0.6041
+Valid	95.64		95.33		92.87		94.08		0.617
+
+Epoch No:	635
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.40		93.15		94.75		0.6045
+Valid	95.60		95.26		92.82		94.03		0.6174
+
+Epoch No:	636
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.05		95.68		92.67		94.15		0.6106
+Valid	95.46		94.77		92.63		93.69		0.6186
+
+Epoch No:	637
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.12		93.11		94.59		0.606
+Valid	95.50		95.15		92.83		93.98		0.6187
+
+Epoch No:	638
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		95.99		92.99		94.47		0.6065
+Valid	95.41		95.02		92.39		93.69		0.6201
+
+Epoch No:	639
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.16		92.90		94.51		0.6061
+Valid	95.36		95.05		92.41		93.71		0.6203
+
+Epoch No:	640
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.23		92.96		94.56		0.6062
+Valid	95.55		95.24		92.75		93.98		0.6182
+
+Epoch No:	641
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.32		93.11		94.69		0.6052
+Valid	95.55		95.22		92.76		93.97		0.6182
+
+Epoch No:	642
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.34		93.13		94.71		0.605
+Valid	95.50		95.06		92.69		93.86		0.6189
+
+Epoch No:	643
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.37		93.17		94.74		0.6045
+Valid	95.50		94.76		92.70		93.72		0.6187
+
+Epoch No:	644
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.28		93.09		94.66		0.6054
+Valid	95.55		95.19		92.77		93.97		0.6177
+
+Epoch No:	645
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.31		93.00		94.63		0.6053
+Valid	95.46		95.14		92.53		93.82		0.619
+
+Epoch No:	646
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.36		93.04		94.67		0.6049
+Valid	95.50		95.20		92.58		93.87		0.6189
+
+Epoch No:	647
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.28		93.07		94.65		0.6049
+Valid	95.60		95.29		92.81		94.03		0.6176
+
+Epoch No:	648
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.19		93.11		94.62		0.6051
+Valid	95.60		95.26		92.82		94.03		0.6175
+
+Epoch No:	649
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.36		93.16		94.73		0.6047
+Valid	95.60		95.26		92.82		94.03		0.6178
+
+Epoch No:	650
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.39		93.14		94.73		0.6047
+Valid	95.55		95.24		92.75		93.98		0.6182
+
+Epoch No:	651
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.43		93.22		94.79		0.6041
+Valid	95.55		95.24		92.75		93.98		0.6179
+
+Epoch No:	652
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.42		93.22		94.79		0.604
+Valid	95.64		95.21		92.98		94.08		0.617
+
+Epoch No:	653
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.50		93.28		94.86		0.6034
+Valid	95.64		95.10		92.86		93.97		0.6166
+
+Epoch No:	654
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.39		93.21		94.77		0.6041
+Valid	95.60		95.24		92.83		94.02		0.6174
+
+Epoch No:	655
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.34		93.20		94.74		0.6043
+Valid	95.69		95.45		92.90		94.16		0.6163
+
+Epoch No:	656
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.45		93.24		94.82		0.6037
+Valid	95.60		95.14		92.81		93.96		0.6174
+
+Epoch No:	657
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.43		93.21		94.79		0.604
+Valid	94.07		94.02		90.74		92.35		0.6395
+
+Epoch No:	658
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.67		92.68		94.15		0.6104
+Valid	95.46		95.04		92.68		93.84		0.6196
+
+Epoch No:	659
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.36		96.18		93.07		94.60		0.6059
+Valid	95.50		95.15		92.71		93.92		0.619
+
+Epoch No:	660
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.28		93.08		94.66		0.6053
+Valid	95.50		95.18		92.70		93.92		0.6189
+
+Epoch No:	661
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.31		93.07		94.66		0.6056
+Valid	95.50		95.18		92.70		93.92		0.6189
+
+Epoch No:	662
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		96.24		93.06		94.62		0.6058
+Valid	95.60		95.17		92.92		94.03		0.6178
+
+Epoch No:	663
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.06		92.97		94.49		0.607
+Valid	95.55		95.10		92.87		93.97		0.6184
+
+Epoch No:	664
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.27		93.12		94.67		0.6054
+Valid	95.46		95.11		92.65		93.87		0.6196
+
+Epoch No:	665
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.31		93.12		94.69		0.6053
+Valid	95.55		95.19		92.77		93.97		0.6183
+
+Epoch No:	666
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.35		93.18		94.73		0.6048
+Valid	95.50		95.15		92.71		93.92		0.619
+
+Epoch No:	667
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.36		93.18		94.74		0.6047
+Valid	95.55		95.05		92.77		93.90		0.6183
+
+Epoch No:	668
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.27		93.13		94.68		0.6051
+Valid	95.46		94.74		92.76		93.74		0.6189
+
+Epoch No:	669
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.35		93.20		94.75		0.6046
+Valid	95.64		95.35		92.98		94.15		0.6175
+
+Epoch No:	670
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.41		93.21		94.78		0.6045
+Valid	95.55		95.24		92.75		93.98		0.618
+
+Epoch No:	671
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.38		93.17		94.75		0.6045
+Valid	95.60		95.26		92.82		94.03		0.6179
+
+Epoch No:	672
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.38		93.18		94.76		0.6046
+Valid	95.60		95.29		92.81		94.03		0.6172
+
+Epoch No:	673
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.48		93.26		94.84		0.6036
+Valid	95.60		95.26		92.82		94.03		0.6173
+
+Epoch No:	674
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.46		93.23		94.82		0.6039
+Valid	95.60		95.31		92.92		94.10		0.6173
+
+Epoch No:	675
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.43		93.24		94.81		0.604
+Valid	95.60		95.17		92.92		94.03		0.6174
+
+Epoch No:	676
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.44		93.24		94.82		0.6039
+Valid	95.64		95.33		92.99		94.14		0.6168
+
+Epoch No:	677
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.37		93.15		94.73		0.6048
+Valid	95.50		95.13		92.72		93.91		0.6189
+
+Epoch No:	678
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.35		93.14		94.72		0.6048
+Valid	95.60		95.31		92.80		94.04		0.6168
+
+Epoch No:	679
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.37		93.18		94.75		0.6047
+Valid	95.50		95.16		92.59		93.86		0.6187
+
+Epoch No:	680
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.24		93.03		94.61		0.6058
+Valid	95.60		95.17		92.80		93.97		0.6173
+
+Epoch No:	681
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.26		93.05		94.63		0.6056
+Valid	95.55		95.19		92.77		93.97		0.6181
+
+Epoch No:	682
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.36		93.14		94.72		0.6048
+Valid	95.55		95.22		92.76		93.97		0.6181
+
+Epoch No:	683
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.34		93.09		94.69		0.6049
+Valid	95.69		95.42		92.91		94.15		0.6163
+
+Epoch No:	684
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.40		93.17		94.76		0.6043
+Valid	95.60		95.31		92.92		94.10		0.6176
+
+Epoch No:	685
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.46		93.23		94.82		0.6039
+Valid	95.60		95.29		92.81		94.03		0.6178
+
+Epoch No:	686
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.43		93.23		94.80		0.604
+Valid	95.69		95.42		92.91		94.15		0.6161
+
+Epoch No:	687
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.45		93.22		94.81		0.604
+Valid	95.60		95.29		92.81		94.03		0.6173
+
+Epoch No:	688
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.42		93.22		94.80		0.6041
+Valid	95.64		95.38		92.85		94.10		0.6169
+
+Epoch No:	689
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.44		93.19		94.79		0.6041
+Valid	95.60		95.31		92.80		94.04		0.6174
+
+Epoch No:	690
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.44		93.18		94.78		0.6042
+Valid	95.64		95.27		92.84		94.04		0.6168
+
+Epoch No:	691
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.47		93.23		94.83		0.6037
+Valid	95.73		95.49		92.96		94.21		0.6152
+
+Epoch No:	692
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.36		93.15		94.73		0.6048
+Valid	95.64		95.30		92.88		94.08		0.6169
+
+Epoch No:	693
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.91		95.42		92.29		93.83		0.6128
+Valid	95.60		94.94		92.66		93.79		0.6182
+
+Epoch No:	694
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.86		95.18		92.20		93.67		0.6133
+Valid	95.36		94.60		92.37		93.47		0.6211
+
+Epoch No:	695
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.05		95.62		92.64		94.11		0.6106
+Valid	95.50		94.77		92.76		93.76		0.619
+
+Epoch No:	696
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.12		95.65		92.83		94.22		0.6096
+Valid	95.55		94.78		92.95		93.85		0.618
+
+Epoch No:	697
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		95.87		92.97		94.40		0.6075
+Valid	95.55		94.99		92.86		93.91		0.6182
+
+Epoch No:	698
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.02		93.01		94.49		0.6066
+Valid	95.55		95.07		92.88		93.97		0.6184
+
+Epoch No:	699
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.18		93.12		94.63		0.6055
+Valid	95.55		95.07		92.88		93.97		0.6182
+
+Epoch No:	700
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.17		93.17		94.65		0.6048
+Valid	95.55		95.08		92.76		93.91		0.6179
+
+Epoch No:	701
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.28		93.23		94.73		0.6045
+Valid	95.55		95.13		92.86		93.98		0.6181
+
+Epoch No:	702
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.29		93.26		94.75		0.6041
+Valid	95.55		95.13		92.86		93.98		0.6173
+
+Epoch No:	703
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.27		93.25		94.74		0.6042
+Valid	95.73		95.27		93.11		94.18		0.6158
+
+Epoch No:	704
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.34		93.29		94.79		0.6039
+Valid	95.73		95.44		93.10		94.25		0.6155
+
+Epoch No:	705
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.26		93.20		94.70		0.6045
+Valid	95.64		95.04		93.00		94.01		0.6173
+
+Epoch No:	706
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.22		93.24		94.71		0.6045
+Valid	95.69		95.35		92.94		94.13		0.6165
+
+Epoch No:	707
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		95.96		92.96		94.44		0.6071
+Valid	95.41		94.64		92.60		93.61		0.6207
+
+Epoch No:	708
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.38		96.20		93.06		94.61		0.6056
+Valid	95.60		95.26		92.82		94.03		0.6176
+
+Epoch No:	709
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.28		93.20		94.72		0.6046
+Valid	95.50		95.18		92.70		93.92		0.6186
+
+Epoch No:	710
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.43		96.33		93.15		94.72		0.6048
+Valid	95.60		95.26		92.82		94.03		0.6176
+
+Epoch No:	711
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.30		93.31		94.78		0.604
+Valid	95.73		95.46		92.97		94.20		0.6157
+
+Epoch No:	712
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.39		93.29		94.81		0.6038
+Valid	95.73		95.46		93.09		94.26		0.6156
+
+Epoch No:	713
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.52		96.42		93.33		94.85		0.6036
+Valid	95.64		95.30		92.88		94.08		0.6166
+
+Epoch No:	714
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.41		93.30		94.83		0.6036
+Valid	95.78		95.50		93.15		94.31		0.6153
+
+Epoch No:	715
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.41		93.29		94.83		0.6035
+Valid	95.69		95.37		93.05		94.20		0.6158
+
+Epoch No:	716
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.35		93.25		94.78		0.6038
+Valid	95.60		95.00		92.82		93.90		0.6171
+
+Epoch No:	717
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.17		93.08		94.60		0.6054
+Valid	95.69		95.37		92.93		94.13		0.616
+
+Epoch No:	718
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.43		93.33		94.86		0.6032
+Valid	95.69		95.37		92.93		94.13		0.6159
+
+Epoch No:	719
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.41		93.32		94.84		0.6034
+Valid	95.87		95.67		93.24		94.44		0.6134
+
+Epoch No:	720
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.48		93.35		94.89		0.6031
+Valid	95.78		95.51		93.03		94.25		0.6148
+
+Epoch No:	721
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.40		93.28		94.81		0.6036
+Valid	95.69		95.40		92.92		94.14		0.6165
+
+Epoch No:	722
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.39		93.20		94.77		0.604
+Valid	95.78		95.51		93.03		94.25		0.6149
+
+Epoch No:	723
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.40		93.26		94.80		0.6039
+Valid	95.83		95.60		93.07		94.32		0.6143
+
+Epoch No:	724
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.37		95.78		93.04		94.39		0.6058
+Valid	95.78		95.56		92.78		94.15		0.6152
+
+Epoch No:	725
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.45		93.06		94.72		0.6042
+Valid	95.69		95.42		92.69		94.04		0.6159
+
+Epoch No:	726
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.38		93.09		94.71		0.6045
+Valid	95.55		95.22		92.54		93.86		0.6178
+
+Epoch No:	727
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.48		93.17		94.79		0.6034
+Valid	95.60		95.26		92.71		93.97		0.6172
+
+Epoch No:	728
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.52		96.43		93.20		94.78		0.6037
+Valid	95.60		95.20		92.57		93.86		0.6173
+
+Epoch No:	729
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.45		93.18		94.78		0.6035
+Valid	95.69		95.42		92.69		94.04		0.6159
+
+Epoch No:	730
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.42		93.13		94.75		0.6041
+Valid	95.69		95.45		92.68		94.04		0.6159
+
+Epoch No:	731
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.14		95.96		92.72		94.31		0.609
+Valid	95.27		94.80		92.25		93.51		0.6217
+
+Epoch No:	732
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.15		95.86		92.60		94.20		0.6091
+Valid	95.46		95.04		92.57		93.79		0.6199
+
+Epoch No:	733
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.28		96.04		92.80		94.39		0.6071
+Valid	95.41		94.92		92.49		93.69		0.6198
+
+Epoch No:	734
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.45		96.26		93.14		94.67		0.6047
+Valid	95.55		95.22		92.65		93.92		0.6183
+
+Epoch No:	735
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.26		93.22		94.71		0.6042
+Valid	95.55		95.08		92.65		93.85		0.6182
+
+Epoch No:	736
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.29		93.19		94.71		0.6042
+Valid	95.55		95.22		92.65		93.92		0.6185
+
+Epoch No:	737
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.39		93.22		94.78		0.6039
+Valid	95.50		95.18		92.48		93.81		0.619
+
+Epoch No:	738
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.38		93.20		94.77		0.6038
+Valid	95.55		95.10		92.53		93.80		0.6186
+
+Epoch No:	739
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.38		93.23		94.78		0.604
+Valid	95.60		95.29		92.70		93.98		0.6178
+
+Epoch No:	740
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.33		93.22		94.75		0.6042
+Valid	95.60		95.22		92.79		93.99		0.6179
+
+Epoch No:	741
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.37		93.39		94.86		0.6031
+Valid	95.60		95.26		92.82		94.03		0.6169
+
+Epoch No:	742
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.43		93.41		94.90		0.6029
+Valid	95.69		95.40		92.92		94.14		0.6161
+
+Epoch No:	743
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.42		93.37		94.87		0.6034
+Valid	95.73		95.52		92.95		94.22		0.6161
+
+Epoch No:	744
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.46		93.45		94.93		0.6027
+Valid	95.69		95.37		92.93		94.13		0.6161
+
+Epoch No:	745
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.43		93.44		94.91		0.6027
+Valid	95.69		95.37		92.93		94.13		0.6164
+
+Epoch No:	746
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.44		93.45		94.92		0.6027
+Valid	95.69		95.40		92.92		94.14		0.6161
+
+Epoch No:	747
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.43		93.42		94.90		0.6028
+Valid	95.73		95.46		92.97		94.20		0.6153
+
+Epoch No:	748
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.44		93.43		94.91		0.6027
+Valid	95.69		95.25		92.92		94.07		0.6154
+
+Epoch No:	749
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.43		93.42		94.90		0.6027
+Valid	95.73		95.46		92.97		94.20		0.6152
+
+Epoch No:	750
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.49		93.50		94.97		0.6023
+Valid	95.69		95.37		92.93		94.13		0.6165
+
+Epoch No:	751
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.43		93.44		94.92		0.6027
+Valid	95.73		95.30		92.98		94.12		0.6159
+
+Epoch No:	752
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.38		93.40		94.87		0.6032
+Valid	95.78		95.42		93.01		94.20		0.6147
+
+Epoch No:	753
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.45		93.48		94.94		0.6023
+Valid	95.73		95.32		92.97		94.13		0.6152
+
+Epoch No:	754
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.41		93.42		94.89		0.6026
+Valid	95.73		95.32		92.97		94.13		0.6153
+
+Epoch No:	755
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.49		93.47		94.95		0.6024
+Valid	95.78		95.51		93.03		94.25		0.615
+
+Epoch No:	756
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.51		93.50		94.98		0.602
+Valid	95.78		95.51		93.03		94.25		0.6149
+
+Epoch No:	757
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.51		93.51		94.99		0.602
+Valid	95.87		95.50		93.13		94.30		0.6135
+
+Epoch No:	758
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.37		93.44		94.88		0.6026
+Valid	95.78		95.56		93.01		94.27		0.6144
+
+Epoch No:	759
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.40		93.40		94.88		0.6029
+Valid	95.73		95.44		92.98		94.19		0.6152
+
+Epoch No:	760
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.41		93.41		94.88		0.603
+Valid	95.73		95.49		92.96		94.21		0.6152
+
+Epoch No:	761
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.41		93.34		94.85		0.6032
+Valid	95.73		95.49		92.96		94.21		0.6154
+
+Epoch No:	762
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.41		93.39		94.87		0.6028
+Valid	95.69		95.45		92.90		94.16		0.6163
+
+Epoch No:	763
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.48		93.45		94.94		0.6024
+Valid	95.73		95.44		92.98		94.19		0.6155
+
+Epoch No:	764
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.43		93.46		94.92		0.6023
+Valid	95.60		95.14		92.81		93.96		0.6168
+
+Epoch No:	765
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.52		93.48		94.97		0.602
+Valid	95.78		95.53		93.02		94.26		0.6149
+
+Epoch No:	766
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.49		93.47		94.95		0.6022
+Valid	95.78		95.51		93.03		94.25		0.6151
+
+Epoch No:	767
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.49		93.42		94.93		0.6026
+Valid	95.64		95.13		92.84		93.97		0.6164
+
+Epoch No:	768
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.49		93.49		94.97		0.602
+Valid	95.83		95.32		93.19		94.24		0.6139
+
+Epoch No:	769
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.43		93.50		94.94		0.6021
+Valid	95.73		95.18		92.97		94.06		0.6155
+
+Epoch No:	770
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.47		93.53		94.98		0.6018
+Valid	95.87		95.39		93.24		94.30		0.6136
+
+Epoch No:	771
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.47		93.51		94.97		0.6019
+Valid	95.73		95.35		93.08		94.20		0.615
+
+Epoch No:	772
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.49		93.47		94.96		0.6019
+Valid	95.73		95.49		92.96		94.21		0.6156
+
+Epoch No:	773
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.49		93.48		94.96		0.6021
+Valid	95.60		95.29		92.70		93.98		0.6168
+
+Epoch No:	774
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.38		93.34		94.84		0.6034
+Valid	95.60		95.00		92.70		93.84		0.6178
+
+Epoch No:	775
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.44		93.47		94.93		0.6023
+Valid	95.64		95.05		92.99		94.01		0.6166
+
+Epoch No:	776
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.44		93.47		94.93		0.6022
+Valid	95.69		95.14		92.91		94.01		0.616
+
+Epoch No:	777
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.35		93.39		94.85		0.6031
+Valid	95.60		95.12		92.82		93.96		0.6177
+
+Epoch No:	778
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.45		93.49		94.95		0.6022
+Valid	95.55		95.13		92.74		93.92		0.6177
+
+Epoch No:	779
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.34		93.48		94.89		0.6025
+Valid	95.60		94.91		93.05		93.97		0.6175
+
+Epoch No:	780
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.31		93.49		94.88		0.6028
+Valid	95.69		95.23		93.05		94.13		0.6161
+
+Epoch No:	781
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.38		93.46		94.89		0.6026
+Valid	95.64		95.18		92.99		94.08		0.6167
+
+Epoch No:	782
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.57		93.51		95.02		0.6019
+Valid	95.78		95.53		93.14		94.32		0.6147
+
+Epoch No:	783
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.46		93.42		94.92		0.6027
+Valid	95.83		95.57		93.20		94.37		0.6141
+
+Epoch No:	784
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.49		93.49		94.96		0.6023
+Valid	95.83		95.45		93.31		94.37		0.6141
+
+Epoch No:	785
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.50		93.47		94.96		0.6023
+Valid	95.83		95.57		93.20		94.37		0.614
+
+Epoch No:	786
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.47		93.46		94.94		0.6023
+Valid	95.83		95.57		93.20		94.37		0.6141
+
+Epoch No:	787
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.53		93.46		94.97		0.6021
+Valid	95.87		95.67		93.24		94.44		0.6135
+
+Epoch No:	788
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.65		96.59		93.52		95.03		0.6016
+Valid	95.78		95.42		93.01		94.20		0.6142
+
+Epoch No:	789
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.69		96.59		93.58		95.06		0.6011
+Valid	95.83		95.46		93.19		94.31		0.6137
+
+Epoch No:	790
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.45		93.52		94.97		0.6018
+Valid	95.87		95.55		93.23		94.38		0.614
+
+Epoch No:	791
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.69		96.53		93.59		95.03		0.601
+Valid	95.92		95.57		93.30		94.42		0.6127
+
+Epoch No:	792
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.54		93.48		94.99		0.6014
+Valid	95.83		95.54		93.16		94.34		0.6136
+
+Epoch No:	793
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.48		93.38		94.90		0.602
+Valid	95.83		95.60		93.08		94.32		0.6139
+
+Epoch No:	794
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.46		93.32		94.86		0.6025
+Valid	95.64		95.21		92.75		93.96		0.6166
+
+Epoch No:	795
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.51		93.42		94.94		0.602
+Valid	95.73		95.35		92.85		94.08		0.6155
+
+Epoch No:	796
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.51		93.39		94.93		0.6022
+Valid	95.78		95.61		93.00		94.29		0.6151
+
+Epoch No:	797
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.40		93.35		94.85		0.6029
+Valid	95.27		94.88		92.39		93.62		0.6215
+
+Epoch No:	798
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.04		95.59		92.77		94.16		0.6104
+Valid	95.41		94.83		92.52		93.66		0.6201
+
+Epoch No:	799
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.30		96.01		92.97		94.47		0.6069
+Valid	95.41		95.15		92.35		93.73		0.6206
+
+Epoch No:	800
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.19		96.03		92.69		94.33		0.6085
+Valid	95.32		94.75		92.12		93.42		0.6214
+
+Epoch No:	801
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.10		92.82		94.43		0.6075
+Valid	95.22		94.73		92.04		93.37		0.6228
+
+Epoch No:	802
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.25		96.05		92.81		94.41		0.6076
+Valid	95.41		95.00		92.23		93.60		0.6205
+
+Epoch No:	803
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.05		92.80		94.40		0.6075
+Valid	95.41		95.10		92.25		93.65		0.6199
+
+Epoch No:	804
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.26		96.05		92.80		94.40		0.6076
+Valid	95.36		95.03		92.20		93.59		0.6207
+
+Epoch No:	805
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.27		96.08		92.87		94.45		0.6074
+Valid	95.32		94.84		92.14		93.47		0.6214
+
+Epoch No:	806
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.29		96.09		92.91		94.47		0.6071
+Valid	95.41		95.03		92.22		93.60		0.6204
+
+Epoch No:	807
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.15		92.91		94.50		0.6067
+Valid	95.41		95.00		92.23		93.60		0.62
+
+Epoch No:	808
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.31		96.13		92.93		94.50		0.6066
+Valid	95.55		95.16		92.40		93.76		0.6183
+
+Epoch No:	809
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.34		96.20		92.96		94.56		0.6063
+Valid	95.64		95.27		92.62		93.92		0.6169
+
+Epoch No:	810
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.14		92.94		94.51		0.6063
+Valid	95.55		95.13		92.52		93.81		0.6178
+
+Epoch No:	811
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.32		96.11		92.98		94.52		0.6065
+Valid	95.36		94.86		92.32		93.57		0.6208
+
+Epoch No:	812
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.24		93.08		94.64		0.6056
+Valid	95.50		95.03		92.59		93.80		0.6191
+
+Epoch No:	813
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.20		93.16		94.65		0.6049
+Valid	95.64		95.19		92.98		94.07		0.6169
+
+Epoch No:	814
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.19		93.26		94.70		0.6045
+Valid	95.55		95.08		92.76		93.91		0.6183
+
+Epoch No:	815
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.38		93.32		94.82		0.6039
+Valid	95.69		95.37		92.93		94.13		0.6165
+
+Epoch No:	816
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.36		93.32		94.82		0.6037
+Valid	95.64		95.16		92.88		94.01		0.6167
+
+Epoch No:	817
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.31		93.39		94.83		0.6033
+Valid	95.64		95.28		92.89		94.07		0.6163
+
+Epoch No:	818
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.36		93.44		94.88		0.6027
+Valid	95.64		95.16		92.88		94.01		0.6167
+
+Epoch No:	819
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.42		93.39		94.88		0.6028
+Valid	95.69		95.25		92.92		94.07		0.616
+
+Epoch No:	820
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.43		93.48		94.93		0.6024
+Valid	95.69		95.37		92.93		94.13		0.6161
+
+Epoch No:	821
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.41		93.42		94.89		0.6028
+Valid	95.78		95.36		93.15		94.24		0.6148
+
+Epoch No:	822
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.47		93.48		94.95		0.6022
+Valid	95.83		95.57		93.20		94.37		0.6143
+
+Epoch No:	823
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.32		93.41		94.84		0.6033
+Valid	95.73		95.29		93.10		94.18		0.6157
+
+Epoch No:	824
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.40		93.51		94.94		0.6022
+Valid	95.87		95.47		93.26		94.35		0.6139
+
+Epoch No:	825
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.37		93.44		94.88		0.6025
+Valid	95.78		95.56		93.13		94.33		0.6143
+
+Epoch No:	826
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.39		93.50		94.92		0.6024
+Valid	95.73		95.16		93.10		94.12		0.6156
+
+Epoch No:	827
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.31		93.34		94.81		0.6031
+Valid	95.55		95.25		92.63		93.92		0.6181
+
+Epoch No:	828
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.34		93.23		94.76		0.6036
+Valid	95.55		95.08		92.53		93.79		0.6181
+
+Epoch No:	829
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.26		93.22		94.71		0.604
+Valid	95.50		94.99		92.60		93.78		0.6188
+
+Epoch No:	830
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.34		93.28		94.79		0.6031
+Valid	95.73		95.30		92.98		94.12		0.6154
+
+Epoch No:	831
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.30		93.29		94.77		0.6031
+Valid	95.64		95.14		92.77		93.94		0.6168
+
+Epoch No:	832
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.34		93.34		94.82		0.603
+Valid	95.13		94.71		92.18		93.43		0.6237
+
+Epoch No:	833
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.34		93.40		94.85		0.6028
+Valid	95.78		95.34		93.16		94.24		0.615
+
+Epoch No:	834
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.40		93.52		94.94		0.6022
+Valid	95.73		95.23		93.07		94.14		0.6147
+
+Epoch No:	835
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.45		93.50		94.95		0.6021
+Valid	95.83		95.43		93.20		94.30		0.614
+
+Epoch No:	836
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.46		93.56		94.98		0.6017
+Valid	95.64		95.07		92.98		94.02		0.6165
+
+Epoch No:	837
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.44		93.56		94.97		0.6019
+Valid	95.78		95.25		93.14		94.18		0.6146
+
+Epoch No:	838
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.37		93.47		94.90		0.6025
+Valid	95.64		95.21		92.98		94.08		0.6161
+
+Epoch No:	839
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.47		93.55		94.98		0.6019
+Valid	95.73		95.29		93.10		94.18		0.6153
+
+Epoch No:	840
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.42		93.53		94.95		0.602
+Valid	95.78		95.22		93.15		94.17		0.6146
+
+Epoch No:	841
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.43		93.53		94.96		0.6018
+Valid	95.69		95.20		93.06		94.12		0.616
+
+Epoch No:	842
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.41		93.51		94.94		0.602
+Valid	95.83		95.32		93.19		94.24		0.6138
+
+Epoch No:	843
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.38		93.49		94.91		0.6023
+Valid	95.73		95.16		93.10		94.12		0.6151
+
+Epoch No:	844
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.37		93.55		94.94		0.6023
+Valid	95.83		95.40		93.21		94.29		0.6138
+
+Epoch No:	845
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.65		96.45		93.58		95.00		0.6016
+Valid	95.87		95.39		93.36		94.36		0.6131
+
+Epoch No:	846
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.46		93.54		94.98		0.6017
+Valid	95.87		95.50		93.25		94.36		0.6136
+
+Epoch No:	847
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.67		96.49		93.58		95.01		0.6013
+Valid	95.78		95.22		93.15		94.17		0.6145
+
+Epoch No:	848
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.42		93.55		94.96		0.6017
+Valid	95.83		95.40		93.21		94.29		0.6139
+
+Epoch No:	849
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.18		93.28		94.71		0.605
+Valid	95.50		95.08		92.74		93.90		0.6184
+
+Epoch No:	850
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.39		96.11		93.24		94.65		0.6053
+Valid	95.60		95.26		92.82		94.03		0.6174
+
+Epoch No:	851
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.37		93.50		94.91		0.6026
+Valid	95.69		95.20		93.06		94.12		0.6162
+
+Epoch No:	852
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.39		93.55		94.95		0.6021
+Valid	95.55		95.00		92.91		93.95		0.6175
+
+Epoch No:	853
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.43		93.52		94.95		0.6022
+Valid	95.73		95.24		93.12		94.17		0.6157
+
+Epoch No:	854
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.41		93.53		94.94		0.6021
+Valid	95.64		95.05		92.99		94.01		0.6167
+
+Epoch No:	855
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.42		93.53		94.95		0.6021
+Valid	95.69		95.25		93.04		94.13		0.6161
+
+Epoch No:	856
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.42		93.53		94.95		0.602
+Valid	95.73		95.29		93.10		94.18		0.6155
+
+Epoch No:	857
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.50		93.53		94.99		0.6017
+Valid	95.69		95.25		93.04		94.13		0.616
+
+Epoch No:	858
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.48		93.50		94.97		0.6021
+Valid	95.78		95.36		93.15		94.24		0.6146
+
+Epoch No:	859
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.42		93.43		94.90		0.6025
+Valid	95.78		95.25		93.14		94.18		0.6148
+
+Epoch No:	860
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.47		93.48		94.95		0.6023
+Valid	95.78		95.50		93.15		94.31		0.614
+
+Epoch No:	861
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.48		93.51		94.97		0.6022
+Valid	95.83		95.40		93.21		94.29		0.6139
+
+Epoch No:	862
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.65		96.50		93.55		95.00		0.6017
+Valid	95.78		95.36		93.15		94.24		0.6148
+
+Epoch No:	863
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.49		93.58		95.01		0.6015
+Valid	95.78		95.36		93.15		94.24		0.6145
+
+Epoch No:	864
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.69		96.53		93.63		95.06		0.6011
+Valid	95.83		95.46		93.19		94.31		0.6143
+
+Epoch No:	865
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.50		93.56		95.01		0.6014
+Valid	95.87		95.50		93.25		94.36		0.6135
+
+Epoch No:	866
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.43		93.52		94.95		0.6018
+Valid	95.73		95.30		92.98		94.12		0.6152
+
+Epoch No:	867
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.51		93.47		94.97		0.6017
+Valid	95.78		95.42		93.13		94.26		0.6144
+
+Epoch No:	868
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.45		93.51		94.96		0.6019
+Valid	95.83		95.46		93.19		94.31		0.6143
+
+Epoch No:	869
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.67		96.52		93.57		95.02		0.6012
+Valid	95.87		95.47		93.26		94.35		0.6136
+
+Epoch No:	870
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.47		93.56		94.99		0.6015
+Valid	95.83		95.43		93.20		94.30		0.614
+
+Epoch No:	871
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.50		93.53		94.99		0.6015
+Valid	95.78		95.36		93.15		94.24		0.6149
+
+Epoch No:	872
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.41		93.54		94.95		0.6019
+Valid	95.87		95.33		93.26		94.28		0.6135
+
+Epoch No:	873
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.36		93.51		94.91		0.6023
+Valid	95.83		95.29		93.20		94.23		0.6145
+
+Epoch No:	874
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.44		93.47		94.93		0.6023
+Valid	95.78		95.51		93.03		94.25		0.6146
+
+Epoch No:	875
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.14		93.26		94.68		0.6053
+Valid	95.55		94.98		92.80		93.88		0.6182
+
+Epoch No:	876
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.35		93.47		94.89		0.6027
+Valid	95.73		95.27		93.11		94.18		0.6154
+
+Epoch No:	877
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.42		93.52		94.95		0.6022
+Valid	95.64		95.02		93.00		94.00		0.6168
+
+Epoch No:	878
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.41		93.50		94.93		0.6022
+Valid	95.73		95.27		93.11		94.18		0.6154
+
+Epoch No:	879
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.42		93.50		94.93		0.6024
+Valid	95.73		95.27		93.11		94.18		0.615
+
+Epoch No:	880
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.39		93.53		94.94		0.6021
+Valid	95.73		95.18		92.98		94.07		0.6152
+
+Epoch No:	881
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.41		93.50		94.93		0.6022
+Valid	95.73		95.18		93.10		94.13		0.6153
+
+Epoch No:	882
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.42		93.47		94.92		0.6023
+Valid	95.69		95.23		92.93		94.07		0.616
+
+Epoch No:	883
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.39		93.46		94.90		0.6023
+Valid	95.78		95.34		93.16		94.24		0.6149
+
+Epoch No:	884
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.42		93.47		94.92		0.6022
+Valid	95.69		95.25		92.92		94.07		0.6163
+
+Epoch No:	885
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.46		93.50		94.96		0.6021
+Valid	95.73		95.46		93.09		94.26		0.6157
+
+Epoch No:	886
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.33		93.44		94.86		0.6027
+Valid	95.73		95.27		93.11		94.18		0.6155
+
+Epoch No:	887
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.33		93.44		94.86		0.6027
+Valid	95.83		95.32		93.08		94.18		0.6141
+
+Epoch No:	888
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.45		93.46		94.93		0.6023
+Valid	95.46		95.05		92.51		93.76		0.6198
+
+Epoch No:	889
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.43		93.48		94.93		0.6023
+Valid	95.78		95.48		93.16		94.30		0.6148
+
+Epoch No:	890
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.44		93.41		94.90		0.6024
+Valid	95.69		95.37		92.93		94.13		0.6162
+
+Epoch No:	891
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.32		93.45		94.86		0.6027
+Valid	95.73		95.16		93.10		94.12		0.6153
+
+Epoch No:	892
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.42		93.46		94.92		0.6022
+Valid	95.78		95.25		93.26		94.24		0.6144
+
+Epoch No:	893
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.37		93.47		94.90		0.6027
+Valid	95.73		95.29		93.10		94.18		0.6153
+
+Epoch No:	894
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.50		93.58		95.02		0.6015
+Valid	95.73		95.16		93.10		94.12		0.6148
+
+Epoch No:	895
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.49		93.53		94.99		0.6018
+Valid	95.83		95.43		93.20		94.30		0.6138
+
+Epoch No:	896
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.41		93.53		94.95		0.602
+Valid	95.73		95.29		93.10		94.18		0.6155
+
+Epoch No:	897
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.50		93.54		94.99		0.6018
+Valid	95.69		95.09		93.05		94.06		0.6153
+
+Epoch No:	898
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.51		93.59		95.03		0.6015
+Valid	95.83		95.43		93.32		94.36		0.6141
+
+Epoch No:	899
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.67		96.53		93.56		95.02		0.6014
+Valid	95.78		95.36		93.15		94.24		0.6147
+
+Epoch No:	900
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.49		93.50		94.97		0.6019
+Valid	95.69		95.35		92.94		94.13		0.6157
+
+Epoch No:	901
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.45		93.53		94.97		0.6021
+Valid	95.83		95.35		93.18		94.25		0.6139
+
+Epoch No:	902
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.65		96.43		93.57		94.98		0.6017
+Valid	95.87		95.47		93.26		94.35		0.6138
+
+Epoch No:	903
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.43		93.56		94.97		0.6017
+Valid	95.73		95.27		92.99		94.12		0.616
+
+Epoch No:	904
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.39		93.47		94.91		0.6024
+Valid	95.69		95.11		92.92		94.00		0.6161
+
+Epoch No:	905
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.44		93.48		94.94		0.602
+Valid	95.78		95.20		93.16		94.17		0.615
+
+Epoch No:	906
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.45		93.57		94.99		0.6015
+Valid	95.69		95.23		93.05		94.13		0.6156
+
+Epoch No:	907
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.39		93.45		94.90		0.6028
+Valid	95.69		95.22		93.01		94.10		0.6159
+
+Epoch No:	908
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.30		93.46		94.86		0.603
+Valid	95.60		95.05		92.85		93.94		0.6171
+
+Epoch No:	909
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.30		93.48		94.87		0.6027
+Valid	95.60		94.98		92.94		93.95		0.6171
+
+Epoch No:	910
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.39		93.53		94.94		0.6021
+Valid	95.69		95.09		93.05		94.06		0.6162
+
+Epoch No:	911
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.44		93.55		94.97		0.6019
+Valid	95.69		95.09		93.05		94.06		0.6161
+
+Epoch No:	912
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.40		93.54		94.95		0.6019
+Valid	95.69		95.09		93.05		94.06		0.6161
+
+Epoch No:	913
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.37		93.53		94.93		0.6021
+Valid	95.60		94.98		92.94		93.95		0.6171
+
+Epoch No:	914
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.35		93.47		94.89		0.6029
+Valid	95.69		95.23		93.05		94.13		0.6164
+
+Epoch No:	915
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.44		93.54		94.97		0.6019
+Valid	95.64		95.04		92.88		93.95		0.6166
+
+Epoch No:	916
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.44		93.52		94.95		0.6019
+Valid	95.69		95.11		93.04		94.07		0.6162
+
+Epoch No:	917
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.42		93.54		94.96		0.6017
+Valid	95.78		95.22		93.15		94.17		0.6148
+
+Epoch No:	918
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.48		93.57		95.00		0.6015
+Valid	95.73		95.16		93.10		94.12		0.6152
+
+Epoch No:	919
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.45		93.55		94.98		0.6017
+Valid	95.78		95.36		93.15		94.24		0.6147
+
+Epoch No:	920
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.45		93.52		94.96		0.6018
+Valid	84.98		87.63		79.43		83.33		0.7696
+
+Epoch No:	921
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	95.81		95.35		92.53		93.92		0.6137
+Valid	95.69		95.23		92.99		94.10		0.6162
+
+Epoch No:	922
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.21		95.83		92.96		94.38		0.6082
+Valid	95.50		94.94		92.86		93.89		0.6185
+
+Epoch No:	923
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.41		96.13		93.30		94.69		0.6051
+Valid	95.60		94.95		92.95		93.94		0.6172
+
+Epoch No:	924
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.20		93.34		94.75		0.6043
+Valid	95.60		94.95		92.95		93.94		0.6177
+
+Epoch No:	925
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.44		96.23		93.28		94.73		0.6048
+Valid	95.55		94.91		92.89		93.89		0.6183
+
+Epoch No:	926
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.23		93.34		94.77		0.6043
+Valid	95.64		95.30		93.00		94.14		0.6167
+
+Epoch No:	927
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.27		93.33		94.78		0.6043
+Valid	95.55		94.93		92.89		93.90		0.6182
+
+Epoch No:	928
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.29		93.43		94.83		0.6033
+Valid	95.55		94.91		92.89		93.89		0.6175
+
+Epoch No:	929
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.54		96.29		93.40		94.82		0.6034
+Valid	95.69		95.11		93.04		94.07		0.6165
+
+Epoch No:	930
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.33		93.47		94.88		0.6029
+Valid	95.64		95.18		92.88		94.02		0.6171
+
+Epoch No:	931
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.30		93.49		94.87		0.6029
+Valid	95.69		95.20		93.06		94.12		0.6159
+
+Epoch No:	932
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.34		93.48		94.89		0.6028
+Valid	95.69		95.23		93.05		94.13		0.6162
+
+Epoch No:	933
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.39		93.51		94.93		0.6026
+Valid	95.69		95.09		93.05		94.06		0.6161
+
+Epoch No:	934
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.32		93.47		94.88		0.6029
+Valid	95.69		95.09		93.05		94.06		0.6161
+
+Epoch No:	935
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.34		93.48		94.89		0.6029
+Valid	95.78		95.34		93.16		94.24		0.6149
+
+Epoch No:	936
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.33		93.48		94.88		0.6027
+Valid	95.69		95.09		93.05		94.06		0.6161
+
+Epoch No:	937
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.37		93.50		94.91		0.6026
+Valid	95.83		95.48		93.07		94.26		0.6138
+
+Epoch No:	938
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.34		93.35		94.82		0.604
+Valid	95.69		95.28		93.03		94.14		0.6158
+
+Epoch No:	939
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.33		93.33		94.81		0.604
+Valid	95.73		95.21		93.08		94.13		0.6155
+
+Epoch No:	940
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.34		93.37		94.83		0.6036
+Valid	95.73		95.21		93.08		94.13		0.6156
+
+Epoch No:	941
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.38		93.48		94.91		0.6027
+Valid	95.78		95.36		93.15		94.24		0.615
+
+Epoch No:	942
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.42		93.44		94.90		0.6025
+Valid	95.69		95.37		93.05		94.20		0.6161
+
+Epoch No:	943
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.44		93.51		94.95		0.6021
+Valid	95.69		95.11		93.04		94.07		0.6162
+
+Epoch No:	944
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.57		96.36		93.47		94.89		0.6027
+Valid	95.50		95.20		92.69		93.93		0.6185
+
+Epoch No:	945
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.10		95.86		92.68		94.25		0.6098
+Valid	95.55		95.10		92.64		93.86		0.6184
+
+Epoch No:	946
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.33		96.12		92.98		94.52		0.6061
+Valid	95.60		95.14		92.70		93.91		0.6178
+
+Epoch No:	947
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.25		93.19		94.70		0.6045
+Valid	95.64		95.24		92.97		94.09		0.6161
+
+Epoch No:	948
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.30		93.22		94.73		0.6043
+Valid	95.36		95.00		92.33		93.65		0.6207
+
+Epoch No:	949
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.40		96.27		92.98		94.59		0.6054
+Valid	95.50		95.18		92.60		93.87		0.6188
+
+Epoch No:	950
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.32		93.04		94.65		0.6049
+Valid	95.60		95.37		92.57		93.95		0.6172
+
+Epoch No:	951
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.42		96.32		93.01		94.63		0.6049
+Valid	95.64		95.26		92.74		93.98		0.6163
+
+Epoch No:	952
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.46		96.38		93.11		94.72		0.6045
+Valid	95.69		95.33		92.79		94.04		0.6163
+
+Epoch No:	953
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.39		93.19		94.76		0.604
+Valid	95.73		95.46		92.98		94.20		0.6155
+
+Epoch No:	954
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.39		93.24		94.79		0.6039
+Valid	95.60		95.34		92.80		94.05		0.6169
+
+Epoch No:	955
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.40		93.20		94.77		0.6039
+Valid	95.60		95.34		92.80		94.05		0.6171
+
+Epoch No:	956
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.47		96.37		93.16		94.74		0.6042
+Valid	95.78		95.56		93.02		94.27		0.6144
+
+Epoch No:	957
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.40		93.24		94.79		0.6034
+Valid	95.55		95.22		92.65		93.92		0.6181
+
+Epoch No:	958
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.42		93.23		94.79		0.6034
+Valid	95.55		95.22		92.65		93.92		0.618
+
+Epoch No:	959
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.51		96.36		93.23		94.77		0.6036
+Valid	95.78		95.48		92.93		94.19		0.6147
+
+Epoch No:	960
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.50		96.33		93.26		94.77		0.6039
+Valid	95.60		95.26		92.71		93.97		0.6176
+
+Epoch No:	961
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.35		93.17		94.73		0.604
+Valid	95.55		95.20		92.55		93.85		0.6184
+
+Epoch No:	962
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.34		93.18		94.74		0.6042
+Valid	95.60		95.41		92.71		94.04		0.6176
+
+Epoch No:	963
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.36		93.24		94.77		0.6038
+Valid	95.73		95.41		92.88		94.13		0.6156
+
+Epoch No:	964
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.56		96.42		93.33		94.85		0.6031
+Valid	95.73		95.44		92.87		94.14		0.6153
+
+Epoch No:	965
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.55		96.41		93.33		94.85		0.603
+Valid	95.83		95.57		93.09		94.31		0.6141
+
+Epoch No:	966
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.49		93.44		94.94		0.6021
+Valid	95.64		95.33		92.76		94.03		0.6162
+
+Epoch No:	967
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.47		93.40		94.91		0.6023
+Valid	95.64		95.33		92.76		94.03		0.6166
+
+Epoch No:	968
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.38		93.40		94.86		0.6025
+Valid	95.78		95.50		93.04		94.25		0.6149
+
+Epoch No:	969
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.33		93.34		94.81		0.6033
+Valid	95.69		95.37		92.71		94.02		0.6165
+
+Epoch No:	970
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.41		93.23		94.79		0.6034
+Valid	95.73		95.44		92.87		94.14		0.6155
+
+Epoch No:	971
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.46		93.34		94.87		0.6027
+Valid	95.73		95.44		92.99		94.20		0.6151
+
+Epoch No:	972
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.48		93.35		94.89		0.6025
+Valid	95.78		95.51		92.92		94.19		0.6151
+
+Epoch No:	973
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.51		93.37		94.92		0.6025
+Valid	95.73		95.44		92.99		94.20		0.6154
+
+Epoch No:	974
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.50		93.36		94.90		0.6025
+Valid	95.73		95.44		92.99		94.20		0.6146
+
+Epoch No:	975
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.60		96.49		93.38		94.91		0.6023
+Valid	95.73		95.44		92.87		94.14		0.6154
+
+Epoch No:	976
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.53		93.39		94.94		0.6022
+Valid	95.87		95.64		93.14		94.37		0.6135
+
+Epoch No:	977
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.52		93.36		94.91		0.6022
+Valid	95.83		95.57		93.09		94.31		0.6139
+
+Epoch No:	978
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.53		93.38		94.93		0.6022
+Valid	95.87		95.64		93.14		94.37		0.6133
+
+Epoch No:	979
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.51		93.40		94.93		0.6022
+Valid	95.87		95.64		93.14		94.37		0.6135
+
+Epoch No:	980
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.56		93.41		94.96		0.6019
+Valid	95.69		95.37		92.82		94.08		0.6157
+
+Epoch No:	981
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.53		93.39		94.93		0.6021
+Valid	95.73		95.44		92.99		94.20		0.6154
+
+Epoch No:	982
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.53		96.39		93.27		94.80		0.6033
+Valid	95.69		95.40		92.81		94.08		0.616
+
+Epoch No:	983
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.53		93.41		94.94		0.602
+Valid	95.69		95.40		92.81		94.08		0.6159
+
+Epoch No:	984
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.51		93.43		94.94		0.602
+Valid	95.83		95.57		93.09		94.31		0.6137
+
+Epoch No:	985
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.53		93.41		94.94		0.602
+Valid	95.87		95.64		93.14		94.37		0.613
+
+Epoch No:	986
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.58		96.41		93.34		94.85		0.6027
+Valid	95.73		95.47		92.86		94.14		0.6158
+
+Epoch No:	987
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.48		96.33		93.22		94.75		0.6041
+Valid	95.69		95.37		92.82		94.08		0.6165
+
+Epoch No:	988
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.49		96.37		93.21		94.76		0.6039
+Valid	95.78		95.48		92.93		94.19		0.6151
+
+Epoch No:	989
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.53		93.43		94.95		0.6022
+Valid	95.73		95.41		93.00		94.19		0.6153
+
+Epoch No:	990
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.52		93.41		94.94		0.6022
+Valid	95.69		95.37		92.82		94.08		0.6163
+
+Epoch No:	991
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.59		96.49		93.37		94.90		0.6025
+Valid	95.78		95.56		93.02		94.27		0.6147
+
+Epoch No:	992
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.50		93.42		94.94		0.6022
+Valid	95.83		95.58		92.96		94.25		0.614
+
+Epoch No:	993
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.51		93.46		94.97		0.602
+Valid	95.78		95.50		93.04		94.25		0.6144
+
+Epoch No:	994
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.66		96.56		93.50		95.00		0.6017
+Valid	95.73		95.52		92.96		94.22		0.6152
+
+Epoch No:	995
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.53		93.45		94.96		0.6019
+Valid	95.78		95.34		92.93		94.12		0.6143
+
+Epoch No:	996
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.63		96.50		93.46		94.96		0.6019
+Valid	95.97		95.61		93.36		94.47		0.6122
+
+Epoch No:	997
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.52		93.40		94.93		0.6022
+Valid	95.83		95.55		93.10		94.31		0.6134
+
+Epoch No:	998
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.62		96.57		93.39		94.95		0.602
+Valid	95.92		95.83		93.19		94.49		0.6131
+
+Epoch No:	999
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.64		96.61		93.42		94.99		0.6018
+Valid	95.92		95.85		93.19		94.50		0.6127
+
+Epoch No:	1000
+x	Accuracy	Precision	Recall		F1 Score	Loss
+Train	96.61		96.57		93.36		94.93		0.6022
+Valid	95.78		95.65		93.04		94.32		0.6147
+

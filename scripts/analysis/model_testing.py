@@ -113,7 +113,7 @@ def test_model(experiment_name, model_type, hidden_units, layers, dropout, bidir
     plt.plot(fpr[2], tpr[2], '--', label="Normal")
     x = np.linspace(0, 1, 2)
     plt.plot(x)
-    plt.title("Validation ROC")
+    plt.title("Test ROC")
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
     plt.legend(loc="best")

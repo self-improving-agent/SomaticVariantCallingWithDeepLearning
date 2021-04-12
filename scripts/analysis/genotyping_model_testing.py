@@ -118,7 +118,7 @@ def genotyping_test_model(experiment_name, model_type, hidden_units, layers, dro
     plt.plot(fpr[3], tpr[3], '--', label="G")
     x = np.linspace(0, 1, 2)
     plt.plot(x)
-    plt.title("Validation ROC")
+    plt.title("Test ROC")
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
     plt.legend(loc="best")
