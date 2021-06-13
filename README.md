@@ -9,4 +9,5 @@ Master of Informatics Project number 2 exploring somatic variant calling with de
 ## Authors
 
 Author: Daniel Biro
+
 Email: denieldeni515@gmail.com / s1618820@sms.ed.ac.uk
